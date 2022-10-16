@@ -1,4 +1,5 @@
 # ECE470_Project
+### Note: it's just a starting code now.
 
 This repository contains the code and assets used to simulate our assembly robot.
 
