@@ -29,4 +29,4 @@ source devel/setup.bash
 rosrun lab2pkg_py lab2_exec.py --simulator True
 ```
 
-This will run the Hanoi Lab program in the simulator, utilizing digIn and interaction between elements.
+This will run the Hanoi Lab program in the simulator.
