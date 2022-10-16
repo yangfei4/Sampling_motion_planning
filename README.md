@@ -5,7 +5,7 @@ This repository contains the code and assets used to simulate our assembly robot
 
 Instructions for simulating in Gazebo simulators are below.
 
-## Gazebo (Obsolete)
+## Gazebo Instructions
 ### Setup
 Clone the repository and then run:
 ```
