@@ -31,11 +31,6 @@
 
   <!-- load other controllers -->
   <node name="ros_control_controller_manager" pkg="controller_manager" type="controller_manager" respawn="false" output="screen" args="load joint_group_position_controller" />
-  
-  <!-- load gripper controllers -->
-  <rosparam file="$(find ur_gazebo)/controller/Screw_gripper_controller_ur3.yaml" command="load"/>
-  <node name="gripper_controller_spawner" pkg="controller_manager" type="controller_manager" args="spawn gripper_controller" respawn="false" output="screen"/>
-
 
   <!-- <node name="spawn_block" pkg="gazebo_ros" type="spawn_model" args="-file $(find ur_description)/urdf/block.urdf -urdf -model block" /> -->
 
