@@ -9,25 +9,30 @@ Instructions for simulating in Gazebo simulators are below.
 ### Setup
 Clone the repository and then run:
 ```
+cd ECE470_Project
 catkin_make
 ```
 
-This should create a `build` directory.
+This should create a `build` and 'devel' folder.
 
 ### Run
-To run the gazebo simulation, run the following commands in the workspace directory:
+To run the gazebo simulation, run the following commands in the `ECE470_Project` directory:
 ```
 source devel/setup.bash
 roslaunch ur3_driver ur3_gazebo.launch
 ```
 
-This should launch Gazebo with the UR3.
+This should launch Gazebo with the UR3, which is equiped with a hexagon-prims screwdriver.
 
-Open another terminal, navigate to the workspace directory and run:
+Open another terminal, navigate to the `ECE470_Project` directory and run:
+
 ```
 source devel/setup.bash
 rosrun lab2pkg_py lab2_spawn.py
-rosrun lab2pkg_py lab2_exec.py --simulator True
 ```
+This will import our screw holes box and an M8 screw. Then run:
 
-This will launch the test world which contains three small cubes and perform the Hanoi Lab program in the simulator.
+```
+rosrun lab5pkg_py lab5_exec.py --simulator True
+```
+This will activate the camera and detect the position of the M8 screw, which is green in our project update 2. Then the screwdriver will move to the center of the M8 screw and press it into the hole.
