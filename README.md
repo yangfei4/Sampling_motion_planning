@@ -36,3 +36,4 @@ This will import our screw holes box and an M8 screw. Then run:
 rosrun lab5pkg_py lab5_exec.py --simulator True
 ```
 This will activate the camera and detect the position of the M8 screw, which is green in our project update 2. Then the screwdriver will move to the center of the M8 screw and press it into the hole.
+![Demo figure](https://github.com/D-YF/ECE470_Project/blob/main/figures/Project_Update_2_Demo.png)
