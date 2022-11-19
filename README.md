@@ -39,4 +39,4 @@ This will activate the camera and detect the position of the M8 screw, which is 
 
 ![Demo figure](https://github.com/D-YF/ECE470_Project/blob/main/figures/Project_Update_2_Demo.png)
 
-[![Project Update 2 Demo Video]](https://www.youtube.com/watch?v=_X1AaCBlG8U)
+[Watch our project update 2 demo video HERE!](https://www.youtube.com/watch?v=_X1AaCBlG8U)
