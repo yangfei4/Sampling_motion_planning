@@ -13,7 +13,7 @@ cd ECE470_Project
 catkin_make
 ```
 
-This should create a `build` and 'devel' folder.
+This should create a `build` and `devel` folder.
 
 ### Run
 To run the gazebo simulation, run the following commands in the `ECE470_Project` directory:
