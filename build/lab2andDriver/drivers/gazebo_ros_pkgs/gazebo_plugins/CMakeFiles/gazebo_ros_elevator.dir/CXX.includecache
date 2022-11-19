@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_elevator.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_elevator.h
 sdf/sdf.hh
 -
 gazebo/plugins/ElevatorPlugin.hh
@@ -20,9 +20,9 @@ ros/callback_queue.h
 ros/advertise_options.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_elevator.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_elevator.cpp
 gazebo_plugins/gazebo_ros_elevator.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_plugins/gazebo_ros_elevator.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_plugins/gazebo_ros_elevator.h
 
 /opt/ros/kinetic/include/boost_161_condition_variable.h
 boost/thread/detail/platform.hpp

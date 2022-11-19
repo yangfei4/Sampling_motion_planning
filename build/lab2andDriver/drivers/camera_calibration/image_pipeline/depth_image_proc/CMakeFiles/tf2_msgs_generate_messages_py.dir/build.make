@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 # Utility rule file for tf2_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ lab2andDriver/drivers/camera_calibration/image_pipeline/depth_image_proc/CMakeFi
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/depth_image_proc && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/depth_image_proc && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_py.dir/depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/catkin/src /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/depth_image_proc /home/ur3/catkin/build /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/depth_image_proc /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/ECE470_Project/src /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/depth_image_proc /home/ur3/ECE470_Project/build /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/depth_image_proc /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_py.dir/depend
 

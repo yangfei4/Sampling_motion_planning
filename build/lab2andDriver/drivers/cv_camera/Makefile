@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles /home/ur3/catkin/build/lab2andDriver/drivers/cv_camera/CMakeFiles/progress.marks
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles /home/ur3/ECE470_Project/build/lab2andDriver/drivers/cv_camera/CMakeFiles/progress.marks
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/clean
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_cv_camera.test.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_cv_camera.test.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_cv_camera.test.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_cv_camera.test.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ _run_tests_cv_camera_rostest_test_cv_camera.test: lab2andDriver/drivers/cv_camer
 
 # fast build rule for target.
 _run_tests_cv_camera_rostest_test_cv_camera.test/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_cv_camera.test.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_cv_camera.test.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_cv_camera.test.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_cv_camera.test.dir/build
 .PHONY : _run_tests_cv_camera_rostest_test_cv_camera.test/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ _run_tests_cv_camera_rostest: lab2andDriver/drivers/cv_camera/CMakeFiles/_run_te
 
 # fast build rule for target.
 _run_tests_cv_camera_rostest/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest.dir/build
 .PHONY : _run_tests_cv_camera_rostest/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ _run_tests_cv_camera: lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_c
 
 # fast build rule for target.
 _run_tests_cv_camera/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera.dir/build
 .PHONY : _run_tests_cv_camera/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest_test_no_yaml.test.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest_test_no_yaml.test.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest_test_no_yaml.test.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest_test_no_yaml.test.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ run_tests_cv_camera_rostest_test_no_yaml.test: lab2andDriver/drivers/cv_camera/C
 
 # fast build rule for target.
 run_tests_cv_camera_rostest_test_no_yaml.test/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest_test_no_yaml.test.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest_test_no_yaml.test.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest_test_no_yaml.test.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest_test_no_yaml.test.dir/build
 .PHONY : run_tests_cv_camera_rostest_test_no_yaml.test/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ run_tests_cv_camera: lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_cam
 
 # fast build rule for target.
 run_tests_cv_camera/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera.dir/build
 .PHONY : run_tests_cv_camera/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ cv_camera_node: lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/ru
 
 # fast build rule for target.
 cv_camera_node/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/build
 .PHONY : cv_camera_node/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ test_cv_camera: lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/ru
 
 # fast build rule for target.
 test_cv_camera/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/build
 .PHONY : test_cv_camera/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ cv_camera_nodelet: lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.
 
 # fast build rule for target.
 cv_camera_nodelet/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/build
 .PHONY : cv_camera_nodelet/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ cv_camera: lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/rule
 
 # fast build rule for target.
 cv_camera/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/build
 .PHONY : cv_camera/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ _run_tests_cv_camera_rostest_test_no_yaml.test: lab2andDriver/drivers/cv_camera/
 
 # fast build rule for target.
 _run_tests_cv_camera_rostest_test_no_yaml.test/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test.dir/build
 .PHONY : _run_tests_cv_camera_rostest_test_no_yaml.test/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/roslint_cv_camera.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/roslint_cv_camera.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/roslint_cv_camera.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/roslint_cv_camera.dir/rule
 
 # Convenience name for target.
@@ -327,12 +327,12 @@ roslint_cv_camera: lab2andDriver/drivers/cv_camera/CMakeFiles/roslint_cv_camera.
 
 # fast build rule for target.
 roslint_cv_camera/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/roslint_cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/roslint_cv_camera.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/roslint_cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/roslint_cv_camera.dir/build
 .PHONY : roslint_cv_camera/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ run_tests_cv_camera_rostest: lab2andDriver/drivers/cv_camera/CMakeFiles/run_test
 
 # fast build rule for target.
 run_tests_cv_camera_rostest/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest.dir/build
 .PHONY : run_tests_cv_camera_rostest/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -357,12 +357,12 @@ rosgraph_msgs_generate_messages_cpp: lab2andDriver/drivers/cv_camera/CMakeFiles/
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -372,12 +372,12 @@ roscpp_generate_messages_py: lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_g
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_py.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_py.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -387,12 +387,12 @@ rosgraph_msgs_generate_messages_eus: lab2andDriver/drivers/cv_camera/CMakeFiles/
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -402,12 +402,12 @@ roscpp_generate_messages_cpp: lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_py.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_py.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_py.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -417,12 +417,12 @@ bond_generate_messages_py: lab2andDriver/drivers/cv_camera/CMakeFiles/bond_gener
 
 # fast build rule for target.
 bond_generate_messages_py/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_py.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_py.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_py.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_py.dir/build
 .PHONY : bond_generate_messages_py/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -432,12 +432,12 @@ roscpp_generate_messages_eus: lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_eus.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_eus.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -447,12 +447,12 @@ rosgraph_msgs_generate_messages_py: lab2andDriver/drivers/cv_camera/CMakeFiles/r
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -462,12 +462,12 @@ rosgraph_msgs_generate_messages_lisp: lab2andDriver/drivers/cv_camera/CMakeFiles
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -477,12 +477,12 @@ roscpp_generate_messages_nodejs: lab2andDriver/drivers/cv_camera/CMakeFiles/rosc
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/rule
 
 # Convenience name for target.
@@ -492,12 +492,12 @@ test_cv_camera_no_yaml: lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camer
 
 # fast build rule for target.
 test_cv_camera_no_yaml/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/build
 .PHONY : test_cv_camera_no_yaml/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/roslint.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/roslint.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/roslint.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/roslint.dir/rule
 
 # Convenience name for target.
@@ -507,12 +507,12 @@ roslint: lab2andDriver/drivers/cv_camera/CMakeFiles/roslint.dir/rule
 
 # fast build rule for target.
 roslint/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/roslint.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/roslint.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/roslint.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/roslint.dir/build
 .PHONY : roslint/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -522,12 +522,12 @@ roscpp_generate_messages_lisp: lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -537,12 +537,12 @@ nodelet_generate_messages_cpp: lab2andDriver/drivers/cv_camera/CMakeFiles/nodele
 
 # fast build rule for target.
 nodelet_generate_messages_cpp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build
 .PHONY : nodelet_generate_messages_cpp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/clean_test_results_cv_camera.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/clean_test_results_cv_camera.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/clean_test_results_cv_camera.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/clean_test_results_cv_camera.dir/rule
 
 # Convenience name for target.
@@ -552,12 +552,12 @@ clean_test_results_cv_camera: lab2andDriver/drivers/cv_camera/CMakeFiles/clean_t
 
 # fast build rule for target.
 clean_test_results_cv_camera/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/clean_test_results_cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/clean_test_results_cv_camera.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/clean_test_results_cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/clean_test_results_cv_camera.dir/build
 .PHONY : clean_test_results_cv_camera/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_eus.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_eus.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_eus.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -567,12 +567,12 @@ nodelet_generate_messages_eus: lab2andDriver/drivers/cv_camera/CMakeFiles/nodele
 
 # fast build rule for target.
 nodelet_generate_messages_eus/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_eus.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_eus.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_eus.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_eus.dir/build
 .PHONY : nodelet_generate_messages_eus/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest_test_cv_camera.test.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest_test_cv_camera.test.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest_test_cv_camera.test.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest_test_cv_camera.test.dir/rule
 
 # Convenience name for target.
@@ -582,12 +582,12 @@ run_tests_cv_camera_rostest_test_cv_camera.test: lab2andDriver/drivers/cv_camera
 
 # fast build rule for target.
 run_tests_cv_camera_rostest_test_cv_camera.test/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest_test_cv_camera.test.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest_test_cv_camera.test.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest_test_cv_camera.test.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/run_tests_cv_camera_rostest_test_cv_camera.test.dir/build
 .PHONY : run_tests_cv_camera_rostest_test_cv_camera.test/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -597,12 +597,12 @@ nodelet_generate_messages_lisp: lab2andDriver/drivers/cv_camera/CMakeFiles/nodel
 
 # fast build rule for target.
 nodelet_generate_messages_lisp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build
 .PHONY : nodelet_generate_messages_lisp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_nodejs.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_nodejs.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_nodejs.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -612,12 +612,12 @@ bond_generate_messages_nodejs: lab2andDriver/drivers/cv_camera/CMakeFiles/bond_g
 
 # fast build rule for target.
 bond_generate_messages_nodejs/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_nodejs.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_nodejs.dir/build
 .PHONY : bond_generate_messages_nodejs/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -627,12 +627,12 @@ nodelet_generate_messages_nodejs: lab2andDriver/drivers/cv_camera/CMakeFiles/nod
 
 # fast build rule for target.
 nodelet_generate_messages_nodejs/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
 .PHONY : nodelet_generate_messages_nodejs/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -642,12 +642,12 @@ rosgraph_msgs_generate_messages_nodejs: lab2andDriver/drivers/cv_camera/CMakeFil
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_py.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_py.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_py.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -657,12 +657,12 @@ nodelet_generate_messages_py: lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet
 
 # fast build rule for target.
 nodelet_generate_messages_py/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_py.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_py.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_py.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/nodelet_generate_messages_py.dir/build
 .PHONY : nodelet_generate_messages_py/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_cpp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_cpp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_cpp.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -672,12 +672,12 @@ bond_generate_messages_cpp: lab2andDriver/drivers/cv_camera/CMakeFiles/bond_gene
 
 # fast build rule for target.
 bond_generate_messages_cpp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_cpp.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_cpp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_cpp.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_cpp.dir/build
 .PHONY : bond_generate_messages_cpp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_eus.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_eus.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_eus.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -687,12 +687,12 @@ bond_generate_messages_eus: lab2andDriver/drivers/cv_camera/CMakeFiles/bond_gene
 
 # fast build rule for target.
 bond_generate_messages_eus/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_eus.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_eus.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_eus.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_eus.dir/build
 .PHONY : bond_generate_messages_eus/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_lisp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_lisp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_lisp.dir/rule
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -702,7 +702,7 @@ bond_generate_messages_lisp: lab2andDriver/drivers/cv_camera/CMakeFiles/bond_gen
 
 # fast build rule for target.
 bond_generate_messages_lisp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_lisp.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_lisp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_lisp.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/bond_generate_messages_lisp.dir/build
 .PHONY : bond_generate_messages_lisp/fast
 
 src/capture.o: src/capture.cpp.o
@@ -711,7 +711,7 @@ src/capture.o: src/capture.cpp.o
 
 # target to build an object file
 src/capture.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/src/capture.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/src/capture.cpp.o
 .PHONY : src/capture.cpp.o
 
 src/capture.i: src/capture.cpp.i
@@ -720,7 +720,7 @@ src/capture.i: src/capture.cpp.i
 
 # target to preprocess a source file
 src/capture.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/src/capture.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/src/capture.cpp.i
 .PHONY : src/capture.cpp.i
 
 src/capture.s: src/capture.cpp.s
@@ -729,7 +729,7 @@ src/capture.s: src/capture.cpp.s
 
 # target to generate assembly for a file
 src/capture.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/src/capture.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/src/capture.cpp.s
 .PHONY : src/capture.cpp.s
 
 src/cv_camera_node.o: src/cv_camera_node.cpp.o
@@ -738,7 +738,7 @@ src/cv_camera_node.o: src/cv_camera_node.cpp.o
 
 # target to build an object file
 src/cv_camera_node.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/src/cv_camera_node.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/src/cv_camera_node.cpp.o
 .PHONY : src/cv_camera_node.cpp.o
 
 src/cv_camera_node.i: src/cv_camera_node.cpp.i
@@ -747,7 +747,7 @@ src/cv_camera_node.i: src/cv_camera_node.cpp.i
 
 # target to preprocess a source file
 src/cv_camera_node.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/src/cv_camera_node.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/src/cv_camera_node.cpp.i
 .PHONY : src/cv_camera_node.cpp.i
 
 src/cv_camera_node.s: src/cv_camera_node.cpp.s
@@ -756,7 +756,7 @@ src/cv_camera_node.s: src/cv_camera_node.cpp.s
 
 # target to generate assembly for a file
 src/cv_camera_node.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/src/cv_camera_node.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_node.dir/src/cv_camera_node.cpp.s
 .PHONY : src/cv_camera_node.cpp.s
 
 src/cv_camera_nodelet.o: src/cv_camera_nodelet.cpp.o
@@ -765,7 +765,7 @@ src/cv_camera_nodelet.o: src/cv_camera_nodelet.cpp.o
 
 # target to build an object file
 src/cv_camera_nodelet.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/src/cv_camera_nodelet.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/src/cv_camera_nodelet.cpp.o
 .PHONY : src/cv_camera_nodelet.cpp.o
 
 src/cv_camera_nodelet.i: src/cv_camera_nodelet.cpp.i
@@ -774,7 +774,7 @@ src/cv_camera_nodelet.i: src/cv_camera_nodelet.cpp.i
 
 # target to preprocess a source file
 src/cv_camera_nodelet.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/src/cv_camera_nodelet.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/src/cv_camera_nodelet.cpp.i
 .PHONY : src/cv_camera_nodelet.cpp.i
 
 src/cv_camera_nodelet.s: src/cv_camera_nodelet.cpp.s
@@ -783,7 +783,7 @@ src/cv_camera_nodelet.s: src/cv_camera_nodelet.cpp.s
 
 # target to generate assembly for a file
 src/cv_camera_nodelet.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/src/cv_camera_nodelet.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera_nodelet.dir/src/cv_camera_nodelet.cpp.s
 .PHONY : src/cv_camera_nodelet.cpp.s
 
 src/driver.o: src/driver.cpp.o
@@ -792,7 +792,7 @@ src/driver.o: src/driver.cpp.o
 
 # target to build an object file
 src/driver.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/src/driver.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/src/driver.cpp.o
 .PHONY : src/driver.cpp.o
 
 src/driver.i: src/driver.cpp.i
@@ -801,7 +801,7 @@ src/driver.i: src/driver.cpp.i
 
 # target to preprocess a source file
 src/driver.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/src/driver.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/src/driver.cpp.i
 .PHONY : src/driver.cpp.i
 
 src/driver.s: src/driver.cpp.s
@@ -810,7 +810,7 @@ src/driver.s: src/driver.cpp.s
 
 # target to generate assembly for a file
 src/driver.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/src/driver.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/cv_camera.dir/src/driver.cpp.s
 .PHONY : src/driver.cpp.s
 
 test/test_cv_camera.o: test/test_cv_camera.cpp.o
@@ -819,7 +819,7 @@ test/test_cv_camera.o: test/test_cv_camera.cpp.o
 
 # target to build an object file
 test/test_cv_camera.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/test/test_cv_camera.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/test/test_cv_camera.cpp.o
 .PHONY : test/test_cv_camera.cpp.o
 
 test/test_cv_camera.i: test/test_cv_camera.cpp.i
@@ -828,7 +828,7 @@ test/test_cv_camera.i: test/test_cv_camera.cpp.i
 
 # target to preprocess a source file
 test/test_cv_camera.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/test/test_cv_camera.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/test/test_cv_camera.cpp.i
 .PHONY : test/test_cv_camera.cpp.i
 
 test/test_cv_camera.s: test/test_cv_camera.cpp.s
@@ -837,7 +837,7 @@ test/test_cv_camera.s: test/test_cv_camera.cpp.s
 
 # target to generate assembly for a file
 test/test_cv_camera.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/test/test_cv_camera.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera.dir/test/test_cv_camera.cpp.s
 .PHONY : test/test_cv_camera.cpp.s
 
 test/test_cv_camera_no_yaml.o: test/test_cv_camera_no_yaml.cpp.o
@@ -846,7 +846,7 @@ test/test_cv_camera_no_yaml.o: test/test_cv_camera_no_yaml.cpp.o
 
 # target to build an object file
 test/test_cv_camera_no_yaml.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/test/test_cv_camera_no_yaml.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/test/test_cv_camera_no_yaml.cpp.o
 .PHONY : test/test_cv_camera_no_yaml.cpp.o
 
 test/test_cv_camera_no_yaml.i: test/test_cv_camera_no_yaml.cpp.i
@@ -855,7 +855,7 @@ test/test_cv_camera_no_yaml.i: test/test_cv_camera_no_yaml.cpp.i
 
 # target to preprocess a source file
 test/test_cv_camera_no_yaml.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/test/test_cv_camera_no_yaml.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/test/test_cv_camera_no_yaml.cpp.i
 .PHONY : test/test_cv_camera_no_yaml.cpp.i
 
 test/test_cv_camera_no_yaml.s: test/test_cv_camera_no_yaml.cpp.s
@@ -864,7 +864,7 @@ test/test_cv_camera_no_yaml.s: test/test_cv_camera_no_yaml.cpp.s
 
 # target to generate assembly for a file
 test/test_cv_camera_no_yaml.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/test/test_cv_camera_no_yaml.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/build.make lab2andDriver/drivers/cv_camera/CMakeFiles/test_cv_camera_no_yaml.dir/test/test_cv_camera_no_yaml.cpp.s
 .PHONY : test/test_cv_camera_no_yaml.cpp.s
 
 # Help Target
@@ -945,6 +945,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

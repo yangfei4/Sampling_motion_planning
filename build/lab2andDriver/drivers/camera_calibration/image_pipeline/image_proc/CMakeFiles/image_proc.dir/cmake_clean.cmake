@@ -7,8 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.o"
   "CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.o"
   "CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.o"
-  "/home/ur3/catkin/devel/lib/libimage_proc.pdb"
-  "/home/ur3/catkin/devel/lib/libimage_proc.so"
+  "/home/ur3/ECE470_Project/devel/lib/libimage_proc.pdb"
+  "/home/ur3/ECE470_Project/devel/lib/libimage_proc.so"
 )
 
 # Per-language clean rules from dependency scanning.

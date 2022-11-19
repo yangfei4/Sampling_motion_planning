@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gazebo_ros_gencfg"
-  "/home/ur3/catkin/devel/include/gazebo_ros/PhysicsConfig.h"
-  "/home/ur3/catkin/devel/share/gazebo_ros/docs/PhysicsConfig.dox"
-  "/home/ur3/catkin/devel/share/gazebo_ros/docs/PhysicsConfig-usage.dox"
-  "/home/ur3/catkin/devel/lib/python2.7/dist-packages/gazebo_ros/cfg/PhysicsConfig.py"
-  "/home/ur3/catkin/devel/share/gazebo_ros/docs/PhysicsConfig.wikidoc"
+  "/home/ur3/ECE470_Project/devel/include/gazebo_ros/PhysicsConfig.h"
+  "/home/ur3/ECE470_Project/devel/share/gazebo_ros/docs/PhysicsConfig.dox"
+  "/home/ur3/ECE470_Project/devel/share/gazebo_ros/docs/PhysicsConfig-usage.dox"
+  "/home/ur3/ECE470_Project/devel/lib/python2.7/dist-packages/gazebo_ros/cfg/PhysicsConfig.py"
+  "/home/ur3/ECE470_Project/devel/share/gazebo_ros/docs/PhysicsConfig.wikidoc"
 )
 
 # Per-language clean rules from dependency scanning.

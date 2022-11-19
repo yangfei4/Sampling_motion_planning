@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cv_camera.dir/src/capture.cpp.o"
   "CMakeFiles/cv_camera.dir/src/driver.cpp.o"
-  "/home/ur3/catkin/devel/lib/libcv_camera.pdb"
-  "/home/ur3/catkin/devel/lib/libcv_camera.so"
+  "/home/ur3/ECE470_Project/devel/lib/libcv_camera.pdb"
+  "/home/ur3/ECE470_Project/devel/lib/libcv_camera.so"
 )
 
 # Per-language clean rules from dependency scanning.

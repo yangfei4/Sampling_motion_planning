@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles /home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/progress.marks
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles /home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/progress.marks
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/clean
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genpy.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genpy.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genpy.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genpy.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ ur_msgs_genpy: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_
 
 # fast build rule for target.
 ur_msgs_genpy/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genpy.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genpy.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genpy.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genpy.dir/build
 .PHONY : ur_msgs_genpy/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_nodejs.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_nodejs.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -192,267 +192,12 @@ ur_msgs_generate_messages_nodejs: lab2andDriver/drivers/universal_robot/ur_msgs/
 
 # fast build rule for target.
 ur_msgs_generate_messages_nodejs/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_nodejs.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_nodejs.dir/build
 .PHONY : ur_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
-lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetIO.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetIO.dir/rule
-.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetIO.dir/rule
-
-# Convenience name for target.
-_ur_msgs_generate_messages_check_deps_SetIO: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetIO.dir/rule
-
-.PHONY : _ur_msgs_generate_messages_check_deps_SetIO
-
-# fast build rule for target.
-_ur_msgs_generate_messages_check_deps_SetIO/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetIO.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetIO.dir/build
-.PHONY : _ur_msgs_generate_messages_check_deps_SetIO/fast
-
-# Convenience name for target.
-lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages.dir/rule
-.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages.dir/rule
-
-# Convenience name for target.
-ur_msgs_generate_messages: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages.dir/rule
-
-.PHONY : ur_msgs_generate_messages
-
-# fast build rule for target.
-ur_msgs_generate_messages/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages.dir/build
-.PHONY : ur_msgs_generate_messages/fast
-
-# Convenience name for target.
-lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_nodejs: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : std_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-std_msgs_generate_messages_nodejs/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-.PHONY : std_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/rule
-.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/rule
-
-# Convenience name for target.
-_ur_msgs_generate_messages_check_deps_IOStates: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/rule
-
-.PHONY : _ur_msgs_generate_messages_check_deps_IOStates
-
-# fast build rule for target.
-_ur_msgs_generate_messages_check_deps_IOStates/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/build
-.PHONY : _ur_msgs_generate_messages_check_deps_IOStates/fast
-
-# Convenience name for target.
-lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_geneus.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_geneus.dir/rule
-.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_geneus.dir/rule
-
-# Convenience name for target.
-ur_msgs_geneus: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_geneus.dir/rule
-
-.PHONY : ur_msgs_geneus
-
-# fast build rule for target.
-ur_msgs_geneus/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_geneus.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_geneus.dir/build
-.PHONY : ur_msgs_geneus/fast
-
-# Convenience name for target.
-lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/rule
-.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/rule
-
-# Convenience name for target.
-ur_msgs_genlisp: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/rule
-
-.PHONY : ur_msgs_genlisp
-
-# fast build rule for target.
-ur_msgs_genlisp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/build
-.PHONY : ur_msgs_genlisp/fast
-
-# Convenience name for target.
-lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/rule
-.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/rule
-
-# Convenience name for target.
-_ur_msgs_generate_messages_check_deps_MasterboardDataMsg: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/rule
-
-.PHONY : _ur_msgs_generate_messages_check_deps_MasterboardDataMsg
-
-# fast build rule for target.
-_ur_msgs_generate_messages_check_deps_MasterboardDataMsg/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/build
-.PHONY : _ur_msgs_generate_messages_check_deps_MasterboardDataMsg/fast
-
-# Convenience name for target.
-lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_eus: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-.PHONY : std_msgs_generate_messages_eus
-
-# fast build rule for target.
-std_msgs_generate_messages_eus/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-.PHONY : std_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/rule
-.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-ur_msgs_generate_messages_py: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/rule
-
-.PHONY : ur_msgs_generate_messages_py
-
-# fast build rule for target.
-ur_msgs_generate_messages_py/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/build
-.PHONY : ur_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gennodejs.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gennodejs.dir/rule
-.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gennodejs.dir/rule
-
-# Convenience name for target.
-ur_msgs_gennodejs: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gennodejs.dir/rule
-
-.PHONY : ur_msgs_gennodejs
-
-# fast build rule for target.
-ur_msgs_gennodejs/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gennodejs.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gennodejs.dir/build
-.PHONY : ur_msgs_gennodejs/fast
-
-# Convenience name for target.
-lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Digital.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Digital.dir/rule
-.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Digital.dir/rule
-
-# Convenience name for target.
-_ur_msgs_generate_messages_check_deps_Digital: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Digital.dir/rule
-
-.PHONY : _ur_msgs_generate_messages_check_deps_Digital
-
-# fast build rule for target.
-_ur_msgs_generate_messages_check_deps_Digital/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Digital.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Digital.dir/build
-.PHONY : _ur_msgs_generate_messages_check_deps_Digital/fast
-
-# Convenience name for target.
-lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_eus.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_eus.dir/rule
-.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-ur_msgs_generate_messages_eus: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_eus.dir/rule
-
-.PHONY : ur_msgs_generate_messages_eus
-
-# fast build rule for target.
-ur_msgs_generate_messages_eus/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_eus.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_eus.dir/build
-.PHONY : ur_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotModeDataMsg.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotModeDataMsg.dir/rule
-.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotModeDataMsg.dir/rule
-
-# Convenience name for target.
-_ur_msgs_generate_messages_check_deps_RobotModeDataMsg: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotModeDataMsg.dir/rule
-
-.PHONY : _ur_msgs_generate_messages_check_deps_RobotModeDataMsg
-
-# fast build rule for target.
-_ur_msgs_generate_messages_check_deps_RobotModeDataMsg/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotModeDataMsg.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotModeDataMsg.dir/build
-.PHONY : _ur_msgs_generate_messages_check_deps_RobotModeDataMsg/fast
-
-# Convenience name for target.
-lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/rule
-.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-ur_msgs_generate_messages_lisp: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : ur_msgs_generate_messages_lisp
-
-# fast build rule for target.
-ur_msgs_generate_messages_lisp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/build
-.PHONY : ur_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gencpp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gencpp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gencpp.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gencpp.dir/rule
 
 # Convenience name for target.
@@ -462,27 +207,72 @@ ur_msgs_gencpp: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs
 
 # fast build rule for target.
 ur_msgs_gencpp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gencpp.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gencpp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gencpp.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gencpp.dir/build
 .PHONY : ur_msgs_gencpp/fast
 
 # Convenience name for target.
-lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotStateRTMsg.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotStateRTMsg.dir/rule
-.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotStateRTMsg.dir/rule
+lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-_ur_msgs_generate_messages_check_deps_RobotStateRTMsg: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotStateRTMsg.dir/rule
+std_msgs_generate_messages_py: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
-.PHONY : _ur_msgs_generate_messages_check_deps_RobotStateRTMsg
+.PHONY : std_msgs_generate_messages_py
 
 # fast build rule for target.
-_ur_msgs_generate_messages_check_deps_RobotStateRTMsg/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotStateRTMsg.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotStateRTMsg.dir/build
-.PHONY : _ur_msgs_generate_messages_check_deps_RobotStateRTMsg/fast
+std_msgs_generate_messages_py/fast:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
+.PHONY : std_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/rule:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/rule
+.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/rule
+
+# Convenience name for target.
+_ur_msgs_generate_messages_check_deps_IOStates: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/rule
+
+.PHONY : _ur_msgs_generate_messages_check_deps_IOStates
+
+# fast build rule for target.
+_ur_msgs_generate_messages_check_deps_IOStates/fast:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/build
+.PHONY : _ur_msgs_generate_messages_check_deps_IOStates/fast
+
+# Convenience name for target.
+lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_geneus.dir/rule:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_geneus.dir/rule
+.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_geneus.dir/rule
+
+# Convenience name for target.
+ur_msgs_geneus: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_geneus.dir/rule
+
+.PHONY : ur_msgs_geneus
+
+# fast build rule for target.
+ur_msgs_geneus/fast:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_geneus.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_geneus.dir/build
+.PHONY : ur_msgs_geneus/fast
+
+# Convenience name for target.
+lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetIO.dir/rule:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetIO.dir/rule
+.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetIO.dir/rule
+
+# Convenience name for target.
+_ur_msgs_generate_messages_check_deps_SetIO: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetIO.dir/rule
+
+.PHONY : _ur_msgs_generate_messages_check_deps_SetIO
+
+# fast build rule for target.
+_ur_msgs_generate_messages_check_deps_SetIO/fast:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetIO.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetIO.dir/build
+.PHONY : _ur_msgs_generate_messages_check_deps_SetIO/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetSpeedSliderFraction.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetSpeedSliderFraction.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetSpeedSliderFraction.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetSpeedSliderFraction.dir/rule
 
 # Convenience name for target.
@@ -492,12 +282,192 @@ _ur_msgs_generate_messages_check_deps_SetSpeedSliderFraction: lab2andDriver/driv
 
 # fast build rule for target.
 _ur_msgs_generate_messages_check_deps_SetSpeedSliderFraction/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetSpeedSliderFraction.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetSpeedSliderFraction.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetSpeedSliderFraction.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetSpeedSliderFraction.dir/build
 .PHONY : _ur_msgs_generate_messages_check_deps_SetSpeedSliderFraction/fast
 
 # Convenience name for target.
+lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotStateRTMsg.dir/rule:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotStateRTMsg.dir/rule
+.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotStateRTMsg.dir/rule
+
+# Convenience name for target.
+_ur_msgs_generate_messages_check_deps_RobotStateRTMsg: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotStateRTMsg.dir/rule
+
+.PHONY : _ur_msgs_generate_messages_check_deps_RobotStateRTMsg
+
+# fast build rule for target.
+_ur_msgs_generate_messages_check_deps_RobotStateRTMsg/fast:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotStateRTMsg.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotStateRTMsg.dir/build
+.PHONY : _ur_msgs_generate_messages_check_deps_RobotStateRTMsg/fast
+
+# Convenience name for target.
+lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages.dir/rule:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages.dir/rule
+.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages.dir/rule
+
+# Convenience name for target.
+ur_msgs_generate_messages: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages.dir/rule
+
+.PHONY : ur_msgs_generate_messages
+
+# fast build rule for target.
+ur_msgs_generate_messages/fast:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages.dir/build
+.PHONY : ur_msgs_generate_messages/fast
+
+# Convenience name for target.
+lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_nodejs: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : std_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+std_msgs_generate_messages_nodejs/fast:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+.PHONY : std_msgs_generate_messages_nodejs/fast
+
+# Convenience name for target.
+lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/rule:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/rule
+.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/rule
+
+# Convenience name for target.
+ur_msgs_genlisp: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/rule
+
+.PHONY : ur_msgs_genlisp
+
+# fast build rule for target.
+ur_msgs_genlisp/fast:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/build
+.PHONY : ur_msgs_genlisp/fast
+
+# Convenience name for target.
+lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_cpp: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : std_msgs_generate_messages_cpp
+
+# fast build rule for target.
+std_msgs_generate_messages_cpp/fast:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+.PHONY : std_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/rule:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/rule
+.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/rule
+
+# Convenience name for target.
+_ur_msgs_generate_messages_check_deps_MasterboardDataMsg: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/rule
+
+.PHONY : _ur_msgs_generate_messages_check_deps_MasterboardDataMsg
+
+# fast build rule for target.
+_ur_msgs_generate_messages_check_deps_MasterboardDataMsg/fast:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/build
+.PHONY : _ur_msgs_generate_messages_check_deps_MasterboardDataMsg/fast
+
+# Convenience name for target.
+lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_eus: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+
+.PHONY : std_msgs_generate_messages_eus
+
+# fast build rule for target.
+std_msgs_generate_messages_eus/fast:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+.PHONY : std_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
+lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/rule:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/rule
+.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+ur_msgs_generate_messages_py: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/rule
+
+.PHONY : ur_msgs_generate_messages_py
+
+# fast build rule for target.
+ur_msgs_generate_messages_py/fast:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/build
+.PHONY : ur_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gennodejs.dir/rule:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gennodejs.dir/rule
+.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gennodejs.dir/rule
+
+# Convenience name for target.
+ur_msgs_gennodejs: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gennodejs.dir/rule
+
+.PHONY : ur_msgs_gennodejs
+
+# fast build rule for target.
+ur_msgs_gennodejs/fast:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gennodejs.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_gennodejs.dir/build
+.PHONY : ur_msgs_gennodejs/fast
+
+# Convenience name for target.
+lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_lisp: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : std_msgs_generate_messages_lisp
+
+# fast build rule for target.
+std_msgs_generate_messages_lisp/fast:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+.PHONY : std_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Digital.dir/rule:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Digital.dir/rule
+.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Digital.dir/rule
+
+# Convenience name for target.
+_ur_msgs_generate_messages_check_deps_Digital: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Digital.dir/rule
+
+.PHONY : _ur_msgs_generate_messages_check_deps_Digital
+
+# fast build rule for target.
+_ur_msgs_generate_messages_check_deps_Digital/fast:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Digital.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Digital.dir/build
+.PHONY : _ur_msgs_generate_messages_check_deps_Digital/fast
+
+# Convenience name for target.
+lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_eus.dir/rule:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_eus.dir/rule
+.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+ur_msgs_generate_messages_eus: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_eus.dir/rule
+
+.PHONY : ur_msgs_generate_messages_eus
+
+# fast build rule for target.
+ur_msgs_generate_messages_eus/fast:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_eus.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_eus.dir/build
+.PHONY : ur_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_ToolDataMsg.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_ToolDataMsg.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_ToolDataMsg.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_ToolDataMsg.dir/rule
 
 # Convenience name for target.
@@ -507,27 +477,42 @@ _ur_msgs_generate_messages_check_deps_ToolDataMsg: lab2andDriver/drivers/univers
 
 # fast build rule for target.
 _ur_msgs_generate_messages_check_deps_ToolDataMsg/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_ToolDataMsg.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_ToolDataMsg.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_ToolDataMsg.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_ToolDataMsg.dir/build
 .PHONY : _ur_msgs_generate_messages_check_deps_ToolDataMsg/fast
 
 # Convenience name for target.
-lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetPayload.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetPayload.dir/rule
-.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetPayload.dir/rule
+lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotModeDataMsg.dir/rule:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotModeDataMsg.dir/rule
+.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotModeDataMsg.dir/rule
 
 # Convenience name for target.
-_ur_msgs_generate_messages_check_deps_SetPayload: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetPayload.dir/rule
+_ur_msgs_generate_messages_check_deps_RobotModeDataMsg: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotModeDataMsg.dir/rule
 
-.PHONY : _ur_msgs_generate_messages_check_deps_SetPayload
+.PHONY : _ur_msgs_generate_messages_check_deps_RobotModeDataMsg
 
 # fast build rule for target.
-_ur_msgs_generate_messages_check_deps_SetPayload/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetPayload.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetPayload.dir/build
-.PHONY : _ur_msgs_generate_messages_check_deps_SetPayload/fast
+_ur_msgs_generate_messages_check_deps_RobotModeDataMsg/fast:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotModeDataMsg.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotModeDataMsg.dir/build
+.PHONY : _ur_msgs_generate_messages_check_deps_RobotModeDataMsg/fast
+
+# Convenience name for target.
+lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/rule:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/rule
+.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+ur_msgs_generate_messages_lisp: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : ur_msgs_generate_messages_lisp
+
+# fast build rule for target.
+ur_msgs_generate_messages_lisp/fast:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/build
+.PHONY : ur_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Analog.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Analog.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Analog.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Analog.dir/rule
 
 # Convenience name for target.
@@ -537,12 +522,27 @@ _ur_msgs_generate_messages_check_deps_Analog: lab2andDriver/drivers/universal_ro
 
 # fast build rule for target.
 _ur_msgs_generate_messages_check_deps_Analog/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Analog.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Analog.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Analog.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Analog.dir/build
 .PHONY : _ur_msgs_generate_messages_check_deps_Analog/fast
 
 # Convenience name for target.
+lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetPayload.dir/rule:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetPayload.dir/rule
+.PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetPayload.dir/rule
+
+# Convenience name for target.
+_ur_msgs_generate_messages_check_deps_SetPayload: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetPayload.dir/rule
+
+.PHONY : _ur_msgs_generate_messages_check_deps_SetPayload
+
+# fast build rule for target.
+_ur_msgs_generate_messages_check_deps_SetPayload/fast:
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetPayload.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetPayload.dir/build
+.PHONY : _ur_msgs_generate_messages_check_deps_SetPayload/fast
+
+# Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -552,7 +552,7 @@ ur_msgs_generate_messages_cpp: lab2andDriver/drivers/universal_robot/ur_msgs/CMa
 
 # fast build rule for target.
 ur_msgs_generate_messages_cpp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp.dir/build.make lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp.dir/build
 .PHONY : ur_msgs_generate_messages_cpp/fast
 
 # Help Target
@@ -569,15 +569,18 @@ help:
 	@echo "... install/strip"
 	@echo "... ur_msgs_genpy"
 	@echo "... ur_msgs_generate_messages_nodejs"
+	@echo "... ur_msgs_gencpp"
+	@echo "... std_msgs_generate_messages_py"
+	@echo "... _ur_msgs_generate_messages_check_deps_IOStates"
+	@echo "... ur_msgs_geneus"
 	@echo "... install/local"
 	@echo "... _ur_msgs_generate_messages_check_deps_SetIO"
+	@echo "... _ur_msgs_generate_messages_check_deps_SetSpeedSliderFraction"
+	@echo "... _ur_msgs_generate_messages_check_deps_RobotStateRTMsg"
 	@echo "... ur_msgs_generate_messages"
 	@echo "... std_msgs_generate_messages_nodejs"
-	@echo "... _ur_msgs_generate_messages_check_deps_IOStates"
-	@echo "... std_msgs_generate_messages_py"
-	@echo "... ur_msgs_geneus"
-	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... ur_msgs_genlisp"
+	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... _ur_msgs_generate_messages_check_deps_MasterboardDataMsg"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... ur_msgs_generate_messages_py"
@@ -585,14 +588,11 @@ help:
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... _ur_msgs_generate_messages_check_deps_Digital"
 	@echo "... ur_msgs_generate_messages_eus"
+	@echo "... _ur_msgs_generate_messages_check_deps_ToolDataMsg"
 	@echo "... _ur_msgs_generate_messages_check_deps_RobotModeDataMsg"
 	@echo "... ur_msgs_generate_messages_lisp"
-	@echo "... ur_msgs_gencpp"
-	@echo "... _ur_msgs_generate_messages_check_deps_RobotStateRTMsg"
-	@echo "... _ur_msgs_generate_messages_check_deps_SetSpeedSliderFraction"
-	@echo "... _ur_msgs_generate_messages_check_deps_ToolDataMsg"
-	@echo "... _ur_msgs_generate_messages_check_deps_SetPayload"
 	@echo "... _ur_msgs_generate_messages_check_deps_Analog"
+	@echo "... _ur_msgs_generate_messages_check_deps_SetPayload"
 	@echo "... ur_msgs_generate_messages_cpp"
 .PHONY : help
 
@@ -605,6 +605,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_range.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_range.h
 string
 -
 boost/bind.hpp
@@ -42,7 +42,7 @@ gazebo/plugins/RayPlugin.hh
 sdf/Param.hh
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_utils.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_utils.h
 map
 -
 boost/algorithm/string.hpp
@@ -58,11 +58,11 @@ gazebo/gazebo_config.h
 ros/ros.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_range.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_range.cpp
 gazebo_plugins/gazebo_ros_range.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_plugins/gazebo_ros_range.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_plugins/gazebo_ros_range.h
 gazebo_plugins/gazebo_ros_utils.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_plugins/gazebo_ros_utils.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_plugins/gazebo_ros_utils.h
 algorithm
 -
 string

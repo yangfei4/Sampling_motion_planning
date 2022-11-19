@@ -1,8 +1,8 @@
-# Install script for directory: /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate
+# Install script for directory: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ur3/catkin/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ur3/ECE470_Project/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,34 +33,34 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/image_rotate" TYPE FILE FILES "/home/ur3/catkin/devel/include/image_rotate/ImageRotateConfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/image_rotate" TYPE FILE FILES "/home/ur3/ECE470_Project/devel/include/image_rotate/ImageRotateConfig.h")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/image_rotate" TYPE FILE FILES "/home/ur3/catkin/devel/lib/python2.7/dist-packages/image_rotate/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/image_rotate" TYPE FILE FILES "/home/ur3/ECE470_Project/devel/lib/python2.7/dist-packages/image_rotate/__init__.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/ur3/catkin/devel/lib/python2.7/dist-packages/image_rotate/cfg")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/ur3/ECE470_Project/devel/lib/python2.7/dist-packages/image_rotate/cfg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/image_rotate" TYPE DIRECTORY FILES "/home/ur3/catkin/devel/lib/python2.7/dist-packages/image_rotate/cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/image_rotate" TYPE DIRECTORY FILES "/home/ur3/ECE470_Project/devel/lib/python2.7/dist-packages/image_rotate/cfg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/catkin_generated/installspace/image_rotate.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/catkin_generated/installspace/image_rotate.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_rotate/cmake" TYPE FILE FILES
-    "/home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/catkin_generated/installspace/image_rotateConfig.cmake"
-    "/home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/catkin_generated/installspace/image_rotateConfig-version.cmake"
+    "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/catkin_generated/installspace/image_rotateConfig.cmake"
+    "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/catkin_generated/installspace/image_rotateConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_rotate" TYPE FILE FILES "/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_rotate" TYPE FILE FILES "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -70,7 +70,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libimage_rotate.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ur3/catkin/devel/lib/libimage_rotate.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ur3/ECE470_Project/devel/lib/libimage_rotate.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libimage_rotate.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libimage_rotate.so")
     file(RPATH_CHANGE
@@ -90,7 +90,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_rotate/image_rotate"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/image_rotate" TYPE EXECUTABLE FILES "/home/ur3/catkin/devel/lib/image_rotate/image_rotate")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/image_rotate" TYPE EXECUTABLE FILES "/home/ur3/ECE470_Project/devel/lib/image_rotate/image_rotate")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_rotate/image_rotate" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_rotate/image_rotate")
     file(RPATH_CHANGE
@@ -104,6 +104,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_rotate" TYPE FILE FILES "/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/nodelet_plugins.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_rotate" TYPE FILE FILES "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/nodelet_plugins.xml")
 endif()
 

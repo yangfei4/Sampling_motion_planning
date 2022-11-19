@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cv_camera_node.dir/src/cv_camera_node.cpp.o"
-  "/home/ur3/catkin/devel/lib/cv_camera/cv_camera_node.pdb"
-  "/home/ur3/catkin/devel/lib/cv_camera/cv_camera_node"
+  "/home/ur3/ECE470_Project/devel/lib/cv_camera/cv_camera_node.pdb"
+  "/home/ur3/ECE470_Project/devel/lib/cv_camera/cv_camera_node"
 )
 
 # Per-language clean rules from dependency scanning.

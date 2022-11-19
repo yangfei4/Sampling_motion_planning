@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/set_model_state-test.dir/test/set_model_state_test/set_model_state_test.cpp.o"
-  "/home/ur3/catkin/devel/lib/gazebo_plugins/set_model_state-test.pdb"
-  "/home/ur3/catkin/devel/lib/gazebo_plugins/set_model_state-test"
+  "/home/ur3/ECE470_Project/devel/lib/gazebo_plugins/set_model_state-test.pdb"
+  "/home/ur3/ECE470_Project/devel/lib/gazebo_plugins/set_model_state-test"
 )
 
 # Per-language clean rules from dependency scanning.

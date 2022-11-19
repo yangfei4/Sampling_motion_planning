@@ -7,7 +7,7 @@ from sys import path as sys_path
 
 from pkgutil import extend_path
 
-__extended_path = "/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src".split(";")
+__extended_path = "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src".split(";")
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

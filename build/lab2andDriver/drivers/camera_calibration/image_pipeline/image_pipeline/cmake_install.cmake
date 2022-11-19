@@ -1,8 +1,8 @@
-# Install script for directory: /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_pipeline
+# Install script for directory: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_pipeline
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ur3/catkin/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ur3/ECE470_Project/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_pipeline" TYPE FILE FILES "/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_pipeline/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_pipeline" TYPE FILE FILES "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_pipeline/package.xml")
 endif()
 

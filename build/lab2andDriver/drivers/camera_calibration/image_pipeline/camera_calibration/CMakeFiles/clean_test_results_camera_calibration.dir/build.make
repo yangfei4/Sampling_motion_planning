@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 # Utility rule file for clean_test_results_camera_calibration.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ur3/catkin/build
 include lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/progress.make
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/ur3/catkin/build/test_results/camera_calibration
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/ur3/ECE470_Project/build/test_results/camera_calibration
 
 clean_test_results_camera_calibration: lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration
 clean_test_results_camera_calibration: lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/build.make
@@ -67,10 +67,10 @@ lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMake
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/build
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/clean:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_camera_calibration.dir/cmake_clean.cmake
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_camera_calibration.dir/cmake_clean.cmake
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/clean
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/catkin/src /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration /home/ur3/catkin/build /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/ECE470_Project/src /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration /home/ur3/ECE470_Project/build /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/depend
 

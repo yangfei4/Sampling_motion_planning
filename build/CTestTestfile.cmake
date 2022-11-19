@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/ur3/catkin/src
-# Build directory: /home/ur3/catkin/build
+# Source directory: /home/ur3/ECE470_Project/src
+# Build directory: /home/ur3/ECE470_Project/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
@@ -25,6 +25,8 @@ subdirs(lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros)
 subdirs(lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate)
 subdirs(lab2andDriver/drivers/ur3_driver)
 subdirs(lab2andDriver/lab2pkg_py)
+subdirs(lab2andDriver/lab4pkg_py)
+subdirs(lab2andDriver/lab5pkg_py)
 subdirs(lab2andDriver/drivers/universal_robot/ur_bringup)
 subdirs(lab2andDriver/drivers/universal_robot/ur_driver)
 subdirs(lab2andDriver/drivers/universal_robot/ur_e_gazebo)

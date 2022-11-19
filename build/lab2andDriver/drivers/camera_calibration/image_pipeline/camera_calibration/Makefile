@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/progress.marks
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/progress.marks
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/clean
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ _run_tests_camera_calibration_nosetests_test.multiple_boards.py: lab2andDriver/d
 
 # fast build rule for target.
 _run_tests_camera_calibration_nosetests_test.multiple_boards.py/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build
 .PHONY : _run_tests_camera_calibration_nosetests_test.multiple_boards.py/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ _run_tests_camera_calibration_nosetests: lab2andDriver/drivers/camera_calibratio
 
 # fast build rule for target.
 _run_tests_camera_calibration_nosetests/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/build
 .PHONY : _run_tests_camera_calibration_nosetests/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ run_tests_camera_calibration_nosetests: lab2andDriver/drivers/camera_calibration
 
 # fast build rule for target.
 run_tests_camera_calibration_nosetests/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/build
 .PHONY : run_tests_camera_calibration_nosetests/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ _run_tests_camera_calibration: lab2andDriver/drivers/camera_calibration/image_pi
 
 # fast build rule for target.
 _run_tests_camera_calibration/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration.dir/build
 .PHONY : _run_tests_camera_calibration/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ run_tests_camera_calibration_nosetests_test.directed.py: lab2andDriver/drivers/c
 
 # fast build rule for target.
 run_tests_camera_calibration_nosetests_test.directed.py/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/build
 .PHONY : run_tests_camera_calibration_nosetests_test.directed.py/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ _run_tests_camera_calibration_nosetests_test.directed.py: lab2andDriver/drivers/
 
 # fast build rule for target.
 _run_tests_camera_calibration_nosetests_test.directed.py/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/build
 .PHONY : _run_tests_camera_calibration_nosetests_test.directed.py/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ clean_test_results_camera_calibration: lab2andDriver/drivers/camera_calibration/
 
 # fast build rule for target.
 clean_test_results_camera_calibration/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/build
 .PHONY : clean_test_results_camera_calibration/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ camera_calibration.tar.gz: lab2andDriver/drivers/camera_calibration/image_pipeli
 
 # fast build rule for target.
 camera_calibration.tar.gz/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/build
 .PHONY : camera_calibration.tar.gz/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ run_tests_camera_calibration: lab2andDriver/drivers/camera_calibration/image_pip
 
 # fast build rule for target.
 run_tests_camera_calibration/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration.dir/build
 .PHONY : run_tests_camera_calibration/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ multi_board_calibration.tar.gz: lab2andDriver/drivers/camera_calibration/image_p
 
 # fast build rule for target.
 multi_board_calibration.tar.gz/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/build
 .PHONY : multi_board_calibration.tar.gz/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/rule
 
 # Convenience name for target.
@@ -327,7 +327,7 @@ run_tests_camera_calibration_nosetests_test.multiple_boards.py: lab2andDriver/dr
 
 # fast build rule for target.
 run_tests_camera_calibration_nosetests_test.multiple_boards.py/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build
 .PHONY : run_tests_camera_calibration_nosetests_test.multiple_boards.py/fast
 
 # Help Target
@@ -365,6 +365,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

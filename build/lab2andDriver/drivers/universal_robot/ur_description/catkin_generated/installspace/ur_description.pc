@@ -1,4 +1,4 @@
-prefix=/home/ur3/catkin/install
+prefix=/home/ur3/ECE470_Project/install
 
 Name: ur_description
 Description: Description of ur_description

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles /home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/progress.marks
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles /home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/progress.marks
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/clean
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config_roslaunch-check.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config_roslaunch-check.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config_roslaunch-check.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config_roslaunch-check.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ run_tests_ur3_e_moveit_config_roslaunch-check: lab2andDriver/drivers/universal_r
 
 # fast build rule for target.
 run_tests_ur3_e_moveit_config_roslaunch-check/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config_roslaunch-check.dir/build.make lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config_roslaunch-check.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config_roslaunch-check.dir/build.make lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config_roslaunch-check.dir/build
 .PHONY : run_tests_ur3_e_moveit_config_roslaunch-check/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/clean_test_results_ur3_e_moveit_config.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/clean_test_results_ur3_e_moveit_config.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/clean_test_results_ur3_e_moveit_config.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/clean_test_results_ur3_e_moveit_config.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ clean_test_results_ur3_e_moveit_config: lab2andDriver/drivers/universal_robot/ur
 
 # fast build rule for target.
 clean_test_results_ur3_e_moveit_config/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/clean_test_results_ur3_e_moveit_config.dir/build.make lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/clean_test_results_ur3_e_moveit_config.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/clean_test_results_ur3_e_moveit_config.dir/build.make lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/clean_test_results_ur3_e_moveit_config.dir/build
 .PHONY : clean_test_results_ur3_e_moveit_config/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ _run_tests_ur3_e_moveit_config: lab2andDriver/drivers/universal_robot/ur3_e_move
 
 # fast build rule for target.
 _run_tests_ur3_e_moveit_config/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config.dir/build.make lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config.dir/build.make lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config.dir/build
 .PHONY : _run_tests_ur3_e_moveit_config/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xm
 
 # fast build rule for target.
 run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build.make lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build.make lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build
 .PHONY : run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ _run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.x
 
 # fast build rule for target.
 _run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build.make lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build.make lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml.dir/build
 .PHONY : _run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ run_tests_ur3_e_moveit_config: lab2andDriver/drivers/universal_robot/ur3_e_movei
 
 # fast build rule for target.
 run_tests_ur3_e_moveit_config/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config.dir/build.make lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config.dir/build.make lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/run_tests_ur3_e_moveit_config.dir/build
 .PHONY : run_tests_ur3_e_moveit_config/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config_roslaunch-check.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config_roslaunch-check.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config_roslaunch-check.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config_roslaunch-check.dir/rule
 
 # Convenience name for target.
@@ -267,7 +267,7 @@ _run_tests_ur3_e_moveit_config_roslaunch-check: lab2andDriver/drivers/universal_
 
 # fast build rule for target.
 _run_tests_ur3_e_moveit_config_roslaunch-check/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config_roslaunch-check.dir/build.make lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config_roslaunch-check.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config_roslaunch-check.dir/build.make lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/CMakeFiles/_run_tests_ur3_e_moveit_config_roslaunch-check.dir/build
 .PHONY : _run_tests_ur3_e_moveit_config_roslaunch-check/fast
 
 # Help Target
@@ -301,6 +301,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

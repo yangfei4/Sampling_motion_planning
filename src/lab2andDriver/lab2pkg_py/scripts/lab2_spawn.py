@@ -20,7 +20,7 @@ if __name__ == '__main__':
     rospack = rospkg.RosPack()
     # Get path to yaml
     lab2_path = rospack.get_path('lab2pkg_py')
-    yamlpath = os.path.join(lab2_path, 'scripts', 'lab2_data.yaml')
+    yamlpath = os.path.join(lab2_path, 'scripts', 'lab2_data_proj.yaml')
 
     with open(yamlpath, 'r') as f:
         try:
@@ -38,61 +38,39 @@ if __name__ == '__main__':
     rospack = rospkg.RosPack()
     # Get path to block
     ur_path = rospack.get_path('ur_description')
-    block_path = os.path.join(ur_path, 'urdf', 'block.urdf')
-    block1_path = os.path.join(ur_path, 'urdf', 'block_red.urdf')
-    block2_path = os.path.join(ur_path, 'urdf', 'block_yellow.urdf')
-    block3_path = os.path.join(ur_path, 'urdf', 'block_green.urdf')
-    block_paths = [block1_path, block2_path, block3_path]
+    block_perfect_path = os.path.join(ur_path, 'urdf', 'block_perfect.urdf')
+    block_largerHole_path = os.path.join(ur_path, 'urdf', 'block_largerHole.urdf')
+    screw_M8_path = os.path.join(ur_path, 'urdf', 'screw_M8.urdf')
     # Wait for service to start
     rospy.wait_for_service('gazebo/spawn_urdf_model')
     spawn = rospy.ServiceProxy('gazebo/spawn_urdf_model', SpawnModel)
     delete = rospy.ServiceProxy('gazebo/delete_model', DeleteModel)
-
-    # Starting location ?
-    starting_location = None
-    while not starting_location:
-        starting_location = raw_input("Enter starting location number <Either 1 2 or 3>: ")
-        starting_location = int(starting_location)
-        if (starting_location != 1) and (starting_location != 2) and (starting_location != 3):
-            starting_location = None
-            print("Wrong input \n\n")
-
-    # 0-indexed
-    starting_location -= 1
-
-    # Missing block ?
-    missing_block = None
-    while missing_block is None:
-        missing_block = raw_input("Missing Block?(y/n): ")
-        missing_block = str(missing_block)
-        if (missing_block != 'y') and (missing_block != 'n'):
-            missing_block = None
-            print("Wrong input \n\n")
-        
-    missing_block = (missing_block == 'y')
+   
+    block_name = 'block_perfect'
+    # block_name = 'block_largerHole'
+    screw_name = 'screw_M8'
 
     # Delete previous blocks
-    for height in range(3):
-        block_name = 'block' + str(height + 1)
-        delete(block_name)
+    delete('block_perfect')
+    delete('block_largerHole')
+    delete(screw_name)
+
+    # Spawn block
+    if block_name== 'block_perfect':
+        pose = Pose(Point(block_xy_pos[0][0], 
+                        block_xy_pos[0][1], 0), Quaternion(0, 0, 0, 0))
+        # import pdb;pdb.set_trace()
+        spawn(block_name, open(block_perfect_path, 'r').read(), 'block', pose, 'world')
+    elif block_name == 'block_largerHole':
+        pose = Pose(Point(block_xy_pos[0][0], 
+                        block_xy_pos[0][1], 0), Quaternion(0, 0, 0, 0))
+        spawn(block_name, open(block_largerHole_path, 'r').read(), 'block', pose, 'world')
 
 
-    if not missing_block:
-        # Spawn three blocks
-        for height in range(3):
-            block_name = 'block' + str(height + 1)
-            pose = Pose(Point(block_xy_pos[starting_location][height][0], 
-                            block_xy_pos[starting_location][height][1], height*0.03), Quaternion(0, 0, 0, 0))
-            spawn(block_name, open(block_paths[2-height], 'r').read(), 'block', pose, 'world')
-    
-    else:
-        missing_block_height = random.randint(0, 2)
-        # Spawn two blocks
-        for height in range(3):
-            if height == missing_block_height:
-                continue
-            block_name = 'block' + str(height + 1)
-            pose = Pose(Point(block_xy_pos[starting_location][height][0], 
-                            block_xy_pos[starting_location][height][1], 0), Quaternion(0, 0, 0, 0))
-            spawn(block_name, open(block_paths[2-height], 'r').read(), 'block', pose, 'world')
+    # Spawn screw_M8
+    screw_name = 'screw_M8' 
+    pose = Pose(Point(block_xy_pos[0][0]+0.03, 
+                    block_xy_pos[0][1]+0.05, 0.1), Quaternion(0, 0, 0, 0))
+    # import pdb;pdb.set_trace()
+    spawn(screw_name, open(screw_M8_path, 'r').read(), 'block', pose, 'world')
 

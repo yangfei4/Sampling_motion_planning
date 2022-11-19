@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 # Utility rule file for _run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ur3/catkin/build
 include lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/progress.make
 
 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_e_gazebo && ../../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/ur3/catkin/build/test_results/ur_e_gazebo/roslaunch-check_tests_roslaunch_test.xml.xml "/usr/bin/cmake -E make_directory /home/ur3/catkin/build/test_results/ur_e_gazebo" "/opt/ros/kinetic/share/roslaunch/cmake/../scripts/roslaunch-check -o '/home/ur3/catkin/build/test_results/ur_e_gazebo/roslaunch-check_tests_roslaunch_test.xml.xml' '/home/ur3/catkin/src/lab2andDriver/drivers/universal_robot/ur_e_gazebo/tests/roslaunch_test.xml' "
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_e_gazebo && ../../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/ur3/ECE470_Project/build/test_results/ur_e_gazebo/roslaunch-check_tests_roslaunch_test.xml.xml "/usr/bin/cmake -E make_directory /home/ur3/ECE470_Project/build/test_results/ur_e_gazebo" "/opt/ros/kinetic/share/roslaunch/cmake/../scripts/roslaunch-check -o '/home/ur3/ECE470_Project/build/test_results/ur_e_gazebo/roslaunch-check_tests_roslaunch_test.xml.xml' '/home/ur3/ECE470_Project/src/lab2andDriver/drivers/universal_robot/ur_e_gazebo/tests/roslaunch_test.xml' "
 
 _run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml: lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml
 _run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml: lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/build.make
@@ -67,10 +67,10 @@ lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gaz
 .PHONY : lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/build
 
 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/clean:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_e_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/cmake_clean.cmake
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_e_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/cmake_clean.cmake
 .PHONY : lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/clean
 
 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/catkin/src /home/ur3/catkin/src/lab2andDriver/drivers/universal_robot/ur_e_gazebo /home/ur3/catkin/build /home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_e_gazebo /home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/ECE470_Project/src /home/ur3/ECE470_Project/src/lab2andDriver/drivers/universal_robot/ur_e_gazebo /home/ur3/ECE470_Project/build /home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_e_gazebo /home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/depend
 

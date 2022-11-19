@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles /home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/progress.marks
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles /home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/progress.marks
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/clean
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ _run_tests_ur_e_gazebo_roslaunch-check: lab2andDriver/drivers/universal_robot/ur
 
 # fast build rule for target.
 _run_tests_ur_e_gazebo_roslaunch-check/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check.dir/build.make lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check.dir/build.make lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check.dir/build
 .PHONY : _run_tests_ur_e_gazebo_roslaunch-check/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo_roslaunch-check.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo_roslaunch-check.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo_roslaunch-check.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo_roslaunch-check.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ run_tests_ur_e_gazebo_roslaunch-check: lab2andDriver/drivers/universal_robot/ur_
 
 # fast build rule for target.
 run_tests_ur_e_gazebo_roslaunch-check/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo_roslaunch-check.dir/build.make lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo_roslaunch-check.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo_roslaunch-check.dir/build.make lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo_roslaunch-check.dir/build
 .PHONY : run_tests_ur_e_gazebo_roslaunch-check/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ _run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml: lab2andDriver/d
 
 # fast build rule for target.
 _run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/build.make lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/build.make lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/build
 .PHONY : _run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ _run_tests_ur_e_gazebo: lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeF
 
 # fast build rule for target.
 _run_tests_ur_e_gazebo/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo.dir/build.make lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo.dir/build.make lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/_run_tests_ur_e_gazebo.dir/build
 .PHONY : _run_tests_ur_e_gazebo/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml: lab2andDriver/dr
 
 # fast build rule for target.
 run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/build.make lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/build.make lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml.dir/build
 .PHONY : run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ run_tests_ur_e_gazebo: lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFi
 
 # fast build rule for target.
 run_tests_ur_e_gazebo/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo.dir/build.make lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo.dir/build.make lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/run_tests_ur_e_gazebo.dir/build
 .PHONY : run_tests_ur_e_gazebo/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/clean_test_results_ur_e_gazebo.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/clean_test_results_ur_e_gazebo.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/clean_test_results_ur_e_gazebo.dir/rule
 .PHONY : lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/clean_test_results_ur_e_gazebo.dir/rule
 
 # Convenience name for target.
@@ -267,7 +267,7 @@ clean_test_results_ur_e_gazebo: lab2andDriver/drivers/universal_robot/ur_e_gazeb
 
 # fast build rule for target.
 clean_test_results_ur_e_gazebo/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/clean_test_results_ur_e_gazebo.dir/build.make lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/clean_test_results_ur_e_gazebo.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/clean_test_results_ur_e_gazebo.dir/build.make lab2andDriver/drivers/universal_robot/ur_e_gazebo/CMakeFiles/clean_test_results_ur_e_gazebo.dir/build
 .PHONY : clean_test_results_ur_e_gazebo/fast
 
 # Help Target
@@ -301,6 +301,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

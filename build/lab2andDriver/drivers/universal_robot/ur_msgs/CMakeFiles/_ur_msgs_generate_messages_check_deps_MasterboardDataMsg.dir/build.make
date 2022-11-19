@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 # Utility rule file for _ur_msgs_generate_messages_check_deps_MasterboardDataMsg.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ur3/catkin/build
 include lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/progress.make
 
 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ur_msgs /home/ur3/catkin/src/lab2andDriver/drivers/universal_robot/ur_msgs/msg/MasterboardDataMsg.msg 
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ur_msgs /home/ur3/ECE470_Project/src/lab2andDriver/drivers/universal_robot/ur_msgs/msg/MasterboardDataMsg.msg 
 
 _ur_msgs_generate_messages_check_deps_MasterboardDataMsg: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg
 _ur_msgs_generate_messages_check_deps_MasterboardDataMsg: lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/build.make
@@ -67,10 +67,10 @@ lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messa
 .PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/build
 
 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/clean:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/cmake_clean.cmake
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/cmake_clean.cmake
 .PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/clean
 
 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/catkin/src /home/ur3/catkin/src/lab2andDriver/drivers/universal_robot/ur_msgs /home/ur3/catkin/build /home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_msgs /home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/ECE470_Project/src /home/ur3/ECE470_Project/src/lab2andDriver/drivers/universal_robot/ur_msgs /home/ur3/ECE470_Project/build /home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_msgs /home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/depend
 

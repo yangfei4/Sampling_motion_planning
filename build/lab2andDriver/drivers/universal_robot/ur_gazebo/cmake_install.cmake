@@ -1,8 +1,8 @@
-# Install script for directory: /home/ur3/catkin/src/lab2andDriver/drivers/universal_robot/ur_gazebo
+# Install script for directory: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/universal_robot/ur_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ur3/catkin/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ur3/ECE470_Project/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,24 +33,24 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_gazebo/catkin_generated/installspace/ur_gazebo.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_gazebo/catkin_generated/installspace/ur_gazebo.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_gazebo/cmake" TYPE FILE FILES
-    "/home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_gazebo/catkin_generated/installspace/ur_gazeboConfig.cmake"
-    "/home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_gazebo/catkin_generated/installspace/ur_gazeboConfig-version.cmake"
+    "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_gazebo/catkin_generated/installspace/ur_gazeboConfig.cmake"
+    "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_gazebo/catkin_generated/installspace/ur_gazeboConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_gazebo" TYPE FILE FILES "/home/ur3/catkin/src/lab2andDriver/drivers/universal_robot/ur_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_gazebo" TYPE FILE FILES "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/universal_robot/ur_gazebo/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_gazebo" TYPE DIRECTORY FILES
-    "/home/ur3/catkin/src/lab2andDriver/drivers/universal_robot/ur_gazebo/launch"
-    "/home/ur3/catkin/src/lab2andDriver/drivers/universal_robot/ur_gazebo/controller"
+    "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/universal_robot/ur_gazebo/launch"
+    "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/universal_robot/ur_gazebo/controller"
     )
 endif()
 

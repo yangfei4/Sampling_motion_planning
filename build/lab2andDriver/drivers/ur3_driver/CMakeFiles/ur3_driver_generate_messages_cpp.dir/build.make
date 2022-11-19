@@ -43,43 +43,43 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 # Utility rule file for ur3_driver_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp.dir/progress.make
 
-lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp: /home/ur3/catkin/devel/include/ur3_driver/position.h
-lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp: /home/ur3/catkin/devel/include/ur3_driver/command.h
-lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp: /home/ur3/catkin/devel/include/ur3_driver/gripper_input.h
+lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp: /home/ur3/ECE470_Project/devel/include/ur3_driver/command.h
+lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp: /home/ur3/ECE470_Project/devel/include/ur3_driver/gripper_input.h
+lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp: /home/ur3/ECE470_Project/devel/include/ur3_driver/position.h
 
 
-/home/ur3/catkin/devel/include/ur3_driver/position.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/ur3/catkin/devel/include/ur3_driver/position.h: /home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/position.msg
-/home/ur3/catkin/devel/include/ur3_driver/position.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ur3/catkin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from ur3_driver/position.msg"
-	cd /home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver && /home/ur3/catkin/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/position.msg -Iur3_driver:/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur3_driver -o /home/ur3/catkin/devel/include/ur3_driver -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/ur3/ECE470_Project/devel/include/ur3_driver/command.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/ur3/ECE470_Project/devel/include/ur3_driver/command.h: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/command.msg
+/home/ur3/ECE470_Project/devel/include/ur3_driver/command.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ur3/ECE470_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from ur3_driver/command.msg"
+	cd /home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver && /home/ur3/ECE470_Project/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/command.msg -Iur3_driver:/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur3_driver -o /home/ur3/ECE470_Project/devel/include/ur3_driver -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/ur3/catkin/devel/include/ur3_driver/command.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/ur3/catkin/devel/include/ur3_driver/command.h: /home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/command.msg
-/home/ur3/catkin/devel/include/ur3_driver/command.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ur3/catkin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from ur3_driver/command.msg"
-	cd /home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver && /home/ur3/catkin/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/command.msg -Iur3_driver:/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur3_driver -o /home/ur3/catkin/devel/include/ur3_driver -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/ur3/ECE470_Project/devel/include/ur3_driver/gripper_input.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/ur3/ECE470_Project/devel/include/ur3_driver/gripper_input.h: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg
+/home/ur3/ECE470_Project/devel/include/ur3_driver/gripper_input.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ur3/ECE470_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from ur3_driver/gripper_input.msg"
+	cd /home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver && /home/ur3/ECE470_Project/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg -Iur3_driver:/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur3_driver -o /home/ur3/ECE470_Project/devel/include/ur3_driver -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/ur3/catkin/devel/include/ur3_driver/gripper_input.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/ur3/catkin/devel/include/ur3_driver/gripper_input.h: /home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg
-/home/ur3/catkin/devel/include/ur3_driver/gripper_input.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ur3/catkin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from ur3_driver/gripper_input.msg"
-	cd /home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver && /home/ur3/catkin/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg -Iur3_driver:/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur3_driver -o /home/ur3/catkin/devel/include/ur3_driver -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/ur3/ECE470_Project/devel/include/ur3_driver/position.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/ur3/ECE470_Project/devel/include/ur3_driver/position.h: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/position.msg
+/home/ur3/ECE470_Project/devel/include/ur3_driver/position.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ur3/ECE470_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from ur3_driver/position.msg"
+	cd /home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver && /home/ur3/ECE470_Project/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/position.msg -Iur3_driver:/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur3_driver -o /home/ur3/ECE470_Project/devel/include/ur3_driver -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 ur3_driver_generate_messages_cpp: lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp
-ur3_driver_generate_messages_cpp: /home/ur3/catkin/devel/include/ur3_driver/position.h
-ur3_driver_generate_messages_cpp: /home/ur3/catkin/devel/include/ur3_driver/command.h
-ur3_driver_generate_messages_cpp: /home/ur3/catkin/devel/include/ur3_driver/gripper_input.h
+ur3_driver_generate_messages_cpp: /home/ur3/ECE470_Project/devel/include/ur3_driver/command.h
+ur3_driver_generate_messages_cpp: /home/ur3/ECE470_Project/devel/include/ur3_driver/gripper_input.h
+ur3_driver_generate_messages_cpp: /home/ur3/ECE470_Project/devel/include/ur3_driver/position.h
 ur3_driver_generate_messages_cpp: lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp.dir/build.make
 
 .PHONY : ur3_driver_generate_messages_cpp
@@ -90,10 +90,10 @@ lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp.dir
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp.dir/build
 
 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp.dir/clean:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver && $(CMAKE_COMMAND) -P CMakeFiles/ur3_driver_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver && $(CMAKE_COMMAND) -P CMakeFiles/ur3_driver_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp.dir/clean
 
 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp.dir/depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/catkin/src /home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver /home/ur3/catkin/build /home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver /home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/ECE470_Project/src /home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver /home/ur3/ECE470_Project/build /home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver /home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp.dir/depend
 

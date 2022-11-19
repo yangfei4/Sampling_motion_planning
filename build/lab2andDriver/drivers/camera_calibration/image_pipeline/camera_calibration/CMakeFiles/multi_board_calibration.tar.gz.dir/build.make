@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 # Utility rule file for multi_board_calibration.tar.gz.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ur3/catkin/build
 include lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/progress.make
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/camera_calibration/multi_board_calibration.tar.gz /home/ur3/catkin/devel/share/camera_calibration/tests/multi_board_calibration.tar.gz ddc0f69582d140e33f9d3bfb681956bb --ignore-error
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/camera_calibration/multi_board_calibration.tar.gz /home/ur3/ECE470_Project/devel/share/camera_calibration/tests/multi_board_calibration.tar.gz ddc0f69582d140e33f9d3bfb681956bb --ignore-error
 
 multi_board_calibration.tar.gz: lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz
 multi_board_calibration.tar.gz: lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/build.make
@@ -67,10 +67,10 @@ lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMake
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/build
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/clean:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration && $(CMAKE_COMMAND) -P CMakeFiles/multi_board_calibration.tar.gz.dir/cmake_clean.cmake
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration && $(CMAKE_COMMAND) -P CMakeFiles/multi_board_calibration.tar.gz.dir/cmake_clean.cmake
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/clean
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/catkin/src /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration /home/ur3/catkin/build /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/ECE470_Project/src /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration /home/ur3/ECE470_Project/build /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/depend
 

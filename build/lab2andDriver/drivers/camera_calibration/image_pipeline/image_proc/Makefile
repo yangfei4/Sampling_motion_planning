@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/progress.marks
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/progress.marks
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/clean
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ dynamic_reconfigure_generate_messages_lisp: lab2andDriver/drivers/camera_calibra
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_lisp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ dynamic_reconfigure_generate_messages_eus: lab2andDriver/drivers/camera_calibrat
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_eus/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_eus/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ dynamic_reconfigure_generate_messages_nodejs: lab2andDriver/drivers/camera_calib
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_nodejs/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ dynamic_reconfigure_generate_messages_cpp: lab2andDriver/drivers/camera_calibrat
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_cpp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ image_proc_exe: lab2andDriver/drivers/camera_calibration/image_pipeline/image_pr
 
 # fast build rule for target.
 image_proc_exe/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build
 .PHONY : image_proc_exe/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ dynamic_reconfigure_generate_messages_py: lab2andDriver/drivers/camera_calibrati
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_py/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ dynamic_reconfigure_gencfg: lab2andDriver/drivers/camera_calibration/image_pipel
 
 # fast build rule for target.
 dynamic_reconfigure_gencfg/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
 .PHONY : dynamic_reconfigure_gencfg/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ nodelet_topic_tools_gencfg: lab2andDriver/drivers/camera_calibration/image_pipel
 
 # fast build rule for target.
 nodelet_topic_tools_gencfg/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/build
 .PHONY : nodelet_topic_tools_gencfg/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ image_proc_gencfg: lab2andDriver/drivers/camera_calibration/image_pipeline/image
 
 # fast build rule for target.
 image_proc_gencfg/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/build
 .PHONY : image_proc_gencfg/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/rule
 
 # Convenience name for target.
@@ -312,7 +312,7 @@ image_proc: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/C
 
 # fast build rule for target.
 image_proc/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build
 .PHONY : image_proc/fast
 
 src/libimage_proc/advertisement_checker.o: src/libimage_proc/advertisement_checker.cpp.o
@@ -321,7 +321,7 @@ src/libimage_proc/advertisement_checker.o: src/libimage_proc/advertisement_check
 
 # target to build an object file
 src/libimage_proc/advertisement_checker.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.o
 .PHONY : src/libimage_proc/advertisement_checker.cpp.o
 
 src/libimage_proc/advertisement_checker.i: src/libimage_proc/advertisement_checker.cpp.i
@@ -330,7 +330,7 @@ src/libimage_proc/advertisement_checker.i: src/libimage_proc/advertisement_check
 
 # target to preprocess a source file
 src/libimage_proc/advertisement_checker.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.i
 .PHONY : src/libimage_proc/advertisement_checker.cpp.i
 
 src/libimage_proc/advertisement_checker.s: src/libimage_proc/advertisement_checker.cpp.s
@@ -339,7 +339,7 @@ src/libimage_proc/advertisement_checker.s: src/libimage_proc/advertisement_check
 
 # target to generate assembly for a file
 src/libimage_proc/advertisement_checker.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.s
 .PHONY : src/libimage_proc/advertisement_checker.cpp.s
 
 src/libimage_proc/processor.o: src/libimage_proc/processor.cpp.o
@@ -348,7 +348,7 @@ src/libimage_proc/processor.o: src/libimage_proc/processor.cpp.o
 
 # target to build an object file
 src/libimage_proc/processor.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.o
 .PHONY : src/libimage_proc/processor.cpp.o
 
 src/libimage_proc/processor.i: src/libimage_proc/processor.cpp.i
@@ -357,7 +357,7 @@ src/libimage_proc/processor.i: src/libimage_proc/processor.cpp.i
 
 # target to preprocess a source file
 src/libimage_proc/processor.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.i
 .PHONY : src/libimage_proc/processor.cpp.i
 
 src/libimage_proc/processor.s: src/libimage_proc/processor.cpp.s
@@ -366,7 +366,7 @@ src/libimage_proc/processor.s: src/libimage_proc/processor.cpp.s
 
 # target to generate assembly for a file
 src/libimage_proc/processor.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.s
 .PHONY : src/libimage_proc/processor.cpp.s
 
 src/nodelets/crop_decimate.o: src/nodelets/crop_decimate.cpp.o
@@ -375,7 +375,7 @@ src/nodelets/crop_decimate.o: src/nodelets/crop_decimate.cpp.o
 
 # target to build an object file
 src/nodelets/crop_decimate.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.o
 .PHONY : src/nodelets/crop_decimate.cpp.o
 
 src/nodelets/crop_decimate.i: src/nodelets/crop_decimate.cpp.i
@@ -384,7 +384,7 @@ src/nodelets/crop_decimate.i: src/nodelets/crop_decimate.cpp.i
 
 # target to preprocess a source file
 src/nodelets/crop_decimate.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.i
 .PHONY : src/nodelets/crop_decimate.cpp.i
 
 src/nodelets/crop_decimate.s: src/nodelets/crop_decimate.cpp.s
@@ -393,7 +393,7 @@ src/nodelets/crop_decimate.s: src/nodelets/crop_decimate.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/crop_decimate.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.s
 .PHONY : src/nodelets/crop_decimate.cpp.s
 
 src/nodelets/crop_non_zero.o: src/nodelets/crop_non_zero.cpp.o
@@ -402,7 +402,7 @@ src/nodelets/crop_non_zero.o: src/nodelets/crop_non_zero.cpp.o
 
 # target to build an object file
 src/nodelets/crop_non_zero.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.o
 .PHONY : src/nodelets/crop_non_zero.cpp.o
 
 src/nodelets/crop_non_zero.i: src/nodelets/crop_non_zero.cpp.i
@@ -411,7 +411,7 @@ src/nodelets/crop_non_zero.i: src/nodelets/crop_non_zero.cpp.i
 
 # target to preprocess a source file
 src/nodelets/crop_non_zero.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.i
 .PHONY : src/nodelets/crop_non_zero.cpp.i
 
 src/nodelets/crop_non_zero.s: src/nodelets/crop_non_zero.cpp.s
@@ -420,7 +420,7 @@ src/nodelets/crop_non_zero.s: src/nodelets/crop_non_zero.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/crop_non_zero.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.s
 .PHONY : src/nodelets/crop_non_zero.cpp.s
 
 src/nodelets/debayer.o: src/nodelets/debayer.cpp.o
@@ -429,7 +429,7 @@ src/nodelets/debayer.o: src/nodelets/debayer.cpp.o
 
 # target to build an object file
 src/nodelets/debayer.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.o
 .PHONY : src/nodelets/debayer.cpp.o
 
 src/nodelets/debayer.i: src/nodelets/debayer.cpp.i
@@ -438,7 +438,7 @@ src/nodelets/debayer.i: src/nodelets/debayer.cpp.i
 
 # target to preprocess a source file
 src/nodelets/debayer.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.i
 .PHONY : src/nodelets/debayer.cpp.i
 
 src/nodelets/debayer.s: src/nodelets/debayer.cpp.s
@@ -447,7 +447,7 @@ src/nodelets/debayer.s: src/nodelets/debayer.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/debayer.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.s
 .PHONY : src/nodelets/debayer.cpp.s
 
 src/nodelets/edge_aware.o: src/nodelets/edge_aware.cpp.o
@@ -456,7 +456,7 @@ src/nodelets/edge_aware.o: src/nodelets/edge_aware.cpp.o
 
 # target to build an object file
 src/nodelets/edge_aware.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.o
 .PHONY : src/nodelets/edge_aware.cpp.o
 
 src/nodelets/edge_aware.i: src/nodelets/edge_aware.cpp.i
@@ -465,7 +465,7 @@ src/nodelets/edge_aware.i: src/nodelets/edge_aware.cpp.i
 
 # target to preprocess a source file
 src/nodelets/edge_aware.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.i
 .PHONY : src/nodelets/edge_aware.cpp.i
 
 src/nodelets/edge_aware.s: src/nodelets/edge_aware.cpp.s
@@ -474,7 +474,7 @@ src/nodelets/edge_aware.s: src/nodelets/edge_aware.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/edge_aware.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.s
 .PHONY : src/nodelets/edge_aware.cpp.s
 
 src/nodelets/rectify.o: src/nodelets/rectify.cpp.o
@@ -483,7 +483,7 @@ src/nodelets/rectify.o: src/nodelets/rectify.cpp.o
 
 # target to build an object file
 src/nodelets/rectify.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.o
 .PHONY : src/nodelets/rectify.cpp.o
 
 src/nodelets/rectify.i: src/nodelets/rectify.cpp.i
@@ -492,7 +492,7 @@ src/nodelets/rectify.i: src/nodelets/rectify.cpp.i
 
 # target to preprocess a source file
 src/nodelets/rectify.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.i
 .PHONY : src/nodelets/rectify.cpp.i
 
 src/nodelets/rectify.s: src/nodelets/rectify.cpp.s
@@ -501,7 +501,7 @@ src/nodelets/rectify.s: src/nodelets/rectify.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/rectify.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.s
 .PHONY : src/nodelets/rectify.cpp.s
 
 src/nodelets/resize.o: src/nodelets/resize.cpp.o
@@ -510,7 +510,7 @@ src/nodelets/resize.o: src/nodelets/resize.cpp.o
 
 # target to build an object file
 src/nodelets/resize.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.o
 .PHONY : src/nodelets/resize.cpp.o
 
 src/nodelets/resize.i: src/nodelets/resize.cpp.i
@@ -519,7 +519,7 @@ src/nodelets/resize.i: src/nodelets/resize.cpp.i
 
 # target to preprocess a source file
 src/nodelets/resize.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.i
 .PHONY : src/nodelets/resize.cpp.i
 
 src/nodelets/resize.s: src/nodelets/resize.cpp.s
@@ -528,7 +528,7 @@ src/nodelets/resize.s: src/nodelets/resize.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/resize.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.s
 .PHONY : src/nodelets/resize.cpp.s
 
 src/nodes/image_proc.o: src/nodes/image_proc.cpp.o
@@ -537,7 +537,7 @@ src/nodes/image_proc.o: src/nodes/image_proc.cpp.o
 
 # target to build an object file
 src/nodes/image_proc.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/src/nodes/image_proc.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/src/nodes/image_proc.cpp.o
 .PHONY : src/nodes/image_proc.cpp.o
 
 src/nodes/image_proc.i: src/nodes/image_proc.cpp.i
@@ -546,7 +546,7 @@ src/nodes/image_proc.i: src/nodes/image_proc.cpp.i
 
 # target to preprocess a source file
 src/nodes/image_proc.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/src/nodes/image_proc.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/src/nodes/image_proc.cpp.i
 .PHONY : src/nodes/image_proc.cpp.i
 
 src/nodes/image_proc.s: src/nodes/image_proc.cpp.s
@@ -555,7 +555,7 @@ src/nodes/image_proc.s: src/nodes/image_proc.cpp.s
 
 # target to generate assembly for a file
 src/nodes/image_proc.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/src/nodes/image_proc.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/src/nodes/image_proc.cpp.s
 .PHONY : src/nodes/image_proc.cpp.s
 
 # Help Target
@@ -619,6 +619,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

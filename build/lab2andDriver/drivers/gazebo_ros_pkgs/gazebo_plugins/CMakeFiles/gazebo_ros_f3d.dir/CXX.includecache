@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_f3d.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_f3d.h
 ros/callback_queue.h
 -
 ros/advertise_options.h
@@ -28,7 +28,7 @@ boost/thread/mutex.hpp
 geometry_msgs/WrenchStamped.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_f3d.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_f3d.cpp
 gazebo_plugins/gazebo_ros_f3d.h
 -
 tf/tf.h

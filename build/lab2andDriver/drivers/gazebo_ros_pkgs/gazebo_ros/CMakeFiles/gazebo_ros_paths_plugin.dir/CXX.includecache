@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros_paths_plugin.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros_paths_plugin.cpp
 gazebo/common/SystemPaths.hh
 -
 gazebo/common/Plugin.hh

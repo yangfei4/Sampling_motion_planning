@@ -2,7 +2,7 @@
 
 message(STATUS "ur3_driver: 3 messages, 0 services")
 
-set(MSG_I_FLAGS "-Iur3_driver:/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iur3_driver:/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,19 +17,19 @@ add_custom_target(ur3_driver_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/position.msg" NAME_WE)
+get_filename_component(_filename "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/command.msg" NAME_WE)
 add_custom_target(_ur3_driver_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ur3_driver" "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/position.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ur3_driver" "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/command.msg" ""
 )
 
-get_filename_component(_filename "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/command.msg" NAME_WE)
+get_filename_component(_filename "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg" NAME_WE)
 add_custom_target(_ur3_driver_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ur3_driver" "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/command.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ur3_driver" "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg" ""
 )
 
-get_filename_component(_filename "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg" NAME_WE)
+get_filename_component(_filename "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/position.msg" NAME_WE)
 add_custom_target(_ur3_driver_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ur3_driver" "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ur3_driver" "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/position.msg" ""
 )
 
 #
@@ -39,19 +39,19 @@ add_custom_target(_ur3_driver_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(ur3_driver
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/position.msg"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/command.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ur3_driver
 )
 _generate_msg_cpp(ur3_driver
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/command.msg"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ur3_driver
 )
 _generate_msg_cpp(ur3_driver
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/position.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ur3_driver
@@ -71,11 +71,11 @@ add_custom_target(ur3_driver_generate_messages_cpp
 add_dependencies(ur3_driver_generate_messages ur3_driver_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/position.msg" NAME_WE)
+get_filename_component(_filename "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/command.msg" NAME_WE)
 add_dependencies(ur3_driver_generate_messages_cpp _ur3_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/command.msg" NAME_WE)
+get_filename_component(_filename "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg" NAME_WE)
 add_dependencies(ur3_driver_generate_messages_cpp _ur3_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg" NAME_WE)
+get_filename_component(_filename "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/position.msg" NAME_WE)
 add_dependencies(ur3_driver_generate_messages_cpp _ur3_driver_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -88,19 +88,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ur3_driver_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(ur3_driver
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/position.msg"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/command.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ur3_driver
 )
 _generate_msg_eus(ur3_driver
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/command.msg"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ur3_driver
 )
 _generate_msg_eus(ur3_driver
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/position.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ur3_driver
@@ -120,11 +120,11 @@ add_custom_target(ur3_driver_generate_messages_eus
 add_dependencies(ur3_driver_generate_messages ur3_driver_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/position.msg" NAME_WE)
+get_filename_component(_filename "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/command.msg" NAME_WE)
 add_dependencies(ur3_driver_generate_messages_eus _ur3_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/command.msg" NAME_WE)
+get_filename_component(_filename "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg" NAME_WE)
 add_dependencies(ur3_driver_generate_messages_eus _ur3_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg" NAME_WE)
+get_filename_component(_filename "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/position.msg" NAME_WE)
 add_dependencies(ur3_driver_generate_messages_eus _ur3_driver_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -137,19 +137,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ur3_driver_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(ur3_driver
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/position.msg"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/command.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ur3_driver
 )
 _generate_msg_lisp(ur3_driver
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/command.msg"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ur3_driver
 )
 _generate_msg_lisp(ur3_driver
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/position.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ur3_driver
@@ -169,11 +169,11 @@ add_custom_target(ur3_driver_generate_messages_lisp
 add_dependencies(ur3_driver_generate_messages ur3_driver_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/position.msg" NAME_WE)
+get_filename_component(_filename "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/command.msg" NAME_WE)
 add_dependencies(ur3_driver_generate_messages_lisp _ur3_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/command.msg" NAME_WE)
+get_filename_component(_filename "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg" NAME_WE)
 add_dependencies(ur3_driver_generate_messages_lisp _ur3_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg" NAME_WE)
+get_filename_component(_filename "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/position.msg" NAME_WE)
 add_dependencies(ur3_driver_generate_messages_lisp _ur3_driver_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -186,19 +186,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ur3_driver_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(ur3_driver
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/position.msg"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/command.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ur3_driver
 )
 _generate_msg_nodejs(ur3_driver
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/command.msg"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ur3_driver
 )
 _generate_msg_nodejs(ur3_driver
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/position.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ur3_driver
@@ -218,11 +218,11 @@ add_custom_target(ur3_driver_generate_messages_nodejs
 add_dependencies(ur3_driver_generate_messages ur3_driver_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/position.msg" NAME_WE)
+get_filename_component(_filename "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/command.msg" NAME_WE)
 add_dependencies(ur3_driver_generate_messages_nodejs _ur3_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/command.msg" NAME_WE)
+get_filename_component(_filename "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg" NAME_WE)
 add_dependencies(ur3_driver_generate_messages_nodejs _ur3_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg" NAME_WE)
+get_filename_component(_filename "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/position.msg" NAME_WE)
 add_dependencies(ur3_driver_generate_messages_nodejs _ur3_driver_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -235,19 +235,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ur3_driver_generate_messages_nodejs
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(ur3_driver
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/position.msg"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/command.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ur3_driver
 )
 _generate_msg_py(ur3_driver
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/command.msg"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ur3_driver
 )
 _generate_msg_py(ur3_driver
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/position.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ur3_driver
@@ -267,11 +267,11 @@ add_custom_target(ur3_driver_generate_messages_py
 add_dependencies(ur3_driver_generate_messages ur3_driver_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/position.msg" NAME_WE)
+get_filename_component(_filename "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/command.msg" NAME_WE)
 add_dependencies(ur3_driver_generate_messages_py _ur3_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/command.msg" NAME_WE)
+get_filename_component(_filename "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg" NAME_WE)
 add_dependencies(ur3_driver_generate_messages_py _ur3_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg" NAME_WE)
+get_filename_component(_filename "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/position.msg" NAME_WE)
 add_dependencies(ur3_driver_generate_messages_py _ur3_driver_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

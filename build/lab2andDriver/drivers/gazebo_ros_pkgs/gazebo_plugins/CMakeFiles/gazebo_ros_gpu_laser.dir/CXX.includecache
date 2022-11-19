@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/PubQueue.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/PubQueue.h
 boost/thread.hpp
 -
 boost/bind.hpp
@@ -20,7 +20,7 @@ vector
 ros/ros.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_gpu_laser.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_gpu_laser.h
 string
 -
 boost/bind.hpp
@@ -54,7 +54,7 @@ sdf/sdf.hh
 gazebo_plugins/PubQueue.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_utils.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_utils.h
 map
 -
 boost/algorithm/string.hpp
@@ -70,7 +70,7 @@ gazebo/gazebo_config.h
 ros/ros.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_gpu_laser.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_gpu_laser.cpp
 algorithm
 -
 string
@@ -98,7 +98,7 @@ tf/tf.h
 tf/transform_listener.h
 -
 gazebo_plugins/gazebo_ros_gpu_laser.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_plugins/gazebo_ros_gpu_laser.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_plugins/gazebo_ros_gpu_laser.h
 gazebo_plugins/gazebo_ros_utils.h
 -
 

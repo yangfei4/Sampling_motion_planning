@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles /home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver/CMakeFiles/progress.marks
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles /home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver/CMakeFiles/progress.marks
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/clean
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ ur3_driver: lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/rule
 
 # fast build rule for target.
 ur3_driver/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build
 .PHONY : ur3_driver/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_genpy.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_genpy.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_genpy.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_genpy.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ ur3_driver_genpy: lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_genpy.d
 
 # fast build rule for target.
 ur3_driver_genpy/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_genpy.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_genpy.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_genpy.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_genpy.dir/build
 .PHONY : ur3_driver_genpy/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_py.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_py.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_py.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ ur3_driver_generate_messages_py: lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3
 
 # fast build rule for target.
 ur3_driver_generate_messages_py/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_py.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_py.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_py.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_py.dir/build
 .PHONY : ur3_driver_generate_messages_py/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_py.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_py.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_py.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ control_msgs_generate_messages_py: lab2andDriver/drivers/ur3_driver/CMakeFiles/c
 
 # fast build rule for target.
 control_msgs_generate_messages_py/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_py.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_py.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_py.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_py.dir/build
 .PHONY : control_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ controller_manager_msgs_generate_messages_nodejs: lab2andDriver/drivers/ur3_driv
 
 # fast build rule for target.
 controller_manager_msgs_generate_messages_nodejs/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/build
 .PHONY : controller_manager_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_position.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_position.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_position.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_position.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ _ur3_driver_generate_messages_check_deps_position: lab2andDriver/drivers/ur3_dri
 
 # fast build rule for target.
 _ur3_driver_generate_messages_check_deps_position/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_position.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_position.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_position.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_position.dir/build
 .PHONY : _ur3_driver_generate_messages_check_deps_position/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_lisp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_lisp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_lisp.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ control_msgs_generate_messages_lisp: lab2andDriver/drivers/ur3_driver/CMakeFiles
 
 # fast build rule for target.
 control_msgs_generate_messages_lisp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_lisp.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_lisp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_lisp.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_lisp.dir/build
 .PHONY : control_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_eus.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_eus.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_eus.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ controller_manager_msgs_generate_messages_eus: lab2andDriver/drivers/ur3_driver/
 
 # fast build rule for target.
 controller_manager_msgs_generate_messages_eus/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_eus.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_eus.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_eus.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_eus.dir/build
 .PHONY : controller_manager_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ ur3_driver_generate_messages_eus: lab2andDriver/drivers/ur3_driver/CMakeFiles/ur
 
 # fast build rule for target.
 ur3_driver_generate_messages_eus/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus.dir/build
 .PHONY : ur3_driver_generate_messages_eus/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ controller_manager_msgs_generate_messages_cpp: lab2andDriver/drivers/ur3_driver/
 
 # fast build rule for target.
 controller_manager_msgs_generate_messages_cpp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/build
 .PHONY : controller_manager_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -327,12 +327,12 @@ control_msgs_generate_messages_cpp: lab2andDriver/drivers/ur3_driver/CMakeFiles/
 
 # fast build rule for target.
 control_msgs_generate_messages_cpp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_cpp.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_cpp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_cpp.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_cpp.dir/build
 .PHONY : control_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ controller_manager_msgs_generate_messages_lisp: lab2andDriver/drivers/ur3_driver
 
 # fast build rule for target.
 controller_manager_msgs_generate_messages_lisp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build
 .PHONY : controller_manager_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_nodejs.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_nodejs.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -357,12 +357,12 @@ control_msgs_generate_messages_nodejs: lab2andDriver/drivers/ur3_driver/CMakeFil
 
 # fast build rule for target.
 control_msgs_generate_messages_nodejs/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_nodejs.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_nodejs.dir/build
 .PHONY : control_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -372,12 +372,12 @@ controller_manager_msgs_generate_messages_py: lab2andDriver/drivers/ur3_driver/C
 
 # fast build rule for target.
 controller_manager_msgs_generate_messages_py/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/build
 .PHONY : controller_manager_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -387,12 +387,12 @@ ur3_driver_generate_messages: lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_dr
 
 # fast build rule for target.
 ur3_driver_generate_messages/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages.dir/build
 .PHONY : ur3_driver_generate_messages/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_command.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_command.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_command.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_command.dir/rule
 
 # Convenience name for target.
@@ -402,12 +402,12 @@ _ur3_driver_generate_messages_check_deps_command: lab2andDriver/drivers/ur3_driv
 
 # fast build rule for target.
 _ur3_driver_generate_messages_check_deps_command/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_command.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_command.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_command.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_command.dir/build
 .PHONY : _ur3_driver_generate_messages_check_deps_command/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -417,12 +417,12 @@ ur3_driver_generate_messages_cpp: lab2andDriver/drivers/ur3_driver/CMakeFiles/ur
 
 # fast build rule for target.
 ur3_driver_generate_messages_cpp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_cpp.dir/build
 .PHONY : ur3_driver_generate_messages_cpp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_gencpp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_gencpp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_gencpp.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_gencpp.dir/rule
 
 # Convenience name for target.
@@ -432,12 +432,12 @@ ur3_driver_gencpp: lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_gencpp
 
 # fast build rule for target.
 ur3_driver_gencpp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_gencpp.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_gencpp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_gencpp.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_gencpp.dir/build
 .PHONY : ur3_driver_gencpp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_eus.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_eus.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_eus.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -447,12 +447,12 @@ control_msgs_generate_messages_eus: lab2andDriver/drivers/ur3_driver/CMakeFiles/
 
 # fast build rule for target.
 control_msgs_generate_messages_eus/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_eus.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_eus.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_eus.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/control_msgs_generate_messages_eus.dir/build
 .PHONY : control_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_lisp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_lisp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_lisp.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -462,12 +462,12 @@ ur3_driver_generate_messages_lisp: lab2andDriver/drivers/ur3_driver/CMakeFiles/u
 
 # fast build rule for target.
 ur3_driver_generate_messages_lisp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_lisp.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_lisp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_lisp.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_lisp.dir/build
 .PHONY : ur3_driver_generate_messages_lisp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_geneus.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_geneus.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_geneus.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_geneus.dir/rule
 
 # Convenience name for target.
@@ -477,12 +477,12 @@ ur3_driver_geneus: lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_geneus
 
 # fast build rule for target.
 ur3_driver_geneus/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_geneus.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_geneus.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_geneus.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_geneus.dir/build
 .PHONY : ur3_driver_geneus/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_genlisp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_genlisp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_genlisp.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_genlisp.dir/rule
 
 # Convenience name for target.
@@ -492,12 +492,12 @@ ur3_driver_genlisp: lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_genli
 
 # fast build rule for target.
 ur3_driver_genlisp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_genlisp.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_genlisp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_genlisp.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_genlisp.dir/build
 .PHONY : ur3_driver_genlisp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_nodejs.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_nodejs.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_nodejs.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -507,12 +507,12 @@ ur3_driver_generate_messages_nodejs: lab2andDriver/drivers/ur3_driver/CMakeFiles
 
 # fast build rule for target.
 ur3_driver_generate_messages_nodejs/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_nodejs.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_nodejs.dir/build
 .PHONY : ur3_driver_generate_messages_nodejs/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_gripper_input.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_gripper_input.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_gripper_input.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_gripper_input.dir/rule
 
 # Convenience name for target.
@@ -522,12 +522,12 @@ _ur3_driver_generate_messages_check_deps_gripper_input: lab2andDriver/drivers/ur
 
 # fast build rule for target.
 _ur3_driver_generate_messages_check_deps_gripper_input/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_gripper_input.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_gripper_input.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_gripper_input.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/_ur3_driver_generate_messages_check_deps_gripper_input.dir/build
 .PHONY : _ur3_driver_generate_messages_check_deps_gripper_input/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_gennodejs.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_gennodejs.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_gennodejs.dir/rule
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -537,7 +537,7 @@ ur3_driver_gennodejs: lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_gen
 
 # fast build rule for target.
 ur3_driver_gennodejs/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_gennodejs.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_gennodejs.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_gennodejs.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_gennodejs.dir/build
 .PHONY : ur3_driver_gennodejs/fast
 
 src/do_output.o: src/do_output.cpp.o
@@ -546,7 +546,7 @@ src/do_output.o: src/do_output.cpp.o
 
 # target to build an object file
 src/do_output.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/do_output.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/do_output.cpp.o
 .PHONY : src/do_output.cpp.o
 
 src/do_output.i: src/do_output.cpp.i
@@ -555,7 +555,7 @@ src/do_output.i: src/do_output.cpp.i
 
 # target to preprocess a source file
 src/do_output.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/do_output.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/do_output.cpp.i
 .PHONY : src/do_output.cpp.i
 
 src/do_output.s: src/do_output.cpp.s
@@ -564,7 +564,7 @@ src/do_output.s: src/do_output.cpp.s
 
 # target to generate assembly for a file
 src/do_output.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/do_output.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/do_output.cpp.s
 .PHONY : src/do_output.cpp.s
 
 src/robot_state.o: src/robot_state.cpp.o
@@ -573,7 +573,7 @@ src/robot_state.o: src/robot_state.cpp.o
 
 # target to build an object file
 src/robot_state.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/robot_state.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/robot_state.cpp.o
 .PHONY : src/robot_state.cpp.o
 
 src/robot_state.i: src/robot_state.cpp.i
@@ -582,7 +582,7 @@ src/robot_state.i: src/robot_state.cpp.i
 
 # target to preprocess a source file
 src/robot_state.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/robot_state.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/robot_state.cpp.i
 .PHONY : src/robot_state.cpp.i
 
 src/robot_state.s: src/robot_state.cpp.s
@@ -591,7 +591,7 @@ src/robot_state.s: src/robot_state.cpp.s
 
 # target to generate assembly for a file
 src/robot_state.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/robot_state.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/robot_state.cpp.s
 .PHONY : src/robot_state.cpp.s
 
 src/robot_state_RT.o: src/robot_state_RT.cpp.o
@@ -600,7 +600,7 @@ src/robot_state_RT.o: src/robot_state_RT.cpp.o
 
 # target to build an object file
 src/robot_state_RT.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/robot_state_RT.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/robot_state_RT.cpp.o
 .PHONY : src/robot_state_RT.cpp.o
 
 src/robot_state_RT.i: src/robot_state_RT.cpp.i
@@ -609,7 +609,7 @@ src/robot_state_RT.i: src/robot_state_RT.cpp.i
 
 # target to preprocess a source file
 src/robot_state_RT.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/robot_state_RT.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/robot_state_RT.cpp.i
 .PHONY : src/robot_state_RT.cpp.i
 
 src/robot_state_RT.s: src/robot_state_RT.cpp.s
@@ -618,7 +618,7 @@ src/robot_state_RT.s: src/robot_state_RT.cpp.s
 
 # target to generate assembly for a file
 src/robot_state_RT.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/robot_state_RT.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/robot_state_RT.cpp.s
 .PHONY : src/robot_state_RT.cpp.s
 
 src/ur3_driver.o: src/ur3_driver.cpp.o
@@ -627,7 +627,7 @@ src/ur3_driver.o: src/ur3_driver.cpp.o
 
 # target to build an object file
 src/ur3_driver.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur3_driver.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur3_driver.cpp.o
 .PHONY : src/ur3_driver.cpp.o
 
 src/ur3_driver.i: src/ur3_driver.cpp.i
@@ -636,7 +636,7 @@ src/ur3_driver.i: src/ur3_driver.cpp.i
 
 # target to preprocess a source file
 src/ur3_driver.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur3_driver.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur3_driver.cpp.i
 .PHONY : src/ur3_driver.cpp.i
 
 src/ur3_driver.s: src/ur3_driver.cpp.s
@@ -645,7 +645,7 @@ src/ur3_driver.s: src/ur3_driver.cpp.s
 
 # target to generate assembly for a file
 src/ur3_driver.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur3_driver.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur3_driver.cpp.s
 .PHONY : src/ur3_driver.cpp.s
 
 src/ur_communication.o: src/ur_communication.cpp.o
@@ -654,7 +654,7 @@ src/ur_communication.o: src/ur_communication.cpp.o
 
 # target to build an object file
 src/ur_communication.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur_communication.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur_communication.cpp.o
 .PHONY : src/ur_communication.cpp.o
 
 src/ur_communication.i: src/ur_communication.cpp.i
@@ -663,7 +663,7 @@ src/ur_communication.i: src/ur_communication.cpp.i
 
 # target to preprocess a source file
 src/ur_communication.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur_communication.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur_communication.cpp.i
 .PHONY : src/ur_communication.cpp.i
 
 src/ur_communication.s: src/ur_communication.cpp.s
@@ -672,7 +672,7 @@ src/ur_communication.s: src/ur_communication.cpp.s
 
 # target to generate assembly for a file
 src/ur_communication.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur_communication.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur_communication.cpp.s
 .PHONY : src/ur_communication.cpp.s
 
 src/ur_realtime_communication.o: src/ur_realtime_communication.cpp.o
@@ -681,7 +681,7 @@ src/ur_realtime_communication.o: src/ur_realtime_communication.cpp.o
 
 # target to build an object file
 src/ur_realtime_communication.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur_realtime_communication.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur_realtime_communication.cpp.o
 .PHONY : src/ur_realtime_communication.cpp.o
 
 src/ur_realtime_communication.i: src/ur_realtime_communication.cpp.i
@@ -690,7 +690,7 @@ src/ur_realtime_communication.i: src/ur_realtime_communication.cpp.i
 
 # target to preprocess a source file
 src/ur_realtime_communication.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur_realtime_communication.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur_realtime_communication.cpp.i
 .PHONY : src/ur_realtime_communication.cpp.i
 
 src/ur_realtime_communication.s: src/ur_realtime_communication.cpp.s
@@ -699,7 +699,7 @@ src/ur_realtime_communication.s: src/ur_realtime_communication.cpp.s
 
 # target to generate assembly for a file
 src/ur_realtime_communication.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur_realtime_communication.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/build.make lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur_realtime_communication.cpp.s
 .PHONY : src/ur_realtime_communication.cpp.s
 
 # Help Target
@@ -769,6 +769,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

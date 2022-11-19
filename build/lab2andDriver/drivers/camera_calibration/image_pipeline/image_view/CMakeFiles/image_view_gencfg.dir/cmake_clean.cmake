@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/image_view_gencfg"
-  "/home/ur3/catkin/devel/include/image_view/ImageViewConfig.h"
-  "/home/ur3/catkin/devel/share/image_view/docs/ImageViewConfig.dox"
-  "/home/ur3/catkin/devel/share/image_view/docs/ImageViewConfig-usage.dox"
-  "/home/ur3/catkin/devel/lib/python2.7/dist-packages/image_view/cfg/ImageViewConfig.py"
-  "/home/ur3/catkin/devel/share/image_view/docs/ImageViewConfig.wikidoc"
+  "/home/ur3/ECE470_Project/devel/include/image_view/ImageViewConfig.h"
+  "/home/ur3/ECE470_Project/devel/share/image_view/docs/ImageViewConfig.dox"
+  "/home/ur3/ECE470_Project/devel/share/image_view/docs/ImageViewConfig-usage.dox"
+  "/home/ur3/ECE470_Project/devel/lib/python2.7/dist-packages/image_view/cfg/ImageViewConfig.py"
+  "/home/ur3/ECE470_Project/devel/share/image_view/docs/ImageViewConfig.wikidoc"
 )
 
 # Per-language clean rules from dependency scanning.

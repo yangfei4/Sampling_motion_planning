@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 # Utility rule file for std_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messa
 .PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 
 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_msgs && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_msgs && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/catkin/src /home/ur3/catkin/src/lab2andDriver/drivers/universal_robot/ur_msgs /home/ur3/catkin/build /home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_msgs /home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/ECE470_Project/src /home/ur3/ECE470_Project/src/lab2andDriver/drivers/universal_robot/ur_msgs /home/ur3/ECE470_Project/build /home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_msgs /home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab2andDriver/drivers/universal_robot/ur_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 

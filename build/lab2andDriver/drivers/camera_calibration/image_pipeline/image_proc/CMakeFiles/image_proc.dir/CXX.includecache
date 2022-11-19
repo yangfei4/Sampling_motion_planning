@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ur3/catkin/devel/include/image_proc/CropDecimateConfig.h
+/home/ur3/ECE470_Project/devel/include/image_proc/CropDecimateConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -24,7 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/ur3/catkin/devel/include/image_proc/DebayerConfig.h
+/home/ur3/ECE470_Project/devel/include/image_proc/DebayerConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -42,7 +42,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/ur3/catkin/devel/include/image_proc/RectifyConfig.h
+/home/ur3/ECE470_Project/devel/include/image_proc/RectifyConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -60,7 +60,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/ur3/catkin/devel/include/image_proc/ResizeConfig.h
+/home/ur3/ECE470_Project/devel/include/image_proc/ResizeConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -78,11 +78,11 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/include/image_proc/advertisement_checker.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/include/image_proc/advertisement_checker.h
 ros/ros.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/include/image_proc/processor.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/include/image_proc/processor.h
 opencv2/core/core.hpp
 -
 image_geometry/pinhole_camera_model.h
@@ -90,21 +90,21 @@ image_geometry/pinhole_camera_model.h
 sensor_msgs/Image.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/advertisement_checker.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/advertisement_checker.cpp
 image_proc/advertisement_checker.h
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/image_proc/advertisement_checker.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/image_proc/advertisement_checker.h
 boost/foreach.hpp
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/processor.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/processor.cpp
 image_proc/processor.h
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/image_proc/processor.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/image_proc/processor.h
 sensor_msgs/image_encodings.h
 -
 ros/console.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_decimate.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_decimate.cpp
 boost/version.hpp
 -
 boost/thread/lock_guard.hpp
@@ -128,7 +128,7 @@ opencv2/imgproc/imgproc.hpp
 pluginlib/class_list_macros.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_non_zero.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_non_zero.cpp
 nodelet/nodelet.h
 -
 image_transport/image_transport.h
@@ -140,7 +140,7 @@ cv_bridge/cv_bridge.h
 pluginlib/class_list_macros.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/debayer.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/debayer.cpp
 boost/make_shared.hpp
 -
 boost/version.hpp
@@ -162,21 +162,21 @@ image_proc/DebayerConfig.h
 opencv2/imgproc/imgproc.hpp
 -
 edge_aware.h
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/edge_aware.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/edge_aware.h
 cv_bridge/cv_bridge.h
 -
 pluginlib/class_list_macros.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/edge_aware.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/edge_aware.cpp
 edge_aware.h
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/edge_aware.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/edge_aware.h
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/edge_aware.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/edge_aware.h
 opencv2/core/core.hpp
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/rectify.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/rectify.cpp
 boost/version.hpp
 -
 boost/thread/lock_guard.hpp
@@ -198,7 +198,7 @@ image_proc/RectifyConfig.h
 pluginlib/class_list_macros.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/resize.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/resize.cpp
 mutex
 -
 cv_bridge/cv_bridge.h
@@ -216,7 +216,7 @@ sensor_msgs/Image.h
 image_transport/image_transport.h
 -
 image_proc/ResizeConfig.h
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/image_proc/ResizeConfig.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/image_proc/ResizeConfig.h
 pluginlib/class_list_macros.h
 -
 

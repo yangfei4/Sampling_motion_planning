@@ -43,44 +43,44 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 # Utility rule file for image_publisher_gencfg.
 
 # Include the progress variables for this target.
 include lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/progress.make
 
-lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg: /home/ur3/catkin/devel/include/image_publisher/ImagePublisherConfig.h
-lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg: /home/ur3/catkin/devel/lib/python2.7/dist-packages/image_publisher/cfg/ImagePublisherConfig.py
+lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg: /home/ur3/ECE470_Project/devel/include/image_publisher/ImagePublisherConfig.h
+lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg: /home/ur3/ECE470_Project/devel/lib/python2.7/dist-packages/image_publisher/cfg/ImagePublisherConfig.py
 
 
-/home/ur3/catkin/devel/include/image_publisher/ImagePublisherConfig.h: /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/cfg/ImagePublisher.cfg
-/home/ur3/catkin/devel/include/image_publisher/ImagePublisherConfig.h: /opt/ros/kinetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/ur3/catkin/devel/include/image_publisher/ImagePublisherConfig.h: /opt/ros/kinetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ur3/catkin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/ImagePublisher.cfg: /home/ur3/catkin/devel/include/image_publisher/ImagePublisherConfig.h /home/ur3/catkin/devel/lib/python2.7/dist-packages/image_publisher/cfg/ImagePublisherConfig.py"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher && ../../../../../catkin_generated/env_cached.sh /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/setup_custom_pythonpath.sh /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/cfg/ImagePublisher.cfg /opt/ros/kinetic/share/dynamic_reconfigure/cmake/.. /home/ur3/catkin/devel/share/image_publisher /home/ur3/catkin/devel/include/image_publisher /home/ur3/catkin/devel/lib/python2.7/dist-packages/image_publisher
+/home/ur3/ECE470_Project/devel/include/image_publisher/ImagePublisherConfig.h: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/cfg/ImagePublisher.cfg
+/home/ur3/ECE470_Project/devel/include/image_publisher/ImagePublisherConfig.h: /opt/ros/kinetic/share/dynamic_reconfigure/templates/ConfigType.py.template
+/home/ur3/ECE470_Project/devel/include/image_publisher/ImagePublisherConfig.h: /opt/ros/kinetic/share/dynamic_reconfigure/templates/ConfigType.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ur3/ECE470_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/ImagePublisher.cfg: /home/ur3/ECE470_Project/devel/include/image_publisher/ImagePublisherConfig.h /home/ur3/ECE470_Project/devel/lib/python2.7/dist-packages/image_publisher/cfg/ImagePublisherConfig.py"
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher && ../../../../../catkin_generated/env_cached.sh /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/setup_custom_pythonpath.sh /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/cfg/ImagePublisher.cfg /opt/ros/kinetic/share/dynamic_reconfigure/cmake/.. /home/ur3/ECE470_Project/devel/share/image_publisher /home/ur3/ECE470_Project/devel/include/image_publisher /home/ur3/ECE470_Project/devel/lib/python2.7/dist-packages/image_publisher
 
-/home/ur3/catkin/devel/share/image_publisher/docs/ImagePublisherConfig.dox: /home/ur3/catkin/devel/include/image_publisher/ImagePublisherConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/ur3/catkin/devel/share/image_publisher/docs/ImagePublisherConfig.dox
+/home/ur3/ECE470_Project/devel/share/image_publisher/docs/ImagePublisherConfig.dox: /home/ur3/ECE470_Project/devel/include/image_publisher/ImagePublisherConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/ur3/ECE470_Project/devel/share/image_publisher/docs/ImagePublisherConfig.dox
 
-/home/ur3/catkin/devel/share/image_publisher/docs/ImagePublisherConfig-usage.dox: /home/ur3/catkin/devel/include/image_publisher/ImagePublisherConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/ur3/catkin/devel/share/image_publisher/docs/ImagePublisherConfig-usage.dox
+/home/ur3/ECE470_Project/devel/share/image_publisher/docs/ImagePublisherConfig-usage.dox: /home/ur3/ECE470_Project/devel/include/image_publisher/ImagePublisherConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/ur3/ECE470_Project/devel/share/image_publisher/docs/ImagePublisherConfig-usage.dox
 
-/home/ur3/catkin/devel/lib/python2.7/dist-packages/image_publisher/cfg/ImagePublisherConfig.py: /home/ur3/catkin/devel/include/image_publisher/ImagePublisherConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/ur3/catkin/devel/lib/python2.7/dist-packages/image_publisher/cfg/ImagePublisherConfig.py
+/home/ur3/ECE470_Project/devel/lib/python2.7/dist-packages/image_publisher/cfg/ImagePublisherConfig.py: /home/ur3/ECE470_Project/devel/include/image_publisher/ImagePublisherConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/ur3/ECE470_Project/devel/lib/python2.7/dist-packages/image_publisher/cfg/ImagePublisherConfig.py
 
-/home/ur3/catkin/devel/share/image_publisher/docs/ImagePublisherConfig.wikidoc: /home/ur3/catkin/devel/include/image_publisher/ImagePublisherConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/ur3/catkin/devel/share/image_publisher/docs/ImagePublisherConfig.wikidoc
+/home/ur3/ECE470_Project/devel/share/image_publisher/docs/ImagePublisherConfig.wikidoc: /home/ur3/ECE470_Project/devel/include/image_publisher/ImagePublisherConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/ur3/ECE470_Project/devel/share/image_publisher/docs/ImagePublisherConfig.wikidoc
 
 image_publisher_gencfg: lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg
-image_publisher_gencfg: /home/ur3/catkin/devel/include/image_publisher/ImagePublisherConfig.h
-image_publisher_gencfg: /home/ur3/catkin/devel/share/image_publisher/docs/ImagePublisherConfig.dox
-image_publisher_gencfg: /home/ur3/catkin/devel/share/image_publisher/docs/ImagePublisherConfig-usage.dox
-image_publisher_gencfg: /home/ur3/catkin/devel/lib/python2.7/dist-packages/image_publisher/cfg/ImagePublisherConfig.py
-image_publisher_gencfg: /home/ur3/catkin/devel/share/image_publisher/docs/ImagePublisherConfig.wikidoc
+image_publisher_gencfg: /home/ur3/ECE470_Project/devel/include/image_publisher/ImagePublisherConfig.h
+image_publisher_gencfg: /home/ur3/ECE470_Project/devel/share/image_publisher/docs/ImagePublisherConfig.dox
+image_publisher_gencfg: /home/ur3/ECE470_Project/devel/share/image_publisher/docs/ImagePublisherConfig-usage.dox
+image_publisher_gencfg: /home/ur3/ECE470_Project/devel/lib/python2.7/dist-packages/image_publisher/cfg/ImagePublisherConfig.py
+image_publisher_gencfg: /home/ur3/ECE470_Project/devel/share/image_publisher/docs/ImagePublisherConfig.wikidoc
 image_publisher_gencfg: lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/build.make
 
 .PHONY : image_publisher_gencfg
@@ -91,10 +91,10 @@ lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/CMakeFil
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/build
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/clean:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher && $(CMAKE_COMMAND) -P CMakeFiles/image_publisher_gencfg.dir/cmake_clean.cmake
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher && $(CMAKE_COMMAND) -P CMakeFiles/image_publisher_gencfg.dir/cmake_clean.cmake
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/clean
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/catkin/src /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher /home/ur3/catkin/build /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/ECE470_Project/src /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher /home/ur3/ECE470_Project/build /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/depend
 

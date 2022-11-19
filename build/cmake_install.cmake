@@ -1,8 +1,8 @@
-# Install script for directory: /home/ur3/catkin/src
+# Install script for directory: /home/ur3/ECE470_Project/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ur3/catkin/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ur3/ECE470_Project/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,118 +44,120 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ur3/catkin/install/_setup_util.py")
+   "/home/ur3/ECE470_Project/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ur3/catkin/install" TYPE PROGRAM FILES "/home/ur3/catkin/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/ur3/ECE470_Project/install" TYPE PROGRAM FILES "/home/ur3/ECE470_Project/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ur3/catkin/install/env.sh")
+   "/home/ur3/ECE470_Project/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ur3/catkin/install" TYPE PROGRAM FILES "/home/ur3/catkin/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/ur3/ECE470_Project/install" TYPE PROGRAM FILES "/home/ur3/ECE470_Project/build/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ur3/catkin/install/setup.bash;/home/ur3/catkin/install/local_setup.bash")
+   "/home/ur3/ECE470_Project/install/setup.bash;/home/ur3/ECE470_Project/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ur3/catkin/install" TYPE FILE FILES
-    "/home/ur3/catkin/build/catkin_generated/installspace/setup.bash"
-    "/home/ur3/catkin/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/ur3/ECE470_Project/install" TYPE FILE FILES
+    "/home/ur3/ECE470_Project/build/catkin_generated/installspace/setup.bash"
+    "/home/ur3/ECE470_Project/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ur3/catkin/install/setup.sh;/home/ur3/catkin/install/local_setup.sh")
+   "/home/ur3/ECE470_Project/install/setup.sh;/home/ur3/ECE470_Project/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ur3/catkin/install" TYPE FILE FILES
-    "/home/ur3/catkin/build/catkin_generated/installspace/setup.sh"
-    "/home/ur3/catkin/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/ur3/ECE470_Project/install" TYPE FILE FILES
+    "/home/ur3/ECE470_Project/build/catkin_generated/installspace/setup.sh"
+    "/home/ur3/ECE470_Project/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ur3/catkin/install/setup.zsh;/home/ur3/catkin/install/local_setup.zsh")
+   "/home/ur3/ECE470_Project/install/setup.zsh;/home/ur3/ECE470_Project/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ur3/catkin/install" TYPE FILE FILES
-    "/home/ur3/catkin/build/catkin_generated/installspace/setup.zsh"
-    "/home/ur3/catkin/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/ur3/ECE470_Project/install" TYPE FILE FILES
+    "/home/ur3/ECE470_Project/build/catkin_generated/installspace/setup.zsh"
+    "/home/ur3/ECE470_Project/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ur3/catkin/install/.rosinstall")
+   "/home/ur3/ECE470_Project/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ur3/catkin/install" TYPE FILE FILES "/home/ur3/catkin/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/ur3/ECE470_Project/install" TYPE FILE FILES "/home/ur3/ECE470_Project/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ur3/catkin/build/gtest/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_dev/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_pkgs/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_pipeline/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/universal_robot/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/universal_robots/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_description/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_e_description/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_msgs/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/cv_camera/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_view/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/stereo_image_proc/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/depth_image_proc/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/lab2pkg_py/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_bringup/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_driver/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_e_gazebo/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_gazebo/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_kinematics/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/usb_cam/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/cmake_install.cmake")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur3_moveit_config/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/gtest/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_dev/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_pkgs/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_pipeline/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/universal_robot/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/universal_robots/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_description/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_e_description/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_msgs/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/cv_camera/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_view/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/stereo_image_proc/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/depth_image_proc/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/lab2pkg_py/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/lab4pkg_py/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/lab5pkg_py/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_bringup/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_driver/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_e_gazebo/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_gazebo/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_kinematics/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/usb_cam/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur3_e_moveit_config/cmake_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur3_moveit_config/cmake_install.cmake")
 
 endif()
 
@@ -167,5 +169,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ur3/catkin/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ur3/ECE470_Project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

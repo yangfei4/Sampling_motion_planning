@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.o"
-  "/home/ur3/catkin/devel/lib/libimage_rotate.pdb"
-  "/home/ur3/catkin/devel/lib/libimage_rotate.so"
+  "/home/ur3/ECE470_Project/devel/lib/libimage_rotate.pdb"
+  "/home/ur3/ECE470_Project/devel/lib/libimage_rotate.so"
 )
 
 # Per-language clean rules from dependency scanning.

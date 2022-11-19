@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gazebo_ros_skid_steer_drive.dir/src/gazebo_ros_skid_steer_drive.cpp.o"
-  "/home/ur3/catkin/devel/lib/libgazebo_ros_skid_steer_drive.pdb"
-  "/home/ur3/catkin/devel/lib/libgazebo_ros_skid_steer_drive.so"
+  "/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_skid_steer_drive.pdb"
+  "/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_skid_steer_drive.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"ur_kinematics\" -DUR5_PARAMS -Dur5_moveit_plugin_EXPORTS
 
-CXX_INCLUDES = -I/home/ur3/catkin/src/lab2andDriver/drivers/universal_robot/ur_kinematics/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/kinetic/share/orocos_kdl/../../include -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/ur3/ECE470_Project/src/lab2andDriver/drivers/universal_robot/ur_kinematics/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/kinetic/share/orocos_kdl/../../include -I/usr/include/eigen3 
 

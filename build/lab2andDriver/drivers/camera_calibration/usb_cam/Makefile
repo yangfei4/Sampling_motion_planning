@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/progress.marks
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/usb_cam/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/progress.marks
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/usb_cam/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/usb_cam/clean
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/usb_cam/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/usb_cam/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/usb_cam/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/usb_cam/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/usb_cam/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ usb_cam: lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir
 
 # fast build rule for target.
 usb_cam/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/build.make lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/build.make lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/build
 .PHONY : usb_cam/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ usb_cam_node: lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_ca
 
 # fast build rule for target.
 usb_cam_node/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/build.make lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/build.make lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/build
 .PHONY : usb_cam_node/fast
 
 nodes/usb_cam_node.o: nodes/usb_cam_node.cpp.o
@@ -201,7 +201,7 @@ nodes/usb_cam_node.o: nodes/usb_cam_node.cpp.o
 
 # target to build an object file
 nodes/usb_cam_node.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/build.make lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/nodes/usb_cam_node.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/build.make lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/nodes/usb_cam_node.cpp.o
 .PHONY : nodes/usb_cam_node.cpp.o
 
 nodes/usb_cam_node.i: nodes/usb_cam_node.cpp.i
@@ -210,7 +210,7 @@ nodes/usb_cam_node.i: nodes/usb_cam_node.cpp.i
 
 # target to preprocess a source file
 nodes/usb_cam_node.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/build.make lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/nodes/usb_cam_node.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/build.make lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/nodes/usb_cam_node.cpp.i
 .PHONY : nodes/usb_cam_node.cpp.i
 
 nodes/usb_cam_node.s: nodes/usb_cam_node.cpp.s
@@ -219,7 +219,7 @@ nodes/usb_cam_node.s: nodes/usb_cam_node.cpp.s
 
 # target to generate assembly for a file
 nodes/usb_cam_node.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/build.make lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/nodes/usb_cam_node.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/build.make lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam_node.dir/nodes/usb_cam_node.cpp.s
 .PHONY : nodes/usb_cam_node.cpp.s
 
 src/usb_cam.o: src/usb_cam.cpp.o
@@ -228,7 +228,7 @@ src/usb_cam.o: src/usb_cam.cpp.o
 
 # target to build an object file
 src/usb_cam.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/build.make lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/build.make lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o
 .PHONY : src/usb_cam.cpp.o
 
 src/usb_cam.i: src/usb_cam.cpp.i
@@ -237,7 +237,7 @@ src/usb_cam.i: src/usb_cam.cpp.i
 
 # target to preprocess a source file
 src/usb_cam.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/build.make lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/build.make lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.i
 .PHONY : src/usb_cam.cpp.i
 
 src/usb_cam.s: src/usb_cam.cpp.s
@@ -246,7 +246,7 @@ src/usb_cam.s: src/usb_cam.cpp.s
 
 # target to generate assembly for a file
 src/usb_cam.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/build.make lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/build.make lab2andDriver/drivers/camera_calibration/usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.s
 .PHONY : src/usb_cam.cpp.s
 
 # Help Target
@@ -281,6 +281,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

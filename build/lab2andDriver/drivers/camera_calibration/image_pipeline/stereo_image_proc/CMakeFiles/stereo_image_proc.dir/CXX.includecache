@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ur3/catkin/devel/include/stereo_image_proc/DisparityConfig.h
+/home/ur3/ECE470_Project/devel/include/stereo_image_proc/DisparityConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -24,7 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/include/image_proc/processor.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/include/image_proc/processor.h
 opencv2/core/core.hpp
 -
 image_geometry/pinhole_camera_model.h
@@ -32,7 +32,7 @@ image_geometry/pinhole_camera_model.h
 sensor_msgs/Image.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h
 image_proc/processor.h
 -
 image_geometry/stereo_camera_model.h
@@ -44,11 +44,11 @@ sensor_msgs/PointCloud.h
 sensor_msgs/PointCloud2.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/stereo_image_proc/src/libstereo_image_proc/processor.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/stereo_image_proc/src/libstereo_image_proc/processor.cpp
 ros/assert.h
 -
 stereo_image_proc/processor.h
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/stereo_image_proc/src/libstereo_image_proc/stereo_image_proc/processor.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/stereo_image_proc/src/libstereo_image_proc/stereo_image_proc/processor.h
 sensor_msgs/image_encodings.h
 -
 cmath
@@ -56,7 +56,7 @@ cmath
 limits
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/stereo_image_proc/src/nodelets/disparity.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/stereo_image_proc/src/nodelets/disparity.cpp
 boost/version.hpp
 -
 boost/thread/lock_guard.hpp
@@ -96,7 +96,7 @@ stereo_image_proc/processor.h
 pluginlib/class_list_macros.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/stereo_image_proc/src/nodelets/point_cloud2.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/stereo_image_proc/src/nodelets/point_cloud2.cpp
 boost/version.hpp
 -
 boost/thread/lock_guard.hpp

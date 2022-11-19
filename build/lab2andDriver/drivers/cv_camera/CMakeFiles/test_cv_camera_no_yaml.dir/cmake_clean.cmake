@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_cv_camera_no_yaml.dir/test/test_cv_camera_no_yaml.cpp.o"
-  "/home/ur3/catkin/devel/lib/cv_camera/test_cv_camera_no_yaml.pdb"
-  "/home/ur3/catkin/devel/lib/cv_camera/test_cv_camera_no_yaml"
+  "/home/ur3/ECE470_Project/devel/lib/cv_camera/test_cv_camera_no_yaml.pdb"
+  "/home/ur3/ECE470_Project/devel/lib/cv_camera/test_cv_camera_no_yaml"
 )
 
 # Per-language clean rules from dependency scanning.

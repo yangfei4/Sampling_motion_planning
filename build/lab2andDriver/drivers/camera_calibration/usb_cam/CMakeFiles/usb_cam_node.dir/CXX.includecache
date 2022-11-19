@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/usb_cam/include/usb_cam/usb_cam.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/usb_cam/include/usb_cam/usb_cam.h
 asm/types.h
 -
 linux/videodev2.h
@@ -26,7 +26,7 @@ sstream
 sensor_msgs/Image.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/usb_cam/nodes/usb_cam_node.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/usb_cam/nodes/usb_cam_node.cpp
 ros/ros.h
 -
 usb_cam/usb_cam.h

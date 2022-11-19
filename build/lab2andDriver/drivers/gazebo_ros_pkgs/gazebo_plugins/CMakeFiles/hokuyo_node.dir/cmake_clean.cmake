@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hokuyo_node.dir/src/hokuyo_node.cpp.o"
-  "/home/ur3/catkin/devel/lib/gazebo_plugins/hokuyo_node.pdb"
-  "/home/ur3/catkin/devel/lib/gazebo_plugins/hokuyo_node"
+  "/home/ur3/ECE470_Project/devel/lib/gazebo_plugins/hokuyo_node.pdb"
+  "/home/ur3/ECE470_Project/devel/lib/gazebo_plugins/hokuyo_node"
 )
 
 # Per-language clean rules from dependency scanning.

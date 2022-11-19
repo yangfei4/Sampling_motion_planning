@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ur3/catkin/devel/include/gazebo_msgs/ApplyBodyWrench.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/ApplyBodyWrench.h
 ros/service_traits.h
 -
 gazebo_msgs/ApplyBodyWrenchRequest.h
@@ -14,7 +14,7 @@ gazebo_msgs/ApplyBodyWrenchRequest.h
 gazebo_msgs/ApplyBodyWrenchResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/ApplyBodyWrenchRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/ApplyBodyWrenchRequest.h
 string
 -
 vector
@@ -34,7 +34,7 @@ geometry_msgs/Point.h
 geometry_msgs/Wrench.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/ApplyBodyWrenchResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/ApplyBodyWrenchResponse.h
 string
 -
 vector
@@ -50,7 +50,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/ApplyJointEffort.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/ApplyJointEffort.h
 ros/service_traits.h
 -
 gazebo_msgs/ApplyJointEffortRequest.h
@@ -58,7 +58,7 @@ gazebo_msgs/ApplyJointEffortRequest.h
 gazebo_msgs/ApplyJointEffortResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/ApplyJointEffortRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/ApplyJointEffortRequest.h
 string
 -
 vector
@@ -74,7 +74,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/ApplyJointEffortResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/ApplyJointEffortResponse.h
 string
 -
 vector
@@ -90,7 +90,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/BodyRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/BodyRequest.h
 ros/service_traits.h
 -
 gazebo_msgs/BodyRequestRequest.h
@@ -98,7 +98,7 @@ gazebo_msgs/BodyRequestRequest.h
 gazebo_msgs/BodyRequestResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/BodyRequestRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/BodyRequestRequest.h
 string
 -
 vector
@@ -114,7 +114,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/BodyRequestResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/BodyRequestResponse.h
 string
 -
 vector
@@ -130,7 +130,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/DeleteLight.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/DeleteLight.h
 ros/service_traits.h
 -
 gazebo_msgs/DeleteLightRequest.h
@@ -138,7 +138,7 @@ gazebo_msgs/DeleteLightRequest.h
 gazebo_msgs/DeleteLightResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/DeleteLightRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/DeleteLightRequest.h
 string
 -
 vector
@@ -154,7 +154,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/DeleteLightResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/DeleteLightResponse.h
 string
 -
 vector
@@ -170,7 +170,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/DeleteModel.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/DeleteModel.h
 ros/service_traits.h
 -
 gazebo_msgs/DeleteModelRequest.h
@@ -178,7 +178,7 @@ gazebo_msgs/DeleteModelRequest.h
 gazebo_msgs/DeleteModelResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/DeleteModelRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/DeleteModelRequest.h
 string
 -
 vector
@@ -194,7 +194,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/DeleteModelResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/DeleteModelResponse.h
 string
 -
 vector
@@ -210,7 +210,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetJointProperties.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetJointProperties.h
 ros/service_traits.h
 -
 gazebo_msgs/GetJointPropertiesRequest.h
@@ -218,7 +218,7 @@ gazebo_msgs/GetJointPropertiesRequest.h
 gazebo_msgs/GetJointPropertiesResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetJointPropertiesRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetJointPropertiesRequest.h
 string
 -
 vector
@@ -234,7 +234,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetJointPropertiesResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetJointPropertiesResponse.h
 string
 -
 vector
@@ -250,7 +250,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetLightProperties.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetLightProperties.h
 ros/service_traits.h
 -
 gazebo_msgs/GetLightPropertiesRequest.h
@@ -258,7 +258,7 @@ gazebo_msgs/GetLightPropertiesRequest.h
 gazebo_msgs/GetLightPropertiesResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetLightPropertiesRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetLightPropertiesRequest.h
 string
 -
 vector
@@ -274,7 +274,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetLightPropertiesResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetLightPropertiesResponse.h
 string
 -
 vector
@@ -292,7 +292,7 @@ ros/message_operations.h
 std_msgs/ColorRGBA.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetLinkProperties.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetLinkProperties.h
 ros/service_traits.h
 -
 gazebo_msgs/GetLinkPropertiesRequest.h
@@ -300,7 +300,7 @@ gazebo_msgs/GetLinkPropertiesRequest.h
 gazebo_msgs/GetLinkPropertiesResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetLinkPropertiesRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetLinkPropertiesRequest.h
 string
 -
 vector
@@ -316,7 +316,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetLinkPropertiesResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetLinkPropertiesResponse.h
 string
 -
 vector
@@ -334,7 +334,7 @@ ros/message_operations.h
 geometry_msgs/Pose.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetLinkState.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetLinkState.h
 ros/service_traits.h
 -
 gazebo_msgs/GetLinkStateRequest.h
@@ -342,7 +342,7 @@ gazebo_msgs/GetLinkStateRequest.h
 gazebo_msgs/GetLinkStateResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetLinkStateRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetLinkStateRequest.h
 string
 -
 vector
@@ -358,7 +358,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetLinkStateResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetLinkStateResponse.h
 string
 -
 vector
@@ -376,7 +376,7 @@ ros/message_operations.h
 gazebo_msgs/LinkState.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetModelProperties.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetModelProperties.h
 ros/service_traits.h
 -
 gazebo_msgs/GetModelPropertiesRequest.h
@@ -384,7 +384,7 @@ gazebo_msgs/GetModelPropertiesRequest.h
 gazebo_msgs/GetModelPropertiesResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetModelPropertiesRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetModelPropertiesRequest.h
 string
 -
 vector
@@ -400,7 +400,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetModelPropertiesResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetModelPropertiesResponse.h
 string
 -
 vector
@@ -416,7 +416,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetModelState.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetModelState.h
 ros/service_traits.h
 -
 gazebo_msgs/GetModelStateRequest.h
@@ -424,7 +424,7 @@ gazebo_msgs/GetModelStateRequest.h
 gazebo_msgs/GetModelStateResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetModelStateRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetModelStateRequest.h
 string
 -
 vector
@@ -440,7 +440,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetModelStateResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetModelStateResponse.h
 string
 -
 vector
@@ -462,7 +462,7 @@ geometry_msgs/Pose.h
 geometry_msgs/Twist.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetPhysicsProperties.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetPhysicsProperties.h
 ros/service_traits.h
 -
 gazebo_msgs/GetPhysicsPropertiesRequest.h
@@ -470,7 +470,7 @@ gazebo_msgs/GetPhysicsPropertiesRequest.h
 gazebo_msgs/GetPhysicsPropertiesResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetPhysicsPropertiesRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetPhysicsPropertiesRequest.h
 string
 -
 vector
@@ -486,7 +486,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetPhysicsPropertiesResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetPhysicsPropertiesResponse.h
 string
 -
 vector
@@ -506,7 +506,7 @@ geometry_msgs/Vector3.h
 gazebo_msgs/ODEPhysics.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetWorldProperties.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetWorldProperties.h
 ros/service_traits.h
 -
 gazebo_msgs/GetWorldPropertiesRequest.h
@@ -514,7 +514,7 @@ gazebo_msgs/GetWorldPropertiesRequest.h
 gazebo_msgs/GetWorldPropertiesResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetWorldPropertiesRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetWorldPropertiesRequest.h
 string
 -
 vector
@@ -530,7 +530,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/GetWorldPropertiesResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/GetWorldPropertiesResponse.h
 string
 -
 vector
@@ -546,7 +546,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/JointRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/JointRequest.h
 ros/service_traits.h
 -
 gazebo_msgs/JointRequestRequest.h
@@ -554,7 +554,7 @@ gazebo_msgs/JointRequestRequest.h
 gazebo_msgs/JointRequestResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/JointRequestRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/JointRequestRequest.h
 string
 -
 vector
@@ -570,7 +570,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/JointRequestResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/JointRequestResponse.h
 string
 -
 vector
@@ -586,27 +586,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/LinkState.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-geometry_msgs/Pose.h
--
-geometry_msgs/Twist.h
--
-
-/home/ur3/catkin/devel/include/gazebo_msgs/LinkStates.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/LinkState.h
 string
 -
 vector
@@ -626,7 +606,7 @@ geometry_msgs/Pose.h
 geometry_msgs/Twist.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/ModelState.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/LinkStates.h
 string
 -
 vector
@@ -646,7 +626,7 @@ geometry_msgs/Pose.h
 geometry_msgs/Twist.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/ModelStates.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/ModelState.h
 string
 -
 vector
@@ -666,7 +646,27 @@ geometry_msgs/Pose.h
 geometry_msgs/Twist.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/ODEJointProperties.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/ModelStates.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+geometry_msgs/Pose.h
+-
+geometry_msgs/Twist.h
+-
+
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/ODEJointProperties.h
 string
 -
 vector
@@ -682,7 +682,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/ODEPhysics.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/ODEPhysics.h
 string
 -
 vector
@@ -698,7 +698,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetJointProperties.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetJointProperties.h
 ros/service_traits.h
 -
 gazebo_msgs/SetJointPropertiesRequest.h
@@ -706,7 +706,7 @@ gazebo_msgs/SetJointPropertiesRequest.h
 gazebo_msgs/SetJointPropertiesResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetJointPropertiesRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetJointPropertiesRequest.h
 string
 -
 vector
@@ -724,7 +724,7 @@ ros/message_operations.h
 gazebo_msgs/ODEJointProperties.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetJointPropertiesResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetJointPropertiesResponse.h
 string
 -
 vector
@@ -740,7 +740,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetLightProperties.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetLightProperties.h
 ros/service_traits.h
 -
 gazebo_msgs/SetLightPropertiesRequest.h
@@ -748,7 +748,7 @@ gazebo_msgs/SetLightPropertiesRequest.h
 gazebo_msgs/SetLightPropertiesResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetLightPropertiesRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetLightPropertiesRequest.h
 string
 -
 vector
@@ -766,7 +766,7 @@ ros/message_operations.h
 std_msgs/ColorRGBA.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetLightPropertiesResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetLightPropertiesResponse.h
 string
 -
 vector
@@ -782,7 +782,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetLinkProperties.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetLinkProperties.h
 ros/service_traits.h
 -
 gazebo_msgs/SetLinkPropertiesRequest.h
@@ -790,7 +790,7 @@ gazebo_msgs/SetLinkPropertiesRequest.h
 gazebo_msgs/SetLinkPropertiesResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetLinkPropertiesRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetLinkPropertiesRequest.h
 string
 -
 vector
@@ -808,7 +808,7 @@ ros/message_operations.h
 geometry_msgs/Pose.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetLinkPropertiesResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetLinkPropertiesResponse.h
 string
 -
 vector
@@ -824,7 +824,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetLinkState.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetLinkState.h
 ros/service_traits.h
 -
 gazebo_msgs/SetLinkStateRequest.h
@@ -832,7 +832,7 @@ gazebo_msgs/SetLinkStateRequest.h
 gazebo_msgs/SetLinkStateResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetLinkStateRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetLinkStateRequest.h
 string
 -
 vector
@@ -850,7 +850,7 @@ ros/message_operations.h
 gazebo_msgs/LinkState.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetLinkStateResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetLinkStateResponse.h
 string
 -
 vector
@@ -866,7 +866,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetModelConfiguration.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetModelConfiguration.h
 ros/service_traits.h
 -
 gazebo_msgs/SetModelConfigurationRequest.h
@@ -874,7 +874,7 @@ gazebo_msgs/SetModelConfigurationRequest.h
 gazebo_msgs/SetModelConfigurationResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetModelConfigurationRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetModelConfigurationRequest.h
 string
 -
 vector
@@ -890,7 +890,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetModelConfigurationResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetModelConfigurationResponse.h
 string
 -
 vector
@@ -906,7 +906,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetModelState.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetModelState.h
 ros/service_traits.h
 -
 gazebo_msgs/SetModelStateRequest.h
@@ -914,7 +914,7 @@ gazebo_msgs/SetModelStateRequest.h
 gazebo_msgs/SetModelStateResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetModelStateRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetModelStateRequest.h
 string
 -
 vector
@@ -932,7 +932,7 @@ ros/message_operations.h
 gazebo_msgs/ModelState.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetModelStateResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetModelStateResponse.h
 string
 -
 vector
@@ -948,7 +948,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetPhysicsProperties.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetPhysicsProperties.h
 ros/service_traits.h
 -
 gazebo_msgs/SetPhysicsPropertiesRequest.h
@@ -956,7 +956,7 @@ gazebo_msgs/SetPhysicsPropertiesRequest.h
 gazebo_msgs/SetPhysicsPropertiesResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetPhysicsPropertiesRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetPhysicsPropertiesRequest.h
 string
 -
 vector
@@ -976,7 +976,7 @@ geometry_msgs/Vector3.h
 gazebo_msgs/ODEPhysics.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SetPhysicsPropertiesResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SetPhysicsPropertiesResponse.h
 string
 -
 vector
@@ -992,7 +992,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SpawnModel.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SpawnModel.h
 ros/service_traits.h
 -
 gazebo_msgs/SpawnModelRequest.h
@@ -1000,7 +1000,7 @@ gazebo_msgs/SpawnModelRequest.h
 gazebo_msgs/SpawnModelResponse.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SpawnModelRequest.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SpawnModelRequest.h
 string
 -
 vector
@@ -1018,7 +1018,7 @@ ros/message_operations.h
 geometry_msgs/Pose.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_msgs/SpawnModelResponse.h
+/home/ur3/ECE470_Project/devel/include/gazebo_msgs/SpawnModelResponse.h
 string
 -
 vector
@@ -1034,7 +1034,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ur3/catkin/devel/include/gazebo_ros/PhysicsConfig.h
+/home/ur3/ECE470_Project/devel/include/gazebo_ros/PhysicsConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -1052,7 +1052,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_ros_api_plugin.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_ros_api_plugin.h
 stdio.h
 -
 stdlib.h
@@ -1082,65 +1082,65 @@ ros/package.h
 rosgraph_msgs/Clock.h
 -
 std_srvs/Empty.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/std_srvs/Empty.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/std_srvs/Empty.h
 gazebo_msgs/JointRequest.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/JointRequest.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/JointRequest.h
 gazebo_msgs/BodyRequest.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/BodyRequest.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/BodyRequest.h
 gazebo_msgs/SpawnModel.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/SpawnModel.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/SpawnModel.h
 gazebo_msgs/DeleteModel.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/DeleteModel.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/DeleteModel.h
 gazebo_msgs/DeleteLight.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/DeleteLight.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/DeleteLight.h
 gazebo_msgs/ApplyBodyWrench.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/ApplyBodyWrench.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/ApplyBodyWrench.h
 gazebo_msgs/SetPhysicsProperties.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/SetPhysicsProperties.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/SetPhysicsProperties.h
 gazebo_msgs/GetPhysicsProperties.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/GetPhysicsProperties.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/GetPhysicsProperties.h
 gazebo_msgs/SetJointProperties.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/SetJointProperties.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/SetJointProperties.h
 gazebo_msgs/GetWorldProperties.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/GetWorldProperties.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/GetWorldProperties.h
 gazebo_msgs/GetModelProperties.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/GetModelProperties.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/GetModelProperties.h
 gazebo_msgs/GetModelState.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/GetModelState.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/GetModelState.h
 gazebo_msgs/SetModelState.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/SetModelState.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/SetModelState.h
 gazebo_msgs/GetJointProperties.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/GetJointProperties.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/GetJointProperties.h
 gazebo_msgs/ApplyJointEffort.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/ApplyJointEffort.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/ApplyJointEffort.h
 gazebo_msgs/GetLinkProperties.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/GetLinkProperties.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/GetLinkProperties.h
 gazebo_msgs/SetLinkProperties.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/SetLinkProperties.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/SetLinkProperties.h
 gazebo_msgs/SetLinkState.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/SetLinkState.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/SetLinkState.h
 gazebo_msgs/GetLinkState.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/GetLinkState.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/GetLinkState.h
 gazebo_msgs/GetLightProperties.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/GetLightProperties.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/GetLightProperties.h
 gazebo_msgs/SetLightProperties.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/SetLightProperties.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/SetLightProperties.h
 gazebo_msgs/ModelState.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/ModelState.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/ModelState.h
 gazebo_msgs/LinkState.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/LinkState.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/LinkState.h
 gazebo_msgs/ModelStates.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/ModelStates.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/ModelStates.h
 gazebo_msgs/LinkStates.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/LinkStates.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/LinkStates.h
 geometry_msgs/Vector3.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/geometry_msgs/Vector3.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/geometry_msgs/Vector3.h
 geometry_msgs/Wrench.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/geometry_msgs/Wrench.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/geometry_msgs/Wrench.h
 geometry_msgs/Pose.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/geometry_msgs/Pose.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/geometry_msgs/Pose.h
 geometry_msgs/Twist.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/geometry_msgs/Twist.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/geometry_msgs/Twist.h
 ros/ros.h
 -
 gazebo_msgs/SetModelConfiguration.h
@@ -1152,13 +1152,13 @@ dynamic_reconfigure/server.h
 gazebo_ros/PhysicsConfig.h
 -
 gazebo_msgs/SetPhysicsProperties.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/SetPhysicsProperties.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/SetPhysicsProperties.h
 gazebo_msgs/GetPhysicsProperties.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/GetPhysicsProperties.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_msgs/GetPhysicsProperties.h
 boost/algorithm/string.hpp
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros_api_plugin.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros_api_plugin.cpp
 gazebo/common/Events.hh
 -
 gazebo/gazebo_config.h

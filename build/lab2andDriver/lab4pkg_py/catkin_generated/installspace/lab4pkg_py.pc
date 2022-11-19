@@ -1,0 +1,8 @@
+prefix=/home/ur3/ECE470_Project/install
+
+Name: lab4pkg_py
+Description: Description of lab4pkg_py
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

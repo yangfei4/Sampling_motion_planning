@@ -43,46 +43,46 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 # Utility rule file for ur3_driver_generate_messages_eus.
 
 # Include the progress variables for this target.
 include lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus.dir/progress.make
 
-lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus: /home/ur3/catkin/devel/share/roseus/ros/ur3_driver/msg/position.l
-lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus: /home/ur3/catkin/devel/share/roseus/ros/ur3_driver/msg/command.l
-lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus: /home/ur3/catkin/devel/share/roseus/ros/ur3_driver/msg/gripper_input.l
-lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus: /home/ur3/catkin/devel/share/roseus/ros/ur3_driver/manifest.l
+lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus: /home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/msg/command.l
+lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus: /home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/msg/gripper_input.l
+lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus: /home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/msg/position.l
+lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus: /home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/manifest.l
 
 
-/home/ur3/catkin/devel/share/roseus/ros/ur3_driver/msg/position.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/home/ur3/catkin/devel/share/roseus/ros/ur3_driver/msg/position.l: /home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/position.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ur3/catkin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from ur3_driver/position.msg"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/position.msg -Iur3_driver:/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur3_driver -o /home/ur3/catkin/devel/share/roseus/ros/ur3_driver/msg
+/home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/msg/command.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/msg/command.l: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/command.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ur3/ECE470_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from ur3_driver/command.msg"
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/command.msg -Iur3_driver:/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur3_driver -o /home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/msg
 
-/home/ur3/catkin/devel/share/roseus/ros/ur3_driver/msg/command.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/home/ur3/catkin/devel/share/roseus/ros/ur3_driver/msg/command.l: /home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/command.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ur3/catkin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from ur3_driver/command.msg"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/command.msg -Iur3_driver:/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur3_driver -o /home/ur3/catkin/devel/share/roseus/ros/ur3_driver/msg
+/home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/msg/gripper_input.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/msg/gripper_input.l: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ur3/ECE470_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from ur3_driver/gripper_input.msg"
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg -Iur3_driver:/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur3_driver -o /home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/msg
 
-/home/ur3/catkin/devel/share/roseus/ros/ur3_driver/msg/gripper_input.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/home/ur3/catkin/devel/share/roseus/ros/ur3_driver/msg/gripper_input.l: /home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ur3/catkin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from ur3_driver/gripper_input.msg"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg -Iur3_driver:/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur3_driver -o /home/ur3/catkin/devel/share/roseus/ros/ur3_driver/msg
+/home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/msg/position.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/msg/position.l: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/position.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ur3/ECE470_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from ur3_driver/position.msg"
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/position.msg -Iur3_driver:/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur3_driver -o /home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/msg
 
-/home/ur3/catkin/devel/share/roseus/ros/ur3_driver/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ur3/catkin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp manifest code for ur3_driver"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/ur3/catkin/devel/share/roseus/ros/ur3_driver ur3_driver std_msgs
+/home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ur3/ECE470_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp manifest code for ur3_driver"
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver ur3_driver std_msgs
 
 ur3_driver_generate_messages_eus: lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus
-ur3_driver_generate_messages_eus: /home/ur3/catkin/devel/share/roseus/ros/ur3_driver/msg/position.l
-ur3_driver_generate_messages_eus: /home/ur3/catkin/devel/share/roseus/ros/ur3_driver/msg/command.l
-ur3_driver_generate_messages_eus: /home/ur3/catkin/devel/share/roseus/ros/ur3_driver/msg/gripper_input.l
-ur3_driver_generate_messages_eus: /home/ur3/catkin/devel/share/roseus/ros/ur3_driver/manifest.l
+ur3_driver_generate_messages_eus: /home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/msg/command.l
+ur3_driver_generate_messages_eus: /home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/msg/gripper_input.l
+ur3_driver_generate_messages_eus: /home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/msg/position.l
+ur3_driver_generate_messages_eus: /home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/manifest.l
 ur3_driver_generate_messages_eus: lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus.dir/build.make
 
 .PHONY : ur3_driver_generate_messages_eus
@@ -93,10 +93,10 @@ lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus.dir
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus.dir/build
 
 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus.dir/clean:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver && $(CMAKE_COMMAND) -P CMakeFiles/ur3_driver_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver && $(CMAKE_COMMAND) -P CMakeFiles/ur3_driver_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus.dir/clean
 
 lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus.dir/depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/catkin/src /home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver /home/ur3/catkin/build /home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver /home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/ECE470_Project/src /home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver /home/ur3/ECE470_Project/build /home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver /home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver_generate_messages_eus.dir/depend
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/image_view_exe.dir/src/nodes/image_view.cpp.o"
-  "/home/ur3/catkin/devel/lib/image_view/image_view.pdb"
-  "/home/ur3/catkin/devel/lib/image_view/image_view"
+  "/home/ur3/ECE470_Project/devel/lib/image_view/image_view.pdb"
+  "/home/ur3/ECE470_Project/devel/lib/image_view/image_view"
 )
 
 # Per-language clean rules from dependency scanning.

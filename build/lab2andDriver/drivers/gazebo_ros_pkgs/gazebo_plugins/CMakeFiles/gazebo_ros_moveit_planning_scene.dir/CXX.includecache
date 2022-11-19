@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_moveit_planning_scene.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_moveit_planning_scene.h
 string
 -
 ros/callback_queue.h
@@ -34,7 +34,7 @@ std_srvs/Empty.h
 moveit_msgs/PlanningScene.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_moveit_planning_scene.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_moveit_planning_scene.cpp
 algorithm
 -
 assert.h

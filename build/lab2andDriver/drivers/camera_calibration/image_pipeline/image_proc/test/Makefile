@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/progress.marks
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/progress.marks
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/clean
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ run_tests_image_proc: lab2andDriver/drivers/camera_calibration/image_pipeline/im
 
 # fast build rule for target.
 run_tests_image_proc/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc.dir/build
 .PHONY : run_tests_image_proc/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ run_tests_image_proc_rostest: lab2andDriver/drivers/camera_calibration/image_pip
 
 # fast build rule for target.
 run_tests_image_proc_rostest/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest.dir/build
 .PHONY : run_tests_image_proc_rostest/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ _run_tests_image_proc: lab2andDriver/drivers/camera_calibration/image_pipeline/i
 
 # fast build rule for target.
 _run_tests_image_proc/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc.dir/build
 .PHONY : _run_tests_image_proc/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ image_proc_test_rectify: lab2andDriver/drivers/camera_calibration/image_pipeline
 
 # fast build rule for target.
 image_proc_test_rectify/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build
 .PHONY : image_proc_test_rectify/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ _run_tests_image_proc_rostest: lab2andDriver/drivers/camera_calibration/image_pi
 
 # fast build rule for target.
 _run_tests_image_proc_rostest/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest.dir/build
 .PHONY : _run_tests_image_proc_rostest/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest_test_test_rectify.xml.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest_test_test_rectify.xml.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest_test_test_rectify.xml.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest_test_test_rectify.xml.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ run_tests_image_proc_rostest_test_test_rectify.xml: lab2andDriver/drivers/camera
 
 # fast build rule for target.
 run_tests_image_proc_rostest_test_test_rectify.xml/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest_test_test_rectify.xml.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest_test_test_rectify.xml.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest_test_test_rectify.xml.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest_test_test_rectify.xml.dir/build
 .PHONY : run_tests_image_proc_rostest_test_test_rectify.xml/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ _run_tests_image_proc_rostest_test_test_rectify.xml: lab2andDriver/drivers/camer
 
 # fast build rule for target.
 _run_tests_image_proc_rostest_test_test_rectify.xml/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/build
 .PHONY : _run_tests_image_proc_rostest_test_test_rectify.xml/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/rule
 
 # Convenience name for target.
@@ -282,7 +282,7 @@ clean_test_results_image_proc: lab2andDriver/drivers/camera_calibration/image_pi
 
 # fast build rule for target.
 clean_test_results_image_proc/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/build
 .PHONY : clean_test_results_image_proc/fast
 
 test_rectify.o: test_rectify.cpp.o
@@ -291,7 +291,7 @@ test_rectify.o: test_rectify.cpp.o
 
 # target to build an object file
 test_rectify.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/test_rectify.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/test_rectify.cpp.o
 .PHONY : test_rectify.cpp.o
 
 test_rectify.i: test_rectify.cpp.i
@@ -300,7 +300,7 @@ test_rectify.i: test_rectify.cpp.i
 
 # target to preprocess a source file
 test_rectify.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/test_rectify.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/test_rectify.cpp.i
 .PHONY : test_rectify.cpp.i
 
 test_rectify.s: test_rectify.cpp.s
@@ -309,7 +309,7 @@ test_rectify.s: test_rectify.cpp.s
 
 # target to generate assembly for a file
 test_rectify.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/test_rectify.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/test_rectify.cpp.s
 .PHONY : test_rectify.cpp.s
 
 # Help Target
@@ -347,6 +347,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

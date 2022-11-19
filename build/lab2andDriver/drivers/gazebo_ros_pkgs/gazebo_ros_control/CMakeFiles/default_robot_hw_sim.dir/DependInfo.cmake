@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/src/default_robot_hw_sim.cpp" "/home/ur3/catkin/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.o"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/src/default_robot_hw_sim.cpp" "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/include"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/gazebo-7"

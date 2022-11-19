@@ -360,14 +360,20 @@
       <material>Gazebo/Grey</material>
     </gazebo>
 
-    <link name="${prefix}vacuum_gripper">
+    <link name="${prefix}Screw_gripper">
       <gravity>0</gravity>
       <visual>
         <origin rpy="0 0 0" xyz="0 0 0"/>
         <geometry>
-          <cylinder radius="0.005" length="0.01"/>
+          <!-- <cylinder radius="0.005" length="0.01"/> -->
+          <mesh filename="package://ur_description/meshes/ur3/visual/Screw_Gripper.dae" scale="1 1 1"/>
         </geometry>
       </visual>
+      <collision>
+        <geometry>
+          <mesh filename="package://ur_description/meshes/ur3/visual/Screw_Gripper.dae"/>
+        </geometry>
+      </collision>
       <inertial>
         <origin rpy="0 0 0" xyz="0.000000 0.000000 0.000000"/>
         <mass value="0.0001"/>
@@ -375,14 +381,16 @@
       </inertial>
     </link>
 
-    <gazebo reference="${prefix}vacuum_gripper">
-      <material>Gazebo/Black</material>
+    <gazebo reference="${prefix}Screw_gripper">
+        <material name="ChassisRed">
+          <color rgba="0.851 0.0 0.0 1.0"/>
+        </material>
     </gazebo>
 
     <joint name="${prefix}gripper_joint" type="revolute">
       <axis xyz="1 0 0" />
       <parent link="${prefix}ee_link" />
-      <child link="${prefix}vacuum_gripper" />
+      <child link="${prefix}Screw_gripper" />
       <origin rpy="0 1.5708 0" xyz="0.059 0.0535 0" />
       <limit effort="50" velocity="50" lower="0" upper="0" />
       <dynamics damping="0.0" friction="10"/>
@@ -391,7 +399,7 @@
     <gazebo>
       <plugin name="gazebo_ros_vacuum_gripper" filename="libgazebo_ros_vacuum_gripper.so">
         <robotNamespace>/gripper</robotNamespace>
-        <bodyName>${prefix}vacuum_gripper</bodyName>
+        <bodyName>${prefix}Screw_gripper</bodyName>
         <topicName>grasping</topicName>
         <maxForce>0.5</maxForce>
         <maxDistance>0.01</maxDistance>

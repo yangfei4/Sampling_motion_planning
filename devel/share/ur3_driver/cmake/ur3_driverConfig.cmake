@@ -67,14 +67,14 @@ set(ur3_driver_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(ur3_driver_SOURCE_PREFIX /home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver)
-  set(ur3_driver_DEVEL_PREFIX /home/ur3/catkin/devel)
+  set(ur3_driver_SOURCE_PREFIX /home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver)
+  set(ur3_driver_DEVEL_PREFIX /home/ur3/ECE470_Project/devel)
   set(ur3_driver_INSTALL_PREFIX "")
   set(ur3_driver_PREFIX ${ur3_driver_DEVEL_PREFIX})
 else()
   set(ur3_driver_SOURCE_PREFIX "")
   set(ur3_driver_DEVEL_PREFIX "")
-  set(ur3_driver_INSTALL_PREFIX /home/ur3/catkin/install)
+  set(ur3_driver_INSTALL_PREFIX /home/ur3/ECE470_Project/install)
   set(ur3_driver_PREFIX ${ur3_driver_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(ur3_driver_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/ur3/catkin/devel/include;/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/include " STREQUAL " ")
+if(NOT "/home/ur3/ECE470_Project/devel/include;/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/include " STREQUAL " ")
   set(ur3_driver_INCLUDE_DIRS "")
-  set(_include_dirs "/home/ur3/catkin/devel/include;/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/include")
+  set(_include_dirs "/home/ur3/ECE470_Project/devel/include;/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/ur3/catkin/devel/include;/home/ur3/catkin/src/lab2andDriver/driver
         message(FATAL_ERROR "Project 'ur3_driver' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'ur3_driver' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'ur3_driver' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/${idir}'.  ${_report}")
     endif()
     _list_append_unique(ur3_driver_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ur3/catkin/devel/lib;/home/ur3/catkin/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/ur3/ECE470_Project/devel/lib;/home/ur3/catkin/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

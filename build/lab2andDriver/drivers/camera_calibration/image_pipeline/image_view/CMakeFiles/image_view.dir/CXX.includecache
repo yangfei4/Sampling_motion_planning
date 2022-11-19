@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_view/src/nodelets/disparity_nodelet.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_view/src/nodelets/disparity_nodelet.cpp
 ros/ros.h
 -
 nodelet/nodelet.h
@@ -18,13 +18,13 @@ stereo_msgs/DisparityImage.h
 opencv2/highgui/highgui.hpp
 -
 window_thread.h
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_view/src/nodelets/window_thread.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_view/src/nodelets/window_thread.h
 gtk/gtk.h
 -
 pluginlib/class_list_macros.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_view/src/nodelets/image_nodelet.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_view/src/nodelets/image_nodelet.cpp
 ros/ros.h
 -
 nodelet/nodelet.h
@@ -36,7 +36,7 @@ cv_bridge/cv_bridge.h
 opencv2/highgui/highgui.hpp
 -
 window_thread.h
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_view/src/nodelets/window_thread.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_view/src/nodelets/window_thread.h
 boost/bind.hpp
 -
 boost/thread.hpp
@@ -46,15 +46,15 @@ boost/format.hpp
 pluginlib/class_list_macros.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_view/src/nodelets/window_thread.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_view/src/nodelets/window_thread.cpp
 window_thread.h
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_view/src/nodelets/window_thread.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_view/src/nodelets/window_thread.h
 opencv2/highgui/highgui.hpp
 -
 boost/thread.hpp
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_view/src/nodelets/window_thread.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_view/src/nodelets/window_thread.h
 
 /opt/ros/kinetic/include/class_loader/./class_loader.hpp
 boost/bind.hpp

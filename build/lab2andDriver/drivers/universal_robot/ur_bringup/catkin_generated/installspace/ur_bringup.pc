@@ -1,4 +1,4 @@
-prefix=/home/ur3/catkin/install
+prefix=/home/ur3/ECE470_Project/install
 
 Name: ur_bringup
 Description: Description of ur_bringup

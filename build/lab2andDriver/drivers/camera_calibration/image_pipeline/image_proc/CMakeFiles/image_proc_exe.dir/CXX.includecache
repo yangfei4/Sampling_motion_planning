@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/include/image_proc/advertisement_checker.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/include/image_proc/advertisement_checker.h
 ros/ros.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodes/image_proc.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodes/image_proc.cpp
 ros/ros.h
 -
 nodelet/loader.h

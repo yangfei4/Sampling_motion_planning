@@ -1,8 +1,8 @@
-# Install script for directory: /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration
+# Install script for directory: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ur3/catkin/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ur3/ECE470_Project/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,33 +33,33 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/catkin_generated/installspace/camera_calibration.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/catkin_generated/installspace/camera_calibration.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_calibration/cmake" TYPE FILE FILES
-    "/home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/catkin_generated/installspace/camera_calibrationConfig.cmake"
-    "/home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/catkin_generated/installspace/camera_calibrationConfig-version.cmake"
+    "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/catkin_generated/installspace/camera_calibrationConfig.cmake"
+    "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/catkin_generated/installspace/camera_calibrationConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_calibration" TYPE FILE FILES "/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_calibration" TYPE FILE FILES "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  include("/home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/catkin_generated/safe_execute_install.cmake")
+  include("/home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/camera_calibration" TYPE PROGRAM FILES "/home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/catkin_generated/installspace/cameracalibrator.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/camera_calibration" TYPE PROGRAM FILES "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/catkin_generated/installspace/cameracalibrator.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/camera_calibration" TYPE PROGRAM FILES "/home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/catkin_generated/installspace/cameracheck.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/camera_calibration" TYPE PROGRAM FILES "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/catkin_generated/installspace/cameracheck.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/camera_calibration" TYPE PROGRAM FILES "/home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/catkin_generated/installspace/tarfile_calibration.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/camera_calibration" TYPE PROGRAM FILES "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/camera_calibration/catkin_generated/installspace/tarfile_calibration.py")
 endif()
 

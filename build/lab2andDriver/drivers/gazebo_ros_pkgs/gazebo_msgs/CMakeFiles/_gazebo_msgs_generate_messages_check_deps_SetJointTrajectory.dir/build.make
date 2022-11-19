@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 # Utility rule file for _gazebo_msgs_generate_messages_check_deps_SetJointTrajectory.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ur3/catkin/build
 include lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/_gazebo_msgs_generate_messages_check_deps_SetJointTrajectory.dir/progress.make
 
 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/_gazebo_msgs_generate_messages_check_deps_SetJointTrajectory:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py gazebo_msgs /home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/srv/SetJointTrajectory.srv std_msgs/Header:geometry_msgs/Quaternion:trajectory_msgs/JointTrajectory:geometry_msgs/Point:trajectory_msgs/JointTrajectoryPoint:geometry_msgs/Pose
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py gazebo_msgs /home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/srv/SetJointTrajectory.srv std_msgs/Header:geometry_msgs/Quaternion:trajectory_msgs/JointTrajectory:geometry_msgs/Point:trajectory_msgs/JointTrajectoryPoint:geometry_msgs/Pose
 
 _gazebo_msgs_generate_messages_check_deps_SetJointTrajectory: lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/_gazebo_msgs_generate_messages_check_deps_SetJointTrajectory
 _gazebo_msgs_generate_messages_check_deps_SetJointTrajectory: lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/_gazebo_msgs_generate_messages_check_deps_SetJointTrajectory.dir/build.make
@@ -67,10 +67,10 @@ lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/_gazebo_msgs_genera
 .PHONY : lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/_gazebo_msgs_generate_messages_check_deps_SetJointTrajectory.dir/build
 
 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/_gazebo_msgs_generate_messages_check_deps_SetJointTrajectory.dir/clean:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_gazebo_msgs_generate_messages_check_deps_SetJointTrajectory.dir/cmake_clean.cmake
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_gazebo_msgs_generate_messages_check_deps_SetJointTrajectory.dir/cmake_clean.cmake
 .PHONY : lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/_gazebo_msgs_generate_messages_check_deps_SetJointTrajectory.dir/clean
 
 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/_gazebo_msgs_generate_messages_check_deps_SetJointTrajectory.dir/depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/catkin/src /home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs /home/ur3/catkin/build /home/ur3/catkin/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs /home/ur3/catkin/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/_gazebo_msgs_generate_messages_check_deps_SetJointTrajectory.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/ECE470_Project/src /home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs /home/ur3/ECE470_Project/build /home/ur3/ECE470_Project/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs /home/ur3/ECE470_Project/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/_gazebo_msgs_generate_messages_check_deps_SetJointTrajectory.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/_gazebo_msgs_generate_messages_check_deps_SetJointTrajectory.dir/depend
 

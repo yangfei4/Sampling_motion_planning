@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 # Utility rule file for _run_tests_cv_camera_rostest_test_no_yaml.test.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ur3/catkin/build
 include lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test.dir/progress.make
 
 lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/cv_camera && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/ur3/catkin/build/test_results/cv_camera/rostest-test_no_yaml.xml "/opt/ros/kinetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/ur3/catkin/src/lab2andDriver/drivers/cv_camera --package=cv_camera --results-filename test_no_yaml.xml --results-base-dir \"/home/ur3/catkin/build/test_results\" /home/ur3/catkin/src/lab2andDriver/drivers/cv_camera/test/no_yaml.test "
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/cv_camera && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/ur3/ECE470_Project/build/test_results/cv_camera/rostest-test_no_yaml.xml "/opt/ros/kinetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/ur3/ECE470_Project/src/lab2andDriver/drivers/cv_camera --package=cv_camera --results-filename test_no_yaml.xml --results-base-dir \"/home/ur3/ECE470_Project/build/test_results\" /home/ur3/ECE470_Project/src/lab2andDriver/drivers/cv_camera/test/no_yaml.test "
 
 _run_tests_cv_camera_rostest_test_no_yaml.test: lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test
 _run_tests_cv_camera_rostest_test_no_yaml.test: lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test.dir/build.make
@@ -67,10 +67,10 @@ lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test.dir/build
 
 lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test.dir/clean:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/cv_camera && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test.dir/cmake_clean.cmake
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/cv_camera && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test.dir/cmake_clean.cmake
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test.dir/clean
 
 lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test.dir/depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/catkin/src /home/ur3/catkin/src/lab2andDriver/drivers/cv_camera /home/ur3/catkin/build /home/ur3/catkin/build/lab2andDriver/drivers/cv_camera /home/ur3/catkin/build/lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/ECE470_Project/src /home/ur3/ECE470_Project/src/lab2andDriver/drivers/cv_camera /home/ur3/ECE470_Project/build /home/ur3/ECE470_Project/build/lab2andDriver/drivers/cv_camera /home/ur3/ECE470_Project/build/lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab2andDriver/drivers/cv_camera/CMakeFiles/_run_tests_cv_camera_rostest_test_no_yaml.test.dir/depend
 

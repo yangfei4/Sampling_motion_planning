@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/include/gazebo_ros_control/gazebo_ros_control_plugin.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/include/gazebo_ros_control/gazebo_ros_control_plugin.h
 boost/shared_ptr.hpp
 -
 boost/thread.hpp
@@ -30,7 +30,7 @@ controller_manager/controller_manager.h
 transmission_interface/transmission_parser.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/include/gazebo_ros_control/robot_hw_sim.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/include/gazebo_ros_control/robot_hw_sim.h
 gazebo/physics/physics.hh
 -
 ros/ros.h
@@ -42,7 +42,7 @@ transmission_interface/transmission_info.h
 urdf/model.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/src/gazebo_ros_control_plugin.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/src/gazebo_ros_control_plugin.cpp
 boost/bind.hpp
 -
 gazebo_ros_control/gazebo_ros_control_plugin.h

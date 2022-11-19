@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/ur3/catkin/src/lab2andDriver/drivers/cv_camera/include/cv_camera/capture.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/cv_camera/include/cv_camera/capture.h
 cv_camera/exception.h
-/home/ur3/catkin/src/lab2andDriver/drivers/cv_camera/include/cv_camera/cv_camera/exception.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/cv_camera/include/cv_camera/cv_camera/exception.h
 string
 -
 ros/ros.h
@@ -26,19 +26,19 @@ opencv2/highgui/highgui.hpp
 camera_info_manager/camera_info_manager.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/cv_camera/include/cv_camera/driver.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/cv_camera/include/cv_camera/driver.h
 cv_camera/capture.h
-/home/ur3/catkin/src/lab2andDriver/drivers/cv_camera/include/cv_camera/cv_camera/capture.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/cv_camera/include/cv_camera/cv_camera/capture.h
 
-/home/ur3/catkin/src/lab2andDriver/drivers/cv_camera/include/cv_camera/exception.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/cv_camera/include/cv_camera/exception.h
 stdexcept
 -
 string
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/cv_camera/src/cv_camera_node.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/cv_camera/src/cv_camera_node.cpp
 cv_camera/driver.h
-/home/ur3/catkin/src/lab2andDriver/drivers/cv_camera/src/cv_camera/driver.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/cv_camera/src/cv_camera/driver.h
 
 /opt/ros/kinetic/include/camera_info_manager/camera_info_manager.h
 ros/ros.h

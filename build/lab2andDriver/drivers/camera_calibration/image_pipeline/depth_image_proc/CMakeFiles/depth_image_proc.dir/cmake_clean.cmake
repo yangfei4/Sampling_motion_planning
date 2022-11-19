@@ -8,8 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.o"
   "CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.o"
   "CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.o"
-  "/home/ur3/catkin/devel/lib/libdepth_image_proc.pdb"
-  "/home/ur3/catkin/devel/lib/libdepth_image_proc.so"
+  "/home/ur3/ECE470_Project/devel/lib/libdepth_image_proc.pdb"
+  "/home/ur3/ECE470_Project/devel/lib/libdepth_image_proc.so"
 )
 
 # Per-language clean rules from dependency scanning.

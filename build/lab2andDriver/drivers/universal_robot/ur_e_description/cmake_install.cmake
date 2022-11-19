@@ -1,8 +1,8 @@
-# Install script for directory: /home/ur3/catkin/src/lab2andDriver/drivers/universal_robot/ur_e_description
+# Install script for directory: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/universal_robot/ur_e_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ur3/catkin/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ur3/ECE470_Project/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,29 +33,29 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_e_description/catkin_generated/installspace/ur_e_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_e_description/catkin_generated/installspace/ur_e_description.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_e_description/cmake" TYPE FILE FILES
-    "/home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_e_description/catkin_generated/installspace/ur_e_descriptionConfig.cmake"
-    "/home/ur3/catkin/build/lab2andDriver/drivers/universal_robot/ur_e_description/catkin_generated/installspace/ur_e_descriptionConfig-version.cmake"
+    "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_e_description/catkin_generated/installspace/ur_e_descriptionConfig.cmake"
+    "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/universal_robot/ur_e_description/catkin_generated/installspace/ur_e_descriptionConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_e_description" TYPE FILE FILES "/home/ur3/catkin/src/lab2andDriver/drivers/universal_robot/ur_e_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_e_description" TYPE FILE FILES "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/universal_robot/ur_e_description/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_e_description" TYPE DIRECTORY FILES "/home/ur3/catkin/src/lab2andDriver/drivers/universal_robot/ur_e_description/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_e_description" TYPE DIRECTORY FILES "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/universal_robot/ur_e_description/launch")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_e_description" TYPE DIRECTORY FILES "/home/ur3/catkin/src/lab2andDriver/drivers/universal_robot/ur_e_description/urdf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_e_description" TYPE DIRECTORY FILES "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/universal_robot/ur_e_description/urdf")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_e_description" TYPE DIRECTORY FILES "/home/ur3/catkin/src/lab2andDriver/drivers/universal_robot/ur_e_description/meshes")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_e_description" TYPE DIRECTORY FILES "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/universal_robot/ur_e_description/meshes")
 endif()
 

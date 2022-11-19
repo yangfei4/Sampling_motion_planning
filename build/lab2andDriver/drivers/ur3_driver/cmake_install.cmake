@@ -1,8 +1,8 @@
-# Install script for directory: /home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver
+# Install script for directory: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ur3/catkin/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ur3/ECE470_Project/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,61 +34,61 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3_driver/msg" TYPE FILE FILES
-    "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/command.msg"
-    "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/position.msg"
-    "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg"
+    "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/command.msg"
+    "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/position.msg"
+    "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/msg/gripper_input.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3_driver/cmake" TYPE FILE FILES "/home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver/catkin_generated/installspace/ur3_driver-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3_driver/cmake" TYPE FILE FILES "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver/catkin_generated/installspace/ur3_driver-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ur3/catkin/devel/include/ur3_driver")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ur3/ECE470_Project/devel/include/ur3_driver")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ur3/catkin/devel/share/roseus/ros/ur3_driver")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ur3/catkin/devel/share/common-lisp/ros/ur3_driver")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ur3/ECE470_Project/devel/share/common-lisp/ros/ur3_driver")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ur3/catkin/devel/share/gennodejs/ros/ur3_driver")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ur3/ECE470_Project/devel/share/gennodejs/ros/ur3_driver")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/ur3/catkin/devel/lib/python2.7/dist-packages/ur3_driver")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/ur3/ECE470_Project/devel/lib/python2.7/dist-packages/ur3_driver")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/ur3/catkin/devel/lib/python2.7/dist-packages/ur3_driver")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/ur3/ECE470_Project/devel/lib/python2.7/dist-packages/ur3_driver")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver/catkin_generated/installspace/ur3_driver.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver/catkin_generated/installspace/ur3_driver.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3_driver/cmake" TYPE FILE FILES "/home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver/catkin_generated/installspace/ur3_driver-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3_driver/cmake" TYPE FILE FILES "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver/catkin_generated/installspace/ur3_driver-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3_driver/cmake" TYPE FILE FILES
-    "/home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver/catkin_generated/installspace/ur3_driverConfig.cmake"
-    "/home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver/catkin_generated/installspace/ur3_driverConfig-version.cmake"
+    "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver/catkin_generated/installspace/ur3_driverConfig.cmake"
+    "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver/catkin_generated/installspace/ur3_driverConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3_driver" TYPE FILE FILES "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3_driver" TYPE FILE FILES "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3_driver/launch" TYPE DIRECTORY FILES "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur3_driver/launch" TYPE DIRECTORY FILES "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/launch/")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -98,7 +98,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3_driver/ur3_driver"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ur3_driver" TYPE EXECUTABLE FILES "/home/ur3/catkin/devel/lib/ur3_driver/ur3_driver")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ur3_driver" TYPE EXECUTABLE FILES "/home/ur3/ECE470_Project/devel/lib/ur3_driver/ur3_driver")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3_driver/ur3_driver" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3_driver/ur3_driver")
     file(RPATH_CHANGE
@@ -112,6 +112,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ur3_driver" TYPE DIRECTORY FILES "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/include/ur3_driver/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ur3_driver" TYPE DIRECTORY FILES "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/include/ur3_driver/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
 endif()
 

@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "gazebo_dev"
-PROJECT_SPACE_DIR = "/home/ur3/catkin/devel"
+PROJECT_SPACE_DIR = "/home/ur3/ECE470_Project/devel"
 PROJECT_VERSION = "2.5.20"

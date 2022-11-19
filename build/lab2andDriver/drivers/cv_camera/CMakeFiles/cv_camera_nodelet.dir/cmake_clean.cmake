@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cv_camera_nodelet.dir/src/cv_camera_nodelet.cpp.o"
-  "/home/ur3/catkin/devel/lib/libcv_camera_nodelet.pdb"
-  "/home/ur3/catkin/devel/lib/libcv_camera_nodelet.so"
+  "/home/ur3/ECE470_Project/devel/lib/libcv_camera_nodelet.pdb"
+  "/home/ur3/ECE470_Project/devel/lib/libcv_camera_nodelet.so"
 )
 
 # Per-language clean rules from dependency scanning.

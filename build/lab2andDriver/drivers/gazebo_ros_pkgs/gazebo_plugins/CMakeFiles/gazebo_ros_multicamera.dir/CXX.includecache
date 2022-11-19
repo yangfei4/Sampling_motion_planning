@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ur3/catkin/devel/include/gazebo_plugins/GazeboRosCameraConfig.h
+/home/ur3/ECE470_Project/devel/include/gazebo_plugins/GazeboRosCameraConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -24,7 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/MultiCameraPlugin.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/MultiCameraPlugin.h
 string
 -
 vector
@@ -38,7 +38,7 @@ gazebo/rendering/Camera.hh
 gazebo/gazebo.hh
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_camera_utils.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_camera_utils.h
 string
 -
 boost/thread.hpp
@@ -84,7 +84,7 @@ gazebo/plugins/CameraPlugin.hh
 gazebo_plugins/gazebo_ros_utils.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_multicamera.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_multicamera.h
 string
 -
 vector
@@ -94,7 +94,7 @@ gazebo_plugins/gazebo_ros_camera_utils.h
 gazebo_plugins/MultiCameraPlugin.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_utils.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_utils.h
 map
 -
 boost/algorithm/string.hpp
@@ -110,7 +110,7 @@ gazebo/gazebo_config.h
 ros/ros.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_multicamera.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_multicamera.cpp
 string
 -
 gazebo/sensors/Sensor.hh
@@ -120,7 +120,7 @@ gazebo/sensors/MultiCameraSensor.hh
 gazebo/sensors/SensorTypes.hh
 -
 gazebo_plugins/gazebo_ros_multicamera.h
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_plugins/gazebo_ros_multicamera.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_plugins/gazebo_ros_multicamera.h
 
 /opt/ros/kinetic/include/boost_161_condition_variable.h
 boost/thread/detail/platform.hpp

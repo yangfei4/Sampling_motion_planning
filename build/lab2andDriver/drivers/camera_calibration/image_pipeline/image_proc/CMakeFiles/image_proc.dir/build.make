@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 # Include any dependencies generated for this target.
 include lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/depend.make
@@ -58,17 +58,17 @@ include lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMake
 include lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/flags.make
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.o: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/flags.make
-lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.o: /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/processor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ur3/catkin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.o"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.o -c /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/processor.cpp
+lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.o: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/processor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ur3/ECE470_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.o"
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.o -c /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/processor.cpp
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.i"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/processor.cpp > CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.i
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/processor.cpp > CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.i
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.s"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/processor.cpp -o CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.s
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/processor.cpp -o CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.s
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.o.requires:
 
@@ -82,17 +82,17 @@ lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/im
 
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.o: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/flags.make
-lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.o: /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/debayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ur3/catkin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.o"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.o -c /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/debayer.cpp
+lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.o: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/debayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ur3/ECE470_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.o"
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.o -c /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/debayer.cpp
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.i"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/debayer.cpp > CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.i
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/debayer.cpp > CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.i
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.s"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/debayer.cpp -o CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.s
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/debayer.cpp -o CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.s
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.o.requires:
 
@@ -106,17 +106,17 @@ lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/im
 
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.o: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/flags.make
-lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.o: /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/rectify.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ur3/catkin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.o"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.o -c /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/rectify.cpp
+lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.o: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/rectify.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ur3/ECE470_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.o"
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.o -c /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/rectify.cpp
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.i"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/rectify.cpp > CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.i
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/rectify.cpp > CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.i
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.s"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/rectify.cpp -o CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.s
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/rectify.cpp -o CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.s
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.o.requires:
 
@@ -130,17 +130,17 @@ lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/im
 
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.o: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/flags.make
-lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.o: /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/resize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ur3/catkin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.o"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.o -c /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/resize.cpp
+lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.o: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/resize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ur3/ECE470_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.o"
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.o -c /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/resize.cpp
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.i"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/resize.cpp > CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.i
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/resize.cpp > CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.i
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.s"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/resize.cpp -o CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.s
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/resize.cpp -o CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.s
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.o.requires:
 
@@ -154,17 +154,17 @@ lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/im
 
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.o: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/flags.make
-lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.o: /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_decimate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ur3/catkin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.o"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.o -c /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_decimate.cpp
+lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.o: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_decimate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ur3/ECE470_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.o"
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.o -c /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_decimate.cpp
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.i"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_decimate.cpp > CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.i
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_decimate.cpp > CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.i
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.s"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_decimate.cpp -o CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.s
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_decimate.cpp -o CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.s
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.o.requires:
 
@@ -178,17 +178,17 @@ lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/im
 
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.o: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/flags.make
-lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.o: /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/advertisement_checker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ur3/catkin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.o"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.o -c /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/advertisement_checker.cpp
+lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.o: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/advertisement_checker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ur3/ECE470_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.o"
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.o -c /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/advertisement_checker.cpp
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.i"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/advertisement_checker.cpp > CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.i
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/advertisement_checker.cpp > CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.i
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.s"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/advertisement_checker.cpp -o CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.s
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/libimage_proc/advertisement_checker.cpp -o CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.s
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.o.requires:
 
@@ -202,17 +202,17 @@ lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/im
 
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.o: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/flags.make
-lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.o: /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/edge_aware.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ur3/catkin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.o"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.o -c /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/edge_aware.cpp
+lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.o: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/edge_aware.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ur3/ECE470_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.o"
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.o -c /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/edge_aware.cpp
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.i"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/edge_aware.cpp > CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.i
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/edge_aware.cpp > CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.i
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.s"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/edge_aware.cpp -o CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.s
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/edge_aware.cpp -o CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.s
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.o.requires:
 
@@ -226,17 +226,17 @@ lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/im
 
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.o: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/flags.make
-lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.o: /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_non_zero.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ur3/catkin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.o"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.o -c /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_non_zero.cpp
+lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.o: /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_non_zero.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ur3/ECE470_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.o"
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.o -c /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_non_zero.cpp
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.i"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_non_zero.cpp > CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.i
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_non_zero.cpp > CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.i
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.s"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_non_zero.cpp -o CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.s
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/src/nodelets/crop_non_zero.cpp -o CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.s
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.o.requires:
 
@@ -263,154 +263,154 @@ image_proc_OBJECTS = \
 # External object files for target image_proc
 image_proc_EXTERNAL_OBJECTS =
 
-/home/ur3/catkin/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.o
-/home/ur3/catkin/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.o
-/home/ur3/catkin/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.o
-/home/ur3/catkin/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.o
-/home/ur3/catkin/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.o
-/home/ur3/catkin/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.o
-/home/ur3/catkin/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.o
-/home/ur3/catkin/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.o
-/home/ur3/catkin/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libcv_bridge.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libimage_geometry.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libimage_transport.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libnodeletlib.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libbondcpp.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/libPocoFoundation.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libroslib.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/librospack.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/librostime.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
-/home/ur3/catkin/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ur3/catkin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library /home/ur3/catkin/devel/lib/libimage_proc.so"
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/image_proc.dir/link.txt --verbose=$(VERBOSE)
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.o
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.o
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.o
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.o
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.o
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.o
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.o
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.o
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libcv_bridge.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libimage_geometry.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libimage_transport.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libnodeletlib.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libbondcpp.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/libPocoFoundation.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libroslib.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/librospack.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/librostime.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/home/ur3/ECE470_Project/devel/lib/libimage_proc.so: lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ur3/ECE470_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library /home/ur3/ECE470_Project/devel/lib/libimage_proc.so"
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/image_proc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build: /home/ur3/catkin/devel/lib/libimage_proc.so
+lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build: /home/ur3/ECE470_Project/devel/lib/libimage_proc.so
 
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/build
 
@@ -426,10 +426,10 @@ lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/im
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/requires
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/clean:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && $(CMAKE_COMMAND) -P CMakeFiles/image_proc.dir/cmake_clean.cmake
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc && $(CMAKE_COMMAND) -P CMakeFiles/image_proc.dir/cmake_clean.cmake
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/clean
 
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/catkin/src /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc /home/ur3/catkin/build /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/ECE470_Project/src /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc /home/ur3/ECE470_Project/build /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_proc/CMakeFiles/image_proc.dir/depend
 

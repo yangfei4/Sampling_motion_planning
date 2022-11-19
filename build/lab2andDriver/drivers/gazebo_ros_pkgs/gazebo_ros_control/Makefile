@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles /home/ur3/catkin/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/progress.marks
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles /home/ur3/ECE470_Project/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/progress.marks
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/clean
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_lisp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_lisp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_lisp.dir/rule
 .PHONY : lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ control_toolbox_generate_messages_lisp: lab2andDriver/drivers/gazebo_ros_pkgs/ga
 
 # fast build rule for target.
 control_toolbox_generate_messages_lisp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_lisp.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_lisp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_lisp.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_lisp.dir/build
 .PHONY : control_toolbox_generate_messages_lisp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_eus.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_eus.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_eus.dir/rule
 .PHONY : lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ control_toolbox_generate_messages_eus: lab2andDriver/drivers/gazebo_ros_pkgs/gaz
 
 # fast build rule for target.
 control_toolbox_generate_messages_eus/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_eus.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_eus.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_eus.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_eus.dir/build
 .PHONY : control_toolbox_generate_messages_eus/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_cpp.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_cpp.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_cpp.dir/rule
 .PHONY : lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ control_toolbox_generate_messages_cpp: lab2andDriver/drivers/gazebo_ros_pkgs/gaz
 
 # fast build rule for target.
 control_toolbox_generate_messages_cpp/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_cpp.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_cpp.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_cpp.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_cpp.dir/build
 .PHONY : control_toolbox_generate_messages_cpp/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/rule
 .PHONY : lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ default_robot_hw_sim: lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/C
 
 # fast build rule for target.
 default_robot_hw_sim/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/build
 .PHONY : default_robot_hw_sim/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_gencfg.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_gencfg.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_gencfg.dir/rule
 .PHONY : lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_gencfg.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ control_toolbox_gencfg: lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control
 
 # fast build rule for target.
 control_toolbox_gencfg/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_gencfg.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_gencfg.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_gencfg.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_gencfg.dir/build
 .PHONY : control_toolbox_gencfg/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_py.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_py.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_py.dir/rule
 .PHONY : lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ control_toolbox_generate_messages_py: lab2andDriver/drivers/gazebo_ros_pkgs/gaze
 
 # fast build rule for target.
 control_toolbox_generate_messages_py/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_py.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_py.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_py.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_py.dir/build
 .PHONY : control_toolbox_generate_messages_py/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_nodejs.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_nodejs.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_nodejs.dir/rule
 .PHONY : lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ control_toolbox_generate_messages_nodejs: lab2andDriver/drivers/gazebo_ros_pkgs/
 
 # fast build rule for target.
 control_toolbox_generate_messages_nodejs/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_nodejs.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_nodejs.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/control_toolbox_generate_messages_nodejs.dir/build
 .PHONY : control_toolbox_generate_messages_nodejs/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/rule
 .PHONY : lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/rule
 
 # Convenience name for target.
@@ -282,7 +282,7 @@ gazebo_ros_control: lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMa
 
 # fast build rule for target.
 gazebo_ros_control/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/build
 .PHONY : gazebo_ros_control/fast
 
 src/default_robot_hw_sim.o: src/default_robot_hw_sim.cpp.o
@@ -291,7 +291,7 @@ src/default_robot_hw_sim.o: src/default_robot_hw_sim.cpp.o
 
 # target to build an object file
 src/default_robot_hw_sim.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.o
 .PHONY : src/default_robot_hw_sim.cpp.o
 
 src/default_robot_hw_sim.i: src/default_robot_hw_sim.cpp.i
@@ -300,7 +300,7 @@ src/default_robot_hw_sim.i: src/default_robot_hw_sim.cpp.i
 
 # target to preprocess a source file
 src/default_robot_hw_sim.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.i
 .PHONY : src/default_robot_hw_sim.cpp.i
 
 src/default_robot_hw_sim.s: src/default_robot_hw_sim.cpp.s
@@ -309,7 +309,7 @@ src/default_robot_hw_sim.s: src/default_robot_hw_sim.cpp.s
 
 # target to generate assembly for a file
 src/default_robot_hw_sim.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/default_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.s
 .PHONY : src/default_robot_hw_sim.cpp.s
 
 src/gazebo_ros_control_plugin.o: src/gazebo_ros_control_plugin.cpp.o
@@ -318,7 +318,7 @@ src/gazebo_ros_control_plugin.o: src/gazebo_ros_control_plugin.cpp.o
 
 # target to build an object file
 src/gazebo_ros_control_plugin.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/src/gazebo_ros_control_plugin.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/src/gazebo_ros_control_plugin.cpp.o
 .PHONY : src/gazebo_ros_control_plugin.cpp.o
 
 src/gazebo_ros_control_plugin.i: src/gazebo_ros_control_plugin.cpp.i
@@ -327,7 +327,7 @@ src/gazebo_ros_control_plugin.i: src/gazebo_ros_control_plugin.cpp.i
 
 # target to preprocess a source file
 src/gazebo_ros_control_plugin.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/src/gazebo_ros_control_plugin.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/src/gazebo_ros_control_plugin.cpp.i
 .PHONY : src/gazebo_ros_control_plugin.cpp.i
 
 src/gazebo_ros_control_plugin.s: src/gazebo_ros_control_plugin.cpp.s
@@ -336,7 +336,7 @@ src/gazebo_ros_control_plugin.s: src/gazebo_ros_control_plugin.cpp.s
 
 # target to generate assembly for a file
 src/gazebo_ros_control_plugin.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/src/gazebo_ros_control_plugin.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/build.make lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/CMakeFiles/gazebo_ros_control.dir/src/gazebo_ros_control_plugin.cpp.s
 .PHONY : src/gazebo_ros_control_plugin.cpp.s
 
 # Help Target
@@ -377,6 +377,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

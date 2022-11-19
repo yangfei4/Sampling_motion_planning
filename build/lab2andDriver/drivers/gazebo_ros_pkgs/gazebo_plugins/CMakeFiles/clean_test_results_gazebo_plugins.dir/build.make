@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 # Utility rule file for clean_test_results_gazebo_plugins.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ur3/catkin/build
 include lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/clean_test_results_gazebo_plugins.dir/progress.make
 
 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/clean_test_results_gazebo_plugins:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/ur3/catkin/build/test_results/gazebo_plugins
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/ur3/ECE470_Project/build/test_results/gazebo_plugins
 
 clean_test_results_gazebo_plugins: lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/clean_test_results_gazebo_plugins
 clean_test_results_gazebo_plugins: lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/clean_test_results_gazebo_plugins.dir/build.make
@@ -67,10 +67,10 @@ lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/clean_test_resul
 .PHONY : lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/clean_test_results_gazebo_plugins.dir/build
 
 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/clean_test_results_gazebo_plugins.dir/clean:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_gazebo_plugins.dir/cmake_clean.cmake
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_gazebo_plugins.dir/cmake_clean.cmake
 .PHONY : lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/clean_test_results_gazebo_plugins.dir/clean
 
 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/clean_test_results_gazebo_plugins.dir/depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/catkin/src /home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins /home/ur3/catkin/build /home/ur3/catkin/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins /home/ur3/catkin/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/clean_test_results_gazebo_plugins.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/ECE470_Project/src /home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins /home/ur3/ECE470_Project/build /home/ur3/ECE470_Project/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins /home/ur3/ECE470_Project/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/clean_test_results_gazebo_plugins.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/clean_test_results_gazebo_plugins.dir/depend
 

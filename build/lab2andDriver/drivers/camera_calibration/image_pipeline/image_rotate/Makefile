@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles /home/ur3/catkin/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/progress.marks
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/catkin/build/CMakeFiles 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles /home/ur3/ECE470_Project/build/lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/progress.marks
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur3/ECE470_Project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/clean
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/preinstall
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ image_rotate_gencfg: lab2andDriver/drivers/camera_calibration/image_pipeline/ima
 
 # fast build rule for target.
 image_rotate_gencfg/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/build
 .PHONY : image_rotate_gencfg/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ image_rotate: lab2andDriver/drivers/camera_calibration/image_pipeline/image_rota
 
 # fast build rule for target.
 image_rotate/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build
 .PHONY : image_rotate/fast
 
 # Convenience name for target.
 lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/rule:
-	cd /home/ur3/catkin/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/rule
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f CMakeFiles/Makefile2 lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/rule
 .PHONY : lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/rule
 
 # Convenience name for target.
@@ -207,7 +207,7 @@ image_rotate_exe: lab2andDriver/drivers/camera_calibration/image_pipeline/image_
 
 # fast build rule for target.
 image_rotate_exe/fast:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build
 .PHONY : image_rotate_exe/fast
 
 src/node/image_rotate.o: src/node/image_rotate.cpp.o
@@ -216,7 +216,7 @@ src/node/image_rotate.o: src/node/image_rotate.cpp.o
 
 # target to build an object file
 src/node/image_rotate.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/src/node/image_rotate.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/src/node/image_rotate.cpp.o
 .PHONY : src/node/image_rotate.cpp.o
 
 src/node/image_rotate.i: src/node/image_rotate.cpp.i
@@ -225,7 +225,7 @@ src/node/image_rotate.i: src/node/image_rotate.cpp.i
 
 # target to preprocess a source file
 src/node/image_rotate.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/src/node/image_rotate.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/src/node/image_rotate.cpp.i
 .PHONY : src/node/image_rotate.cpp.i
 
 src/node/image_rotate.s: src/node/image_rotate.cpp.s
@@ -234,7 +234,7 @@ src/node/image_rotate.s: src/node/image_rotate.cpp.s
 
 # target to generate assembly for a file
 src/node/image_rotate.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/src/node/image_rotate.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/src/node/image_rotate.cpp.s
 .PHONY : src/node/image_rotate.cpp.s
 
 src/nodelet/image_rotate_nodelet.o: src/nodelet/image_rotate_nodelet.cpp.o
@@ -243,7 +243,7 @@ src/nodelet/image_rotate_nodelet.o: src/nodelet/image_rotate_nodelet.cpp.o
 
 # target to build an object file
 src/nodelet/image_rotate_nodelet.cpp.o:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.o
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.o
 .PHONY : src/nodelet/image_rotate_nodelet.cpp.o
 
 src/nodelet/image_rotate_nodelet.i: src/nodelet/image_rotate_nodelet.cpp.i
@@ -252,7 +252,7 @@ src/nodelet/image_rotate_nodelet.i: src/nodelet/image_rotate_nodelet.cpp.i
 
 # target to preprocess a source file
 src/nodelet/image_rotate_nodelet.cpp.i:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.i
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.i
 .PHONY : src/nodelet/image_rotate_nodelet.cpp.i
 
 src/nodelet/image_rotate_nodelet.s: src/nodelet/image_rotate_nodelet.cpp.s
@@ -261,7 +261,7 @@ src/nodelet/image_rotate_nodelet.s: src/nodelet/image_rotate_nodelet.cpp.s
 
 # target to generate assembly for a file
 src/nodelet/image_rotate_nodelet.cpp.s:
-	cd /home/ur3/catkin/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.s
+	cd /home/ur3/ECE470_Project/build && $(MAKE) -f lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make lab2andDriver/drivers/camera_calibration/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.s
 .PHONY : src/nodelet/image_rotate_nodelet.cpp.s
 
 # Help Target
@@ -297,6 +297,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

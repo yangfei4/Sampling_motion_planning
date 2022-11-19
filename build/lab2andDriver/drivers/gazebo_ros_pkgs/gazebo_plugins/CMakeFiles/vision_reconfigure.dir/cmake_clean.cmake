@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/vision_reconfigure.dir/src/vision_reconfigure.cpp.o"
-  "/home/ur3/catkin/devel/lib/libvision_reconfigure.pdb"
-  "/home/ur3/catkin/devel/lib/libvision_reconfigure.so"
+  "/home/ur3/ECE470_Project/devel/lib/libvision_reconfigure.pdb"
+  "/home/ur3/ECE470_Project/devel/lib/libvision_reconfigure.so"
 )
 
 # Per-language clean rules from dependency scanning.

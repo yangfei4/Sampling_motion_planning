@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ur3_driver_generate_messages_eus"
-  "/home/ur3/catkin/devel/share/roseus/ros/ur3_driver/msg/position.l"
-  "/home/ur3/catkin/devel/share/roseus/ros/ur3_driver/msg/command.l"
-  "/home/ur3/catkin/devel/share/roseus/ros/ur3_driver/msg/gripper_input.l"
-  "/home/ur3/catkin/devel/share/roseus/ros/ur3_driver/manifest.l"
+  "/home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/msg/command.l"
+  "/home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/msg/gripper_input.l"
+  "/home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/msg/position.l"
+  "/home/ur3/ECE470_Project/devel/share/roseus/ros/ur3_driver/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

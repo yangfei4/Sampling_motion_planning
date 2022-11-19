@@ -67,14 +67,14 @@ set(stereo_image_proc_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(stereo_image_proc_SOURCE_PREFIX /home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/stereo_image_proc)
-  set(stereo_image_proc_DEVEL_PREFIX /home/ur3/catkin/devel)
+  set(stereo_image_proc_SOURCE_PREFIX /home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/stereo_image_proc)
+  set(stereo_image_proc_DEVEL_PREFIX /home/ur3/ECE470_Project/devel)
   set(stereo_image_proc_INSTALL_PREFIX "")
   set(stereo_image_proc_PREFIX ${stereo_image_proc_DEVEL_PREFIX})
 else()
   set(stereo_image_proc_SOURCE_PREFIX "")
   set(stereo_image_proc_DEVEL_PREFIX "")
-  set(stereo_image_proc_INSTALL_PREFIX /home/ur3/catkin/install)
+  set(stereo_image_proc_INSTALL_PREFIX /home/ur3/ECE470_Project/install)
   set(stereo_image_proc_PREFIX ${stereo_image_proc_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ur3/catkin/install/lib;/home/ur3/catkin/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/ur3/ECE470_Project/install/lib;/home/ur3/catkin/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

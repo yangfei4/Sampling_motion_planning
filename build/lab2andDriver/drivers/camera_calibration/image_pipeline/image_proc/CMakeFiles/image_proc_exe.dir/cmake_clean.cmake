@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/image_proc_exe.dir/src/nodes/image_proc.cpp.o"
-  "/home/ur3/catkin/devel/lib/image_proc/image_proc.pdb"
-  "/home/ur3/catkin/devel/lib/image_proc/image_proc"
+  "/home/ur3/ECE470_Project/devel/lib/image_proc/image_proc.pdb"
+  "/home/ur3/ECE470_Project/devel/lib/image_proc/image_proc"
 )
 
 # Per-language clean rules from dependency scanning.

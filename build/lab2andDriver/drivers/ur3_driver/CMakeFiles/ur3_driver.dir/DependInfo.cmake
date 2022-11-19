@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/src/do_output.cpp" "/home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/do_output.cpp.o"
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/src/robot_state.cpp" "/home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/robot_state.cpp.o"
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/src/robot_state_RT.cpp" "/home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/robot_state_RT.cpp.o"
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/src/ur3_driver.cpp" "/home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur3_driver.cpp.o"
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/src/ur_communication.cpp" "/home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur_communication.cpp.o"
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/src/ur_realtime_communication.cpp" "/home/ur3/catkin/build/lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur_realtime_communication.cpp.o"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/src/do_output.cpp" "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/do_output.cpp.o"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/src/robot_state.cpp" "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/robot_state.cpp.o"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/src/robot_state_RT.cpp" "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/robot_state_RT.cpp.o"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/src/ur3_driver.cpp" "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur3_driver.cpp.o"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/src/ur_communication.cpp" "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur_communication.cpp.o"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/src/ur_realtime_communication.cpp" "/home/ur3/ECE470_Project/build/lab2andDriver/drivers/ur3_driver/CMakeFiles/ur3_driver.dir/src/ur_realtime_communication.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -23,8 +23,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ur3/catkin/devel/include"
-  "/home/ur3/catkin/src/lab2andDriver/drivers/ur3_driver/include"
+  "/home/ur3/ECE470_Project/devel/include"
+  "/home/ur3/ECE470_Project/src/lab2andDriver/drivers/ur3_driver/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

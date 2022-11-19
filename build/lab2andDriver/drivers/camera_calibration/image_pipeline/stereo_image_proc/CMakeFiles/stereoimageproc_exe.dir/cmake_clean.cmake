@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stereoimageproc_exe.dir/src/nodes/stereo_image_proc.cpp.o"
-  "/home/ur3/catkin/devel/lib/stereo_image_proc/stereo_image_proc.pdb"
-  "/home/ur3/catkin/devel/lib/stereo_image_proc/stereo_image_proc"
+  "/home/ur3/ECE470_Project/devel/lib/stereo_image_proc/stereo_image_proc.pdb"
+  "/home/ur3/ECE470_Project/devel/lib/stereo_image_proc/stereo_image_proc"
 )
 
 # Per-language clean rules from dependency scanning.

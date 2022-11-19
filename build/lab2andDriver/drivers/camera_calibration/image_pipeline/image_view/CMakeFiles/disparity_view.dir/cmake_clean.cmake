@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/disparity_view.dir/src/nodes/disparity_view.cpp.o"
-  "/home/ur3/catkin/devel/lib/image_view/disparity_view.pdb"
-  "/home/ur3/catkin/devel/lib/image_view/disparity_view"
+  "/home/ur3/ECE470_Project/devel/lib/image_view/disparity_view.pdb"
+  "/home/ur3/ECE470_Project/devel/lib/image_view/disparity_view"
 )
 
 # Per-language clean rules from dependency scanning.

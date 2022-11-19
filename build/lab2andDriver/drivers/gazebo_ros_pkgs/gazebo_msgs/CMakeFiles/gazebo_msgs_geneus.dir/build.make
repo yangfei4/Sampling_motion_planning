@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur3/catkin/src
+CMAKE_SOURCE_DIR = /home/ur3/ECE470_Project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur3/catkin/build
+CMAKE_BINARY_DIR = /home/ur3/ECE470_Project/build
 
 # Utility rule file for gazebo_msgs_geneus.
 
@@ -63,10 +63,10 @@ lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_geneus.
 .PHONY : lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_geneus.dir/build
 
 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_geneus.dir/clean:
-	cd /home/ur3/catkin/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs && $(CMAKE_COMMAND) -P CMakeFiles/gazebo_msgs_geneus.dir/cmake_clean.cmake
+	cd /home/ur3/ECE470_Project/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs && $(CMAKE_COMMAND) -P CMakeFiles/gazebo_msgs_geneus.dir/cmake_clean.cmake
 .PHONY : lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_geneus.dir/clean
 
 lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_geneus.dir/depend:
-	cd /home/ur3/catkin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/catkin/src /home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs /home/ur3/catkin/build /home/ur3/catkin/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs /home/ur3/catkin/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ur3/ECE470_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ur3/ECE470_Project/src /home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs /home/ur3/ECE470_Project/build /home/ur3/ECE470_Project/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs /home/ur3/ECE470_Project/build/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_geneus.dir/depend
 

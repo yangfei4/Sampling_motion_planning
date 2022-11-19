@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "controller_manager;actionlib;control_msgs;geometry_msgs;roscpp;sensor_msgs;trajectory_msgs;ur_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "ur3_driver"
-PROJECT_SPACE_DIR = "/home/ur3/catkin/install"
+PROJECT_SPACE_DIR = "/home/ur3/ECE470_Project/install"
 PROJECT_VERSION = "0.0.0"

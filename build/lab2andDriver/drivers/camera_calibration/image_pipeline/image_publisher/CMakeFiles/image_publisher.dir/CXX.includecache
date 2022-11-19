@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ur3/catkin/devel/include/image_publisher/ImagePublisherConfig.h
+/home/ur3/ECE470_Project/devel/include/image_publisher/ImagePublisherConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -24,7 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/src/nodelet/image_publisher_nodelet.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/camera_calibration/image_pipeline/image_publisher/src/nodelet/image_publisher_nodelet.cpp
 ros/ros.h
 -
 nodelet/nodelet.h

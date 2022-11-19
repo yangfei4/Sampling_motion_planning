@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/default_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.o"
-  "/home/ur3/catkin/devel/lib/libdefault_robot_hw_sim.pdb"
-  "/home/ur3/catkin/devel/lib/libdefault_robot_hw_sim.so"
+  "/home/ur3/ECE470_Project/devel/lib/libdefault_robot_hw_sim.pdb"
+  "/home/ur3/ECE470_Project/devel/lib/libdefault_robot_hw_sim.so"
 )
 
 # Per-language clean rules from dependency scanning.

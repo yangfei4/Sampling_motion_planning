@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/include/gazebo_ros_control/default_robot_hw_sim.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/include/gazebo_ros_control/default_robot_hw_sim.h
 control_toolbox/pid.h
 -
 hardware_interface/joint_command_interface.h
@@ -38,7 +38,7 @@ gazebo_ros_control/robot_hw_sim.h
 urdf/model.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/include/gazebo_ros_control/robot_hw_sim.h
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/include/gazebo_ros_control/robot_hw_sim.h
 gazebo/physics/physics.hh
 -
 ros/ros.h
@@ -50,7 +50,7 @@ transmission_interface/transmission_info.h
 urdf/model.h
 -
 
-/home/ur3/catkin/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/src/default_robot_hw_sim.cpp
+/home/ur3/ECE470_Project/src/lab2andDriver/drivers/gazebo_ros_pkgs/gazebo_ros_control/src/default_robot_hw_sim.cpp
 gazebo_ros_control/default_robot_hw_sim.h
 -
 urdf/model.h
