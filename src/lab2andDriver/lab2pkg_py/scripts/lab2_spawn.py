@@ -46,8 +46,8 @@ if __name__ == '__main__':
     spawn = rospy.ServiceProxy('gazebo/spawn_urdf_model', SpawnModel)
     delete = rospy.ServiceProxy('gazebo/delete_model', DeleteModel)
    
-    block_name = 'block_perfect'
-    # block_name = 'block_largerHole'
+    # block_name = 'block_perfect'
+    block_name = 'block_largerHole'
     screw_name = 'screw_M8'
 
     # Delete previous blocks
