@@ -12,8 +12,8 @@ theta = 0.0    #radians
 beta = 75/0.1        # pixel/meter
 # tx = -160            # pixels
 # ty = -90             # pixels
-tx = -220            # pixels
-ty = -80             # pixels
+tx = -219            # pixels
+ty = -79             # pixels
 
 # Function that converts image coord to world coord
 def IMG2W(col, row):

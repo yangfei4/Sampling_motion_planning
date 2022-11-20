@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <robot name="block_largerHole">
 
+<link name="world"/>
+<joint name="fixed" type="fixed">
+  <parent link="world"/>
+  <child link="base_link"/>
+</joint>
+
 <link name="base_link">
 
   <collision>
@@ -38,3 +44,4 @@
 </gazebo>
 
 </robot>
+

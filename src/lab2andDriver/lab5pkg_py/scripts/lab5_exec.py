@@ -204,8 +204,10 @@ def move_block(pub_cmd, loop_rate, start_xw_yw_zw, target_xw_yw_zw, vel = 2.0, a
     pre_start_joints_anlge = lab_invk(start_xw_yw_zw[0][0], start_xw_yw_zw[0][1], 0.1, 0)
     height = 0.085
     start_joints_anlge = lab_invk(start_xw_yw_zw[0][0], start_xw_yw_zw[0][1], height, 0)
-    hole_position_angle = lab_invk(0.18, 0.1, height, 0)
-    drill_position = lab_invk(start_xw_yw_zw[0][0], start_xw_yw_zw[0][1], height-0.01, 0)
+    drill_position = lab_invk(start_xw_yw_zw[0][0], start_xw_yw_zw[0][1], height-0.020, 0)
+
+    start_joints_anlge2 = lab_invk(start_xw_yw_zw[0][0]+0.04, start_xw_yw_zw[0][1], height, 0)
+    drill_position2 = lab_invk(start_xw_yw_zw[0][0]+0.04, start_xw_yw_zw[0][1], height-0.020, 0)
     pre_target_joints_anlge = lab_invk(target_xw_yw_zw[0], target_xw_yw_zw[1], 0.1, 0)
     target_joints_anlge = lab_invk(target_xw_yw_zw[0], target_xw_yw_zw[1], 0.035, 0)
     rospy.loginfo("Ready to grasp!")
@@ -217,23 +219,31 @@ def move_block(pub_cmd, loop_rate, start_xw_yw_zw, target_xw_yw_zw, vel = 2.0, a
     move_arm(pub_cmd, loop_rate, drill_position, vel/16, accel/16)
     # move_arm(pub_cmd, loop_rate, hole_position_angle, vel, accel)
 
-    # # Second, turn on suction
-    # gripper(pub_cmd, loop_rate, suction_on)
-    # # Delay to make sure suction cup has grasped the block
-    # time.sleep(1.0)
-    # # Suction Feedback to determine if a block is held by the gripper
-    # if(digital_in_0==1):
-    #     rospy.loginfo("Suck up successfully!")
-    #     error = 0
-    # else:
-    #     error = 1
-    #     rospy.loginfo("Nothing gets sucked up")
-    #     gripper(pub_cmd, loop_rate, suction_off)
-    #     move_arm(pub_cmd, loop_rate, go_away, vel, accel)
-    #     sys.exit()
+    # Second, turn on suction
+    gripper(pub_cmd, loop_rate, suction_on)
+    # Delay to make sure suction cup has grasped the block
+    time.sleep(1.0)
+    # Suction Feedback to determine if a block is held by the gripper
+    if(digital_in_0==1):
+        rospy.loginfo("Suck up successfully!")
+        error = 0
+    else:
+        error = 1
+        rospy.loginfo("Nothing gets sucked up")
+        gripper(pub_cmd, loop_rate, suction_off)
+        move_arm(pub_cmd, loop_rate, go_away, vel, accel)
+        sys.exit()
     
-    # # Move a to a pre-grasping position
-    # move_arm(pub_cmd, loop_rate, pre_start_joints_anlge, vel, accel)
+    # Move a to a pre-grasping position
+    move_arm(pub_cmd, loop_rate, pre_start_joints_anlge, vel/8, accel/8)
+    move_arm(pub_cmd, loop_rate, start_joints_anlge2, vel/8, accel/8)
+    time.sleep(1.0)
+    move_arm(pub_cmd, loop_rate, drill_position2, vel/16, accel/16)
+    time.sleep(1.0)
+    gripper(pub_cmd, loop_rate, suction_off)
+    move_arm(pub_cmd, loop_rate, start_joints_anlge2, vel, accel)
+    move_arm(pub_cmd, loop_rate, go_away, vel, accel)
+    sys.exit()
     # move_arm(pub_cmd, loop_rate, pre_target_joints_anlge, vel, accel)
 
     # # Go the target location
