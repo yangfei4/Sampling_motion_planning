@@ -357,7 +357,7 @@
     </link>
 
     <gazebo reference="${prefix}ee_link">
-      <material>Gazebo/Grey</material>
+      <material>Gazebo/Yellow</material>
     </gazebo>
 
     <link name="${prefix}vacuum_gripper">

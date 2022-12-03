@@ -119,15 +119,6 @@ gazebo_ros_imu_sensor_EXTERNAL_OBJECTS =
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
@@ -149,9 +140,6 @@ gazebo_ros_imu_sensor_EXTERNAL_OBJECTS =
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /opt/ros/kinetic/lib/libnodeletlib.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libuuid.so
@@ -233,9 +221,6 @@ gazebo_ros_imu_sensor_EXTERNAL_OBJECTS =
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /opt/ros/kinetic/lib/libnodeletlib.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /usr/lib/x86_64-linux-gnu/libuuid.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_imu_sensor.so: /opt/ros/kinetic/lib/libbondcpp.so

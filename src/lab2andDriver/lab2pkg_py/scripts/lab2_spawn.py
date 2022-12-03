@@ -40,6 +40,7 @@ if __name__ == '__main__':
     ur_path = rospack.get_path('ur_description')
     block_perfect_path = os.path.join(ur_path, 'urdf', 'block_perfect.urdf')
     block_largerHole_path = os.path.join(ur_path, 'urdf', 'block_largerHole.urdf')
+    human_path = os.path.join(ur_path, 'urdf', 'human.urdf')
     screw_M8_path = os.path.join(ur_path, 'urdf', 'screw_M8.urdf')
     # Wait for service to start
     rospy.wait_for_service('gazebo/spawn_urdf_model')
@@ -49,10 +50,12 @@ if __name__ == '__main__':
     # block_name = 'block_perfect'
     block_name = 'block_largerHole'
     screw_name = 'screw_M8'
+    human_name = 'Mario'
 
     # Delete previous blocks
     delete('block_perfect')
     delete('block_largerHole')
+    delete('Mario')
     delete(screw_name)
 
     # Spawn block
@@ -66,11 +69,16 @@ if __name__ == '__main__':
                         block_xy_pos[0][1], 0), Quaternion(0, 0, 0, 0))
         spawn(block_name, open(block_largerHole_path, 'r').read(), 'block', pose, 'world')
 
+    # spawn human
+    human_pose = Pose(Point(1, 1, 0), Quaternion(0, 0, 0, 0))
+    # human_pose = Pose(Point(0.3, 0.3, 0), Quaternion(0, 0, 0, 0))
+    # import pdb;pdb.set_trace()
+    spawn(human_name, open(human_path, 'r').read(), 'human', human_pose, 'world')
 
     # Spawn screw_M8
     screw_name = 'screw_M8' 
     pose = Pose(Point(block_xy_pos[0][0]+0.03, 
                     block_xy_pos[0][1]+0.05, 0.1), Quaternion(0, 0, 0, 0))
     # import pdb;pdb.set_trace()
-    spawn(screw_name, open(screw_M8_path, 'r').read(), 'block', pose, 'world')
+    spawn(screw_name, open(screw_M8_path, 'r').read(), 'screw', pose, 'world')
 
