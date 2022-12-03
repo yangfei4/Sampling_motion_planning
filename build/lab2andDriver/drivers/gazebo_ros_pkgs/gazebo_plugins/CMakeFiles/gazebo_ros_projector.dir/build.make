@@ -116,9 +116,6 @@ gazebo_ros_projector_EXTERNAL_OBJECTS =
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_projector.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_projector.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_projector.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_projector.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_projector.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_projector.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_projector.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_projector.so: /opt/ros/kinetic/lib/libnodeletlib.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_projector.so: /usr/lib/x86_64-linux-gnu/libuuid.so
@@ -191,9 +188,6 @@ gazebo_ros_projector_EXTERNAL_OBJECTS =
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_projector.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_projector.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_projector.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_projector.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_projector.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_projector.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_projector.so: /opt/ros/kinetic/lib/libnodeletlib.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_projector.so: /usr/lib/x86_64-linux-gnu/libuuid.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_projector.so: /opt/ros/kinetic/lib/libbondcpp.so

@@ -110,9 +110,6 @@ gazebo_ros_elevator_EXTERNAL_OBJECTS =
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_elevator.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_elevator.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_elevator.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_elevator.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_elevator.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_elevator.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_elevator.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_elevator.so: /opt/ros/kinetic/lib/libnodeletlib.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_elevator.so: /usr/lib/x86_64-linux-gnu/libuuid.so
@@ -165,9 +162,6 @@ gazebo_ros_elevator_EXTERNAL_OBJECTS =
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_elevator.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_elevator.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_elevator.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_elevator.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_elevator.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-/home/ur3/ECE470_Project/devel/lib/libgazebo_ros_elevator.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_elevator.so: /opt/ros/kinetic/lib/libnodeletlib.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_elevator.so: /usr/lib/x86_64-linux-gnu/libuuid.so
 /home/ur3/ECE470_Project/devel/lib/libgazebo_ros_elevator.so: /opt/ros/kinetic/lib/libbondcpp.so
