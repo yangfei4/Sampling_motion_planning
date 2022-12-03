@@ -19,6 +19,7 @@ go_away = [270*PI/180.0, -90*PI/180.0, 90*PI/180.0, -90*PI/180.0, -90*PI/180.0, 
 # Store world coordinates of green and yellow blocks
 xw_yw_G = []
 xw_yw_Y = []
+human_pos = []
 
 # target position in world coordinates
 target_xy_w_G = [0.25 , 0.3]
@@ -279,6 +280,7 @@ class ImageConverter:
 
         global xw_yw_G # store found green blocks in this list
         global xw_yw_Y # store found yellow blocks in this list
+        global human_pos
 
         try:
           # Convert ROS image to OpenCV image
@@ -301,8 +303,8 @@ class ImageConverter:
         
         # if not xw_yw_G:
         xw_yw_G = blob_search(cv_image, "green")
-        # xw_yw_Y = blob_search(cv_image, "yellow")
-
+        xw_yw_Y = blob_search(cv_image, "yellow")
+        human_pos = blob_search(cv_image, "human")
 
 """
 Program run from here
@@ -314,8 +316,6 @@ def main():
     global xw_yw_G
     global target_xy_w
 
-    # global variable1
-    # global variable2
 
     # Initialize ROS node
     rospy.init_node('lab5node')
@@ -355,13 +355,8 @@ def main():
             move_block(pub_command, loop_rate, xw_yw_G, target_xy_w_G)
             task_not_com_G = task_not_com_G - 1
         if len(xw_yw_Y) & task_not_com_Y:
-            move_block(pub_command, loop_rate, xw_yw_Y, target_xy_w_Y)
+            # move_block(pub_command, loop_rate, xw_yw_Y, target_xy_w_Y)
             task_not_com_Y = task_not_com_Y - 1
-    
-    # if len(xw_yw_G):
-    #     move_block(pub_command, loop_rate, xw_yw_G, target_xy_w_G)
-    # if len(xw_yw_Y):
-    #     move_block(pub_command, loop_rate, xw_yw_Y, target_xy_w_Y)
             
     # ========================= Student's code ends here ===========================
 

@@ -64,14 +64,24 @@ def blob_search(image_raw, color):
     ## callibration bar ##
     # params.minArea = 200
 
-    # screw_M8
-    params.minArea = 10
-    params.maxArea = 1000
+    if color == "green":
+         # screw_M8
+        params.minArea = 10
+        params.maxArea = 1000
+        # Filter by Circularity  #square is 0.785
+        params.filterByCircularity = True
+        params.minCircularity = 0.5
+        params.maxCircularity = 1
+    elif color == "human":
+        params.minArea = 200
+        # Filter by Circularity  #square is 0.785
+        params.filterByCircularity = False
+    elif color == "yellow":
+        params.minArea = 200
+        params.maxArea = 2000
+        # Filter by Circularity  #square is 0.785
+        params.filterByCircularity = False
 
-    # Filter by Circularity  #square is 0.785
-    params.filterByCircularity = True
-    params.minCircularity = 0.5
-    params.maxCircularity = 1
 
     # Filter by Inerita
     params.filterByInertia = False
@@ -98,9 +108,13 @@ def blob_search(image_raw, color):
         mask_image = cv2.inRange(hsv_image, lower_green, upper_green)
     elif color == "yellow":
         lower_yellow = (8,100,100)    # yellow lower
-        upper_yellow = (25,255,255)  # yellow upper
+        upper_yellow = (35,255,255)  # yellow upper
         mask_image = cv2.inRange(hsv_image, lower_yellow, upper_yellow)
-        
+    elif color == "human":
+        lower_red = (0,100,100)    # red lower
+        upper_red = (10,255,255)  # red upper
+        mask_image = cv2.inRange(hsv_image, lower_red, upper_red)   
+    
     ######## This is for camera callibration  #########
     # lower_orange = (5,200,100)
     # upper_orange = (15,255,255)
@@ -128,7 +142,7 @@ def blob_search(image_raw, color):
             print("The theta = {}".format(theta))
                     
     # calculate()
-    print(blob_image_center)
+    # print(blob_image_center)
         
     # ========================= Student's code starts here =========================
 
@@ -150,6 +164,8 @@ def blob_search(image_raw, color):
                 print("Green xw_yw is {}".format(xw_yw))
             elif color == "yellow":
                 print("Yellow xw_yw is {}".format(xw_yw))
+            elif color == "human":
+                print("Human xw_yw is {}".format(xw_yw))
                 
 
     # cv2.namedWindow("Camera View")

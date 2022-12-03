@@ -71,7 +71,7 @@ if __name__ == '__main__':
 
     # spawn human
     human_pose = Pose(Point(1, 1, 0), Quaternion(0, 0, 0, 0))
-    # human_pose = Pose(Point(0.3, 0.3, 0), Quaternion(0, 0, 0, 0))
+    # human_pose = Pose(Point(0.3, 0.3, 0), Quaternion(0, 0, 1, 0))
     # import pdb;pdb.set_trace()
     spawn(human_name, open(human_path, 'r').read(), 'human', human_pose, 'world')
 
