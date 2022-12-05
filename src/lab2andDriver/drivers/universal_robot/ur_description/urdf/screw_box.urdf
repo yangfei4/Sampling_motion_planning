@@ -40,7 +40,7 @@
   <kd>1</kd>
   <maxVel>0</maxVel>
   <minDepth>0.001</minDepth>
-  <material>Gazebo/Grey</material>
+  <material>Gazebo/WoodFloor</material>
 </gazebo>
 
 </robot>

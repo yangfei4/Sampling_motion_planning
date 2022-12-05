@@ -12,14 +12,14 @@
   <collision>
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://ur_description/meshes/ur3/collision/human.dae" scale="0.25 0.25 0.25"/>
+      <mesh filename="package://ur_description/meshes/ur3/collision/human.dae" scale="0.1 0.1 0.1"/>
     </geometry>
   </collision>
 
   <visual>
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://ur_description/meshes/ur3/visual/human.dae" scale="0.25 0.25 0.25"/>
+      <mesh filename="package://ur_description/meshes/ur3/visual/human.dae" scale="0.1 0.1 0.1"/>
     </geometry>
   </visual>
 

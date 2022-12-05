@@ -27,6 +27,9 @@ target_xy_w_Y = [0.15 , 0.3]
 target_xy_w_R = [0.4 , 0.35]
 task_not_com = 4
 is_green_red_saved = 0
+is_human_saved = 0
+human_pos = []
+human_safe = 1
 
 # ========================= Student's code ends here ===========================
 
@@ -160,7 +163,26 @@ def move_arm(pub_cmd, loop_rate, dest, vel, accel):
 
     loop_rate.sleep()
 
+    global xw_yw_Y
+    global human_pos
+    global human_safe
+
     while(at_goal == 0):
+        
+        def distance_cal(pos1, pos2):
+            dis = ((pos1[0]-pos2[0])**2 + (pos1[1]-pos2[1])**2)**0.5
+            return dis
+
+        # Check whether collide into human
+        if xw_yw_Y and human_pos:
+            dis = distance_cal(xw_yw_Y[0], human_pos[0])
+            print("The distance between human and robot is {}".format(dis))
+            if dis < 0.35:
+                print("There is a human, do not hurt him!!!")
+                human_safe = 0                
+                break
+                raise SystemExit(0)
+
 
         if( abs(thetas[0]-driver_msg.destination[0]) < 0.0005 and \
             abs(thetas[1]-driver_msg.destination[1]) < 0.0005 and \
@@ -182,12 +204,15 @@ def move_arm(pub_cmd, loop_rate, dest, vel, accel):
 
         spin_count = spin_count + 1
 
+    # if not human_safe:
+    #     raise SystemExit(0)
+
     return error
 
 ################ Pre-defined parameters and functions no need to change above ################
 
 
-def move_block(pub_cmd, loop_rate, start_xw_yw_zw, target_xw_yw_zw, vel = 2.0, accel = 2.0):
+def move_block(pub_cmd, loop_rate, start_xw_yw_zw, target_xw_yw_zw, vel = 4.0, accel = 4.0):
 
     """
     start_xw_yw_zw: where to pick up a block in global coordinates
@@ -234,7 +259,7 @@ def move_block(pub_cmd, loop_rate, start_xw_yw_zw, target_xw_yw_zw, vel = 2.0, a
     move_arm(pub_cmd, loop_rate, pre_pick_joints_angle, vel, accel)
 
     # prepare to place screws
-    move_arm(pub_cmd, loop_rate, pre_place_joints_anlge, vel, accel)
+    move_arm(pub_cmd, loop_rate, pre_place_joints_anlge, vel/32, accel)
 
     # place screws
     move_arm(pub_cmd, loop_rate, place_joints_anlge, vel/8, accel/8)
@@ -268,6 +293,9 @@ class ImageConverter:
         global xw_yw_G # store found green blocks in this list
         global xw_yw_Y # store found yellow blocks in this list
         global xw_yw_R # store found yellow blocks in this list
+        global human_pos
+        global is_human_saved
+        global is_green_red_saved
 
         try:
           # Convert ROS image to OpenCV image
@@ -297,6 +325,29 @@ class ImageConverter:
             x_off = 0.09-0.005
             y_off = 0.165-0.005-0.001
             xw_yw_R = [[x_table+x_off, y_table+y_off], [x_table+x_off, y_table-y_off],[x_table-x_off, y_table+y_off],[x_table-x_off, y_table-y_off]]
+        
+        # if not is_human_saved:
+        #     human_pos = blob_search(cv_image, "human")
+        #     print("The human position is {}".format(human_pos))
+        #     if human_pos:
+        #         is_human_saved = 1
+        human_pos = blob_search(cv_image, "human")
+        # print("The human position is {}".format(human_pos))
+        xw_yw_Y = blob_search(cv_image, "yellow")
+        # print("The gripper position is {}".format(xw_yw_Y))
+                
+        # def distance_cal(pos1, pos2):
+        #     dis = ((pos1[0]-pos2[0])**2 + (pos1[1]-pos2[1])**2)**0.5
+        #     return dis
+
+        # if xw_yw_Y and human_pos:
+        #     dis = distance_cal(xw_yw_Y[0], human_pos[0])
+        #     print("The distance between human and robot is {}".format(dis))
+        #     if dis < 0.1:
+        #         print("There is a human, do not hurt him!!!")
+        #         sys.exit()
+        
+
 
 
 """

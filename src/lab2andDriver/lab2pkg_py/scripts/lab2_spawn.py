@@ -110,15 +110,16 @@ if __name__ == '__main__':
     #     spawn(block_name, open(block_largerHole_path, 'r').read(), 'block', pose, 'world')
 
     # spawn human
-    human_pose = Pose(Point(1, 1, 0), Quaternion(0, 0, 0, 0))
-    # human_pose = Pose(Point(0.3, 0.3, 0), Quaternion(0, 0, 0, 0))
+    # human_pose = Pose(Point(1, 1, 0), Quaternion(0, 0, 0, 0))
+    human_pose = Pose(Point(0.3, 0.5, 0), Quaternion(0, 0, 0, 0))
     # import pdb;pdb.set_trace()
-    #spawn(human_name, open(human_path, 'r').read(), 'human', human_pose, 'world')
+    spawn(human_name, open(human_path, 'r').read(), 'human', human_pose, 'world')
 
     
     #spawn legs and table'
     x_table = 0.3
     y_table = 0.2
+    # y_table = 0
     x_off = 0.09-0.005
     y_off = 0.165-0.005
     leg1_pose = Pose(Point(x_table+x_off, y_table+y_off, 0), Quaternion(0, 0, 0, 0))
@@ -133,10 +134,5 @@ if __name__ == '__main__':
 
     table_pose = Pose(Point(x_table, y_table, 0.035), Quaternion(0, 0, 0, 0))
     spawn(table_name, open(table_path, 'r').read(), 'table', table_pose, 'world')
-
-    # screw1_pose = Pose(Point(0, 0, 0), Quaternion(0, 0, 0, 0))
-    # spawn(screw1_name, open(screw_M8_path, 'r').read(), 'screw1', screw1_pose, 'world')
-    # screw2_pose = Pose(Point(0.1,  0, 0), Quaternion(0, 0, 0, 0))
-    # spawn(screw2_name, open(screw_M8_path, 'r').read(), 'screw2', screw2_pose, 'world')
     
 

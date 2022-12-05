@@ -76,7 +76,7 @@ def blob_search(image_raw, color):
         params.minCircularity = 0.5
         params.maxCircularity = 1
     elif color == "human":
-        params.minArea = 200
+        params.minArea = 80
         # Filter by Circularity  #square is 0.785
         params.filterByCircularity = False
     elif color == "red":
@@ -85,17 +85,10 @@ def blob_search(image_raw, color):
         # Filter by Circularity  #square is 0.785
         params.filterByCircularity = False
     elif color == "yellow":
-        params.minArea = 200
-        params.maxArea = 2000
+        params.minArea = 100
+        # params.maxArea = 2000
         # Filter by Circularity  #square is 0.785
         params.filterByCircularity = False
-
-
-
-    # Filter by Circularity  #square is 0.785
-    params.filterByCircularity = True
-    params.minCircularity = 0.5
-    params.maxCircularity = 1
 
 
     # Filter by Inerita
@@ -122,13 +115,24 @@ def blob_search(image_raw, color):
         upper_green = (80,255,255)   # green upper
         mask_image = cv2.inRange(hsv_image, lower_green, upper_green)
     elif color == "yellow":
-        lower_yellow = (15,100,100)    # yellow lower
-        upper_yellow = (25,255,255)  # yellow upper
+        lower_yellow = (8,100,100)    # yellow lower
+        upper_yellow = (35,255,255)  # yellow upper
         mask_image = cv2.inRange(hsv_image, lower_yellow, upper_yellow)
     elif color == "red" or "human":
-        lower_red = (0,100,100)    # red lower
-        upper_red = (15,255,255)  # red upper
-        mask_image = cv2.inRange(hsv_image, lower_red, upper_red)
+        # lower_red = (0,100,100)    # red lower
+        # upper_red = (15,255,255)  # red upper
+        # mask_image = cv2.inRange(hsv_image, lower_red, upper_red)
+
+        lower_red = np.array([0,50,50])
+        upper_red = np.array([10,255,255])
+        mask0 = cv2.inRange(hsv_image, lower_red, upper_red)
+        # upper mask (170-180)
+        lower_red = np.array([170,50,50])
+        upper_red = np.array([180,255,255])
+        mask1 = cv2.inRange(hsv_image, lower_red, upper_red)
+
+        # join my masks
+        mask_image = mask0+mask1
         
     ######## This is for camera callibration  #########
     # lower_orange = (5,200,100)
@@ -157,7 +161,7 @@ def blob_search(image_raw, color):
             print("The theta = {}".format(theta))
                     
     # calculate()
-    print(blob_image_center)
+    # sprint(blob_image_center)
         
     # ========================= Student's code starts here =========================
 
