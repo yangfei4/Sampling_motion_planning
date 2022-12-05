@@ -19,13 +19,14 @@ go_away = [270*PI/180.0, -90*PI/180.0, 90*PI/180.0, -90*PI/180.0, -90*PI/180.0, 
 # Store world coordinates of green and yellow blocks
 xw_yw_G = []
 xw_yw_Y = []
+xw_yw_R = []
 
 # target position in world coordinates
 target_xy_w_G = [0.25 , 0.3]
 target_xy_w_Y = [0.15 , 0.3]
-task_not_com_G = 1
-task_not_com_Y = 1
-
+target_xy_w_R = [0.4 , 0.35]
+task_not_com = 4
+is_green_red_saved = 0
 
 # ========================= Student's code ends here ===========================
 
@@ -201,28 +202,24 @@ def move_block(pub_cmd, loop_rate, start_xw_yw_zw, target_xw_yw_zw, vel = 2.0, a
 
     # global variable1
     # global variable2
-    pre_start_joints_anlge = lab_invk(start_xw_yw_zw[0][0], start_xw_yw_zw[0][1], 0.1, 0)
-    height = 0.085
-    start_joints_anlge = lab_invk(start_xw_yw_zw[0][0], start_xw_yw_zw[0][1], height, 0)
-    drill_position = lab_invk(start_xw_yw_zw[0][0], start_xw_yw_zw[0][1], height-0.020, 0)
+    height_screw = 0.035
+    height_table = 0.052
+    height_safe_offset = 0.085
+    pre_pick_joints_angle = lab_invk(start_xw_yw_zw[0], start_xw_yw_zw[1], height_safe_offset, 0)
+    pick_screw_angle = lab_invk(start_xw_yw_zw[0], start_xw_yw_zw[1], height_screw, 0)
 
-    start_joints_anlge2 = lab_invk(start_xw_yw_zw[0][0]+0.04, start_xw_yw_zw[0][1], height, 0)
-    drill_position2 = lab_invk(start_xw_yw_zw[0][0]+0.04, start_xw_yw_zw[0][1], height-0.020, 0)
-    pre_target_joints_anlge = lab_invk(target_xw_yw_zw[0], target_xw_yw_zw[1], 0.1, 0)
-    target_joints_anlge = lab_invk(target_xw_yw_zw[0], target_xw_yw_zw[1], 0.035, 0)
+    pre_place_joints_anlge = lab_invk(target_xw_yw_zw[0], target_xw_yw_zw[1], height_safe_offset, 0)
+    place_joints_anlge = lab_invk(target_xw_yw_zw[0], target_xw_yw_zw[1], height_table, 0)
+   
+
     rospy.loginfo("Ready to grasp!")
-
-    # First, go to start position
-    move_arm(pub_cmd, loop_rate, pre_start_joints_anlge, vel, accel)
-    move_arm(pub_cmd, loop_rate, start_joints_anlge, vel, accel)
-    time.sleep(1)
-    move_arm(pub_cmd, loop_rate, drill_position, vel/16, accel/16)
-    # move_arm(pub_cmd, loop_rate, hole_position_angle, vel, accel)
-
-    # Second, turn on suction
+    # prepare to pick up screws
+    move_arm(pub_cmd, loop_rate, pre_pick_joints_angle, vel, accel)
+    # pick up screw
+    move_arm(pub_cmd, loop_rate, pick_screw_angle, vel/8, accel/8)
     gripper(pub_cmd, loop_rate, suction_on)
-    # Delay to make sure suction cup has grasped the block
-    time.sleep(1.0)
+    time.sleep(0.5)
+
     # Suction Feedback to determine if a block is held by the gripper
     if(digital_in_0==1):
         rospy.loginfo("Suck up successfully!")
@@ -233,29 +230,20 @@ def move_block(pub_cmd, loop_rate, start_xw_yw_zw, target_xw_yw_zw, vel = 2.0, a
         gripper(pub_cmd, loop_rate, suction_off)
         move_arm(pub_cmd, loop_rate, go_away, vel, accel)
         sys.exit()
-    
-    # Move a to a pre-grasping position
-    move_arm(pub_cmd, loop_rate, pre_start_joints_anlge, vel/8, accel/8)
-    move_arm(pub_cmd, loop_rate, start_joints_anlge2, vel/8, accel/8)
-    time.sleep(1.0)
-    move_arm(pub_cmd, loop_rate, drill_position2, vel/16, accel/16)
-    time.sleep(1.0)
+
+    move_arm(pub_cmd, loop_rate, pre_pick_joints_angle, vel, accel)
+
+    # prepare to place screws
+    move_arm(pub_cmd, loop_rate, pre_place_joints_anlge, vel, accel)
+
+    # place screws
+    move_arm(pub_cmd, loop_rate, place_joints_anlge, vel/8, accel/8)
     gripper(pub_cmd, loop_rate, suction_off)
-    move_arm(pub_cmd, loop_rate, start_joints_anlge2, vel, accel)
+
+    # go to home position
     move_arm(pub_cmd, loop_rate, go_away, vel, accel)
-    sys.exit()
-    # move_arm(pub_cmd, loop_rate, pre_target_joints_anlge, vel, accel)
-
-    # # Go the target location
-    # move_arm(pub_cmd, loop_rate, target_joints_anlge, vel, accel)
-    
-    # # Turn off suction
-    # gripper(pub_cmd, loop_rate, suction_off)
-
-    # move_arm(pub_cmd, loop_rate, go_away, vel, accel)
 
     rospy.loginfo("Moving done!!")
-
     # ========================= Student's code ends here ===========================
 
     return error
@@ -279,6 +267,7 @@ class ImageConverter:
 
         global xw_yw_G # store found green blocks in this list
         global xw_yw_Y # store found yellow blocks in this list
+        global xw_yw_R # store found yellow blocks in this list
 
         try:
           # Convert ROS image to OpenCV image
@@ -300,8 +289,14 @@ class ImageConverter:
         # the image frame to the global world frame.
         
         # if not xw_yw_G:
-        xw_yw_G = blob_search(cv_image, "green")
-        # xw_yw_Y = blob_search(cv_image, "yellow")
+        if not is_green_red_saved:
+            xw_yw_G = blob_search(cv_image, "green")
+            # xw_yw_R = blob_search(cv_image, "red")
+            x_table = 0.3
+            y_table = 0.2
+            x_off = 0.09-0.005
+            y_off = 0.165-0.005-0.001
+            xw_yw_R = [[x_table+x_off, y_table+y_off], [x_table+x_off, y_table-y_off],[x_table-x_off, y_table+y_off],[x_table-x_off, y_table-y_off]]
 
 
 """
@@ -312,6 +307,7 @@ def main():
     global go_away
     global xw_yw_R
     global xw_yw_G
+    global xw_yw_R
     global target_xy_w
 
     # global variable1
@@ -348,15 +344,21 @@ def main():
     Hints: use the found xw_yw_G, xw_yw_Y to move the blocks correspondingly. You will
     need to call move_block(pub_command, loop_rate, start_xw_yw_zw, target_xw_yw_zw, vel, accel)
     """
-    global task_not_com_G
-    global task_not_com_Y
-    while task_not_com_Y or task_not_com_G:
-        if len(xw_yw_G) & task_not_com_G:
-            move_block(pub_command, loop_rate, xw_yw_G, target_xy_w_G)
-            task_not_com_G = task_not_com_G - 1
-        if len(xw_yw_Y) & task_not_com_Y:
-            move_block(pub_command, loop_rate, xw_yw_Y, target_xy_w_Y)
-            task_not_com_Y = task_not_com_Y - 1
+    global task_not_com
+    global is_green_red_saved
+
+    while  task_not_com:
+        if len(xw_yw_G)==4 & task_not_com & len(xw_yw_R)==4:
+            is_green_red_saved = 1
+            for i in range(len(xw_yw_G)):
+                move_block(pub_command, loop_rate, xw_yw_G[i], xw_yw_R[i])
+                task_not_com = task_not_com - 1
+        # if len(xw_yw_Y) & task_not_com_Y:
+        #     move_block(pub_command, loop_rate, xw_yw_Y, target_xy_w_Y)
+        #     task_not_com_Y = task_not_com_Y - 1
+        # if len(xw_yw_R) & task_not_com_R:
+        #     move_block(pub_command, loop_rate, xw_yw_R, target_xy_w_R)
+        #     task_not_com_R = task_not_com_R - 1
     
     # if len(xw_yw_G):
     #     move_block(pub_command, loop_rate, xw_yw_G, target_xy_w_G)

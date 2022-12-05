@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<robot name="table">
+
+<link name="base_link">
+
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ur_description/meshes/ur3/collision/table.dae" scale="0.01 0.01 0.01"/>
+    </geometry>
+  </collision>
+
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ur_description/meshes/ur3/visual/table.dae" scale="0.01 0.01 0.01"/>
+    </geometry>
+  </visual>
+
+  <inertial>
+   <origin xyz="0 0 0" rpy="0 0 0"/>
+   <mass value="0.001" />
+   <inertia
+      ixx="0.00000379215" ixy="0.00000379215"  ixz="0.00000379215"
+      iyy="0.00000379215" iyz="0.00000379215"  izz="0.00000379215" />
+  </inertial>
+
+</link>
+
+<gazebo reference="base_link">
+  <mu1>100</mu1>
+  <mu2>100</mu2>
+  <kp>2147483647</kp>
+  <kd>1</kd>
+  <maxVel>0</maxVel>
+  <minDepth>0.001</minDepth>
+  <material>Gazebo/Grey</material>
+</gazebo>
+
+</robot>

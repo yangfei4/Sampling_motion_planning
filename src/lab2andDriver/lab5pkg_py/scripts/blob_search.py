@@ -12,8 +12,10 @@ theta = 0.0    #radians
 beta = 75/0.1        # pixel/meter
 # tx = -160            # pixels
 # ty = -90             # pixels
-tx = -219            # pixels
-ty = -79             # pixels
+# tx = -219            # pixels
+# ty = -79             # pixels
+tx = -220            # pixels
+ty = -77             # pixels
 
 # Function that converts image coord to world coord
 def IMG2W(col, row):
@@ -28,15 +30,15 @@ def IMG2W(col, row):
     yw = (yc - ty)/beta
     xw = (xc - tx)/beta
     
-    print("Input = {}".format([col,row]))
+    # print("Input = {}".format([col,row]))
     gama = math.atan(xw/yw)
     alpha = gama - theta
     
     # debug code
-    print("xw = {}".format(xw))
-    print("yw = {}".format(yw))
-    print("gama = {}".format(gama))
-    print("alpha = {}".format(alpha))
+    # print("xw = {}".format(xw))
+    # print("yw = {}".format(yw))
+    # print("gama = {}".format(gama))
+    # print("alpha = {}".format(alpha))
     
     l = (yw**2 + xw**2)**0.5
     
@@ -65,13 +67,36 @@ def blob_search(image_raw, color):
     # params.minArea = 200
 
     # screw_M8
-    params.minArea = 10
-    params.maxArea = 1000
+    if color == "green":
+         # screw_M8
+        params.minArea = 10
+        params.maxArea = 1000
+        # Filter by Circularity  #square is 0.785
+        params.filterByCircularity = True
+        params.minCircularity = 0.5
+        params.maxCircularity = 1
+    elif color == "human":
+        params.minArea = 200
+        # Filter by Circularity  #square is 0.785
+        params.filterByCircularity = False
+    elif color == "red":
+        params.minArea = 1
+        params.maxArea = 1000
+        # Filter by Circularity  #square is 0.785
+        params.filterByCircularity = False
+    elif color == "yellow":
+        params.minArea = 200
+        params.maxArea = 2000
+        # Filter by Circularity  #square is 0.785
+        params.filterByCircularity = False
+
+
 
     # Filter by Circularity  #square is 0.785
     params.filterByCircularity = True
     params.minCircularity = 0.5
     params.maxCircularity = 1
+
 
     # Filter by Inerita
     params.filterByInertia = False
@@ -97,9 +122,13 @@ def blob_search(image_raw, color):
         upper_green = (80,255,255)   # green upper
         mask_image = cv2.inRange(hsv_image, lower_green, upper_green)
     elif color == "yellow":
-        lower_yellow = (8,100,100)    # yellow lower
+        lower_yellow = (15,100,100)    # yellow lower
         upper_yellow = (25,255,255)  # yellow upper
         mask_image = cv2.inRange(hsv_image, lower_yellow, upper_yellow)
+    elif color == "red" or "human":
+        lower_red = (0,100,100)    # red lower
+        upper_red = (15,255,255)  # red upper
+        mask_image = cv2.inRange(hsv_image, lower_red, upper_red)
         
     ######## This is for camera callibration  #########
     # lower_orange = (5,200,100)
@@ -146,10 +175,13 @@ def blob_search(image_raw, color):
         # Convert image coordinates to global world coordinate using IM2W() function
         for i in range(num_blobs):
             xw_yw.append(IMG2W(blob_image_center[i][0], blob_image_center[i][1]))
-            if color == "green":
-                print("Green xw_yw is {}".format(xw_yw))
-            elif color == "yellow":
-                print("Yellow xw_yw is {}".format(xw_yw))
+            # if color == "green":
+            #     print("Green xw_yw is {}".format(xw_yw))
+            # elif color == "yellow":
+            #     print("Yellow xw_yw is {}".format(xw_yw))
+            # elif color == "red":
+            #     print("Red xw_yw is {}".format(xw_yw))
+
                 
 
     # cv2.namedWindow("Camera View")
