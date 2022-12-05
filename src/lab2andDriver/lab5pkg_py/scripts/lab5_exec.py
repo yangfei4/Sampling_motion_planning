@@ -20,6 +20,7 @@ go_away = [270*PI/180.0, -90*PI/180.0, 90*PI/180.0, -90*PI/180.0, -90*PI/180.0, 
 xw_yw_G = []
 xw_yw_Y = []
 xw_yw_R = []
+xw_yw_B = [0.3+0.06, 0.2-0.05]
 
 # target position in world coordinates
 target_xy_w_G = [0.25 , 0.3]
@@ -222,11 +223,46 @@ def move_block(pub_cmd, loop_rate, start_xw_yw_zw, target_xw_yw_zw, vel = 4.0, a
     pick and place a block
 
     """
+
+    #check whether path will collide into obstacle
+    # if yes, 
+    def check_collision_free(o, r, p1, p2):
+        o = np.array(o)
+        p1 = np.array(p1)
+        p2 = np.array(p2)
+        v = p2 - p1
+        a = v.dot(v)
+        b = 2*v.dot(p1 - o)
+        c = p1.dot(p1) + o.dot(o) - 2*p1.dot(o) - r**2
+        disc = b**2 - 4*a*c
+        print('o: ' + str(o)  )
+        print('p1:'+ str(p1) )
+        print('p2: '+ str(p2) )
+        print('a: ' + str(a)  )
+        print('b: ' + str(b)  )
+        print('c: ' + str(c) )
+        print('disc: ' + str(disc) )
+        if disc < 0:
+            return True
+        else:
+            sqrt_disc = np.sqrt(disc)
+            t1 = (-b+sqrt_disc)/2/a
+            t2 = (-b-sqrt_disc)/2/a
+            if not (0 <= t1 <= 1 or 0 <= t2 <= 1):
+                return True
+        return False
+
     # ========================= Student's code starts here =========================
     error = 0
 
     # global variable1
     # global variable2
+    global xw_yw_B
+    rad = 0.03
+
+    collision_free = check_collision_free(xw_yw_B, rad, start_xw_yw_zw, target_xw_yw_zw)
+    print("The checking result is {}".format(collision_free))
+
     height_screw = 0.035
     height_table = 0.052
     height_safe_offset = 0.085
@@ -258,8 +294,23 @@ def move_block(pub_cmd, loop_rate, start_xw_yw_zw, target_xw_yw_zw, vel = 4.0, a
 
     move_arm(pub_cmd, loop_rate, pre_pick_joints_angle, vel, accel)
 
+
+    while not collision_free:
+        theta = float(np.random.rand(1)*np.pi - np.pi/2)
+        r = 0.04+float(np.random.rand(1)*0.01)
+        middle_point = [xw_yw_B[0]+r*math.cos(theta), xw_yw_B[1]+r*math.sin(theta)]
+        print('middle point: ' + str(middle_point))
+        check_mid1 = check_collision_free(xw_yw_B, rad, start_xw_yw_zw, middle_point)
+        check_mid2 = check_collision_free(xw_yw_B, rad, target_xw_yw_zw, middle_point)
+        if check_mid1 and check_mid2:
+            collision_free = True
+            mid_angle = lab_invk(middle_point[0], middle_point[1], height_safe_offset, 0)
+            move_arm(pub_cmd, loop_rate, mid_angle, vel, accel)
+            time.sleep(2)
+
+
     # prepare to place screws
-    move_arm(pub_cmd, loop_rate, pre_place_joints_anlge, vel/32, accel)
+    move_arm(pub_cmd, loop_rate, pre_place_joints_anlge, vel, accel)
 
     # place screws
     move_arm(pub_cmd, loop_rate, place_joints_anlge, vel/8, accel/8)
@@ -293,6 +344,7 @@ class ImageConverter:
         global xw_yw_G # store found green blocks in this list
         global xw_yw_Y # store found yellow blocks in this list
         global xw_yw_R # store found yellow blocks in this list
+        global xw_yw_B
         global human_pos
         global is_human_saved
         global is_green_red_saved
@@ -334,6 +386,7 @@ class ImageConverter:
         human_pos = blob_search(cv_image, "human")
         # print("The human position is {}".format(human_pos))
         xw_yw_Y = blob_search(cv_image, "yellow")
+        # xw_yw_B = blob_search(cv_image,'blue')
         # print("The gripper position is {}".format(xw_yw_Y))
                 
         # def distance_cal(pos1, pos2):

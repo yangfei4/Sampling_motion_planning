@@ -38,6 +38,7 @@ if __name__ == '__main__':
     rospack = rospkg.RosPack()
     # Get path to block
     ur_path = rospack.get_path('ur_description')
+    blob_path = os.path.join(ur_path, 'urdf', 'blob.urdf')
     block_perfect_path = os.path.join(ur_path, 'urdf', 'block_perfect.urdf')
     block_largerHole_path = os.path.join(ur_path, 'urdf', 'block_largerHole.urdf')
     screw_box_path = os.path.join(ur_path, 'urdf', 'screw_box.urdf')
@@ -53,6 +54,7 @@ if __name__ == '__main__':
    
     # block_name = 'block_perfect'
     # block_name = 'block_largerHole'
+    blob_name = 'blob'
     box_name = 'screw_box'
     screw1_name = 'screw1_M8'
     screw2_name = 'screw2_M8'
@@ -69,6 +71,7 @@ if __name__ == '__main__':
     # Delete previous blocks
     # delete('block_perfect')
     # delete('block_largerHole')
+    delete(blob_name)
     delete(box_name)
     delete(human_name)
     delete(screw1_name)
@@ -113,7 +116,7 @@ if __name__ == '__main__':
     # human_pose = Pose(Point(1, 1, 0), Quaternion(0, 0, 0, 0))
     human_pose = Pose(Point(0.3, 0.5, 0), Quaternion(0, 0, 0, 0))
     # import pdb;pdb.set_trace()
-    spawn(human_name, open(human_path, 'r').read(), 'human', human_pose, 'world')
+    # spawn(human_name, open(human_path, 'r').read(), 'human', human_pose, 'world')
 
     
     #spawn legs and table'
@@ -134,5 +137,8 @@ if __name__ == '__main__':
 
     table_pose = Pose(Point(x_table, y_table, 0.035), Quaternion(0, 0, 0, 0))
     spawn(table_name, open(table_path, 'r').read(), 'table', table_pose, 'world')
-    
+
+
+    blob_pose = Pose(Point(x_table+0.06, y_table-0.05, 0.05), Quaternion(0, 0, 0, 0))
+    spawn(blob_name, open(blob_path, 'r').read(), 'blob', blob_pose, 'world')
 
