@@ -1,5 +1,4 @@
-# ECE470_Project
-### Note: it's just a starting code now.
+# ECE470_Project Smart Assembly Robot
 
 This repository contains the code and assets used to simulate our assembly robot.
 
@@ -22,7 +21,7 @@ source devel/setup.bash
 roslaunch ur3_driver ur3_gazebo.launch
 ```
 
-This should launch Gazebo with the UR3, which is equiped with a hexagon-prims screwdriver.
+This should launch Gazebo with the UR3, which is equiped with a suction gripper.
 
 Open another terminal, navigate to the `ECE470_Project` directory and run:
 
@@ -30,12 +29,12 @@ Open another terminal, navigate to the `ECE470_Project` directory and run:
 source devel/setup.bash
 rosrun lab2pkg_py lab2_spawn.py
 ```
-This will import our screw holes box and an M8 screw. Then run:
+This will load all the experimental setup, including table with four legs, screw box with M8 screws, human and obstacle. Then run:
 
 ```
 rosrun lab5pkg_py lab5_exec.py --simulator True
 ```
-This will activate the camera and detect the position of the M8 screw, which is green in our project update 2. Then the gripper will pick up the M8 screw and move it to another hole.
+This will activate the camera and detect the position of the M8 screw, which is colored in green. Then the gripper will pick up the M8 screws and move them to the holes in the corner of the table.
 
 ![Demo figure](https://github.com/D-YF/ECE470_Project/blob/main/figures/Project_Update_2_Demo.png)
 
