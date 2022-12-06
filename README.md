@@ -36,6 +36,6 @@ rosrun lab5pkg_py lab5_exec.py --simulator True
 ```
 This will activate the camera and detect the position of the M8 screw, which is colored in green. Then the gripper will pick up the M8 screws and move them to the holes in the corner of the table.
 
-![Demo figure](https://github.com/D-YF/ECE470_Project/blob/main/figures/Project_Update_2_Demo.png)
+![Demo figure](https://github.com/D-YF/ECE470_Project/blob/main/figures/exp_setup.png)
 
-[Watch our project update 2 demo video HERE!](https://www.youtube.com/watch?v=HnOLIwM2B2o)
+[Watch our Robot Promotion Video HERE!](https://www.youtube.com/watch?v=t5e-W_g8SfM)
