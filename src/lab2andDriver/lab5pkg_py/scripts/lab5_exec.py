@@ -212,7 +212,7 @@ def move_block(pub_cmd, loop_rate, start_xw_yw_zw, target_xw_yw_zw, vel = 2.0, a
     pre_target_joints_anlge = lab_invk(target_xw_yw_zw[0], target_xw_yw_zw[1], 0.1, 0)
     target_joints_anlge = lab_invk(target_xw_yw_zw[0], target_xw_yw_zw[1], 0.035, 0)
     rospy.loginfo("Ready to grasp!")
-
+    
     # First, go to start position
     move_arm(pub_cmd, loop_rate, pre_start_joints_anlge, vel, accel)
     move_arm(pub_cmd, loop_rate, start_joints_anlge, vel, accel)
@@ -364,6 +364,16 @@ def main():
     rospy.loginfo("Task Completed!")
     print("Use Ctrl+C to exit program")
     rospy.spin()
+
+def human_detec():
+    global human_pos
+    global xw_yw_Y
+
+    if human_pos and xw_yw_Y:
+        dis = math.dist(human_pos, xw_yw_Y)
+        if dis < 0.2:
+            rospy.loginfo("There is a human!!! Don't kill him!!!")
+            sys.exit()
 
 if __name__ == '__main__':
 
