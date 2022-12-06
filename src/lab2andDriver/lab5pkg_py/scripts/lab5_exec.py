@@ -20,6 +20,7 @@ go_away = [270*PI/180.0, -90*PI/180.0, 90*PI/180.0, -90*PI/180.0, -90*PI/180.0, 
 xw_yw_G = []
 xw_yw_Y = []
 xw_yw_R = []
+xw_yw_B = [0.3+0.06, 0.2-0.05]
 
 # target position in world coordinates
 target_xy_w_G = [0.25 , 0.3]
@@ -27,6 +28,9 @@ target_xy_w_Y = [0.15 , 0.3]
 target_xy_w_R = [0.4 , 0.35]
 task_not_com = 4
 is_green_red_saved = 0
+is_human_saved = 0
+human_pos = []
+human_safe = 1
 
 # ========================= Student's code ends here ===========================
 
@@ -160,7 +164,26 @@ def move_arm(pub_cmd, loop_rate, dest, vel, accel):
 
     loop_rate.sleep()
 
+    global xw_yw_Y
+    global human_pos
+    global human_safe
+
     while(at_goal == 0):
+        
+        def distance_cal(pos1, pos2):
+            dis = ((pos1[0]-pos2[0])**2 + (pos1[1]-pos2[1])**2)**0.5
+            return dis
+
+        # Check whether collide into human
+        if xw_yw_Y and human_pos:
+            dis = distance_cal(xw_yw_Y[0], human_pos[0])
+            print("The distance between human and robot is {}".format(dis))
+            if dis < 0.35:
+                print("There is a human, do not hurt him!!!")
+                human_safe = 0                
+                break
+                raise SystemExit(0)
+
 
         if( abs(thetas[0]-driver_msg.destination[0]) < 0.0005 and \
             abs(thetas[1]-driver_msg.destination[1]) < 0.0005 and \
@@ -182,12 +205,15 @@ def move_arm(pub_cmd, loop_rate, dest, vel, accel):
 
         spin_count = spin_count + 1
 
+    # if not human_safe:
+    #     raise SystemExit(0)
+
     return error
 
 ################ Pre-defined parameters and functions no need to change above ################
 
 
-def move_block(pub_cmd, loop_rate, start_xw_yw_zw, target_xw_yw_zw, vel = 2.0, accel = 2.0):
+def move_block(pub_cmd, loop_rate, start_xw_yw_zw, target_xw_yw_zw, vel = 4.0, accel = 4.0):
 
     """
     start_xw_yw_zw: where to pick up a block in global coordinates
@@ -197,11 +223,46 @@ def move_block(pub_cmd, loop_rate, start_xw_yw_zw, target_xw_yw_zw, vel = 2.0, a
     pick and place a block
 
     """
+
+    #check whether path will collide into obstacle
+    # if yes, 
+    def check_collision_free(o, r, p1, p2):
+        o = np.array(o)
+        p1 = np.array(p1)
+        p2 = np.array(p2)
+        v = p2 - p1
+        a = v.dot(v)
+        b = 2*v.dot(p1 - o)
+        c = p1.dot(p1) + o.dot(o) - 2*p1.dot(o) - r**2
+        disc = b**2 - 4*a*c
+        print('o: ' + str(o)  )
+        print('p1:'+ str(p1) )
+        print('p2: '+ str(p2) )
+        print('a: ' + str(a)  )
+        print('b: ' + str(b)  )
+        print('c: ' + str(c) )
+        print('disc: ' + str(disc) )
+        if disc < 0:
+            return True
+        else:
+            sqrt_disc = np.sqrt(disc)
+            t1 = (-b+sqrt_disc)/2/a
+            t2 = (-b-sqrt_disc)/2/a
+            if not (0 <= t1 <= 1 or 0 <= t2 <= 1):
+                return True
+        return False
+
     # ========================= Student's code starts here =========================
     error = 0
 
     # global variable1
     # global variable2
+    global xw_yw_B
+    rad = 0.03
+
+    collision_free = check_collision_free(xw_yw_B, rad, start_xw_yw_zw, target_xw_yw_zw)
+    print("The checking result is {}".format(collision_free))
+
     height_screw = 0.035
     height_table = 0.052
     height_safe_offset = 0.085
@@ -232,6 +293,21 @@ def move_block(pub_cmd, loop_rate, start_xw_yw_zw, target_xw_yw_zw, vel = 2.0, a
         sys.exit()
 
     move_arm(pub_cmd, loop_rate, pre_pick_joints_angle, vel, accel)
+
+
+    while not collision_free:
+        theta = float(np.random.rand(1)*np.pi - np.pi/2)
+        r = 0.04+float(np.random.rand(1)*0.01)
+        middle_point = [xw_yw_B[0]+r*math.cos(theta), xw_yw_B[1]+r*math.sin(theta)]
+        print('middle point: ' + str(middle_point))
+        check_mid1 = check_collision_free(xw_yw_B, rad, start_xw_yw_zw, middle_point)
+        check_mid2 = check_collision_free(xw_yw_B, rad, target_xw_yw_zw, middle_point)
+        if check_mid1 and check_mid2:
+            collision_free = True
+            mid_angle = lab_invk(middle_point[0], middle_point[1], height_safe_offset, 0)
+            move_arm(pub_cmd, loop_rate, mid_angle, vel, accel)
+            time.sleep(2)
+
 
     # prepare to place screws
     move_arm(pub_cmd, loop_rate, pre_place_joints_anlge, vel, accel)
@@ -268,6 +344,10 @@ class ImageConverter:
         global xw_yw_G # store found green blocks in this list
         global xw_yw_Y # store found yellow blocks in this list
         global xw_yw_R # store found yellow blocks in this list
+        global xw_yw_B
+        global human_pos
+        global is_human_saved
+        global is_green_red_saved
 
         try:
           # Convert ROS image to OpenCV image
@@ -297,6 +377,30 @@ class ImageConverter:
             x_off = 0.09-0.005
             y_off = 0.165-0.005-0.001
             xw_yw_R = [[x_table+x_off, y_table+y_off], [x_table+x_off, y_table-y_off],[x_table-x_off, y_table+y_off],[x_table-x_off, y_table-y_off]]
+        
+        # if not is_human_saved:
+        #     human_pos = blob_search(cv_image, "human")
+        #     print("The human position is {}".format(human_pos))
+        #     if human_pos:
+        #         is_human_saved = 1
+        human_pos = blob_search(cv_image, "human")
+        # print("The human position is {}".format(human_pos))
+        xw_yw_Y = blob_search(cv_image, "yellow")
+        # xw_yw_B = blob_search(cv_image,'blue')
+        # print("The gripper position is {}".format(xw_yw_Y))
+                
+        # def distance_cal(pos1, pos2):
+        #     dis = ((pos1[0]-pos2[0])**2 + (pos1[1]-pos2[1])**2)**0.5
+        #     return dis
+
+        # if xw_yw_Y and human_pos:
+        #     dis = distance_cal(xw_yw_Y[0], human_pos[0])
+        #     print("The distance between human and robot is {}".format(dis))
+        #     if dis < 0.1:
+        #         print("There is a human, do not hurt him!!!")
+        #         sys.exit()
+        
+
 
 
 """
