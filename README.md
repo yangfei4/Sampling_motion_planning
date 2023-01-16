@@ -1,6 +1,9 @@
-# ECE470_Project Smart Assembly Robot
+# Assembly Robot
 
-This repository contains the code and assets used to simulate our assembly robot.
+This repository contains the code and assets used to simulate our assembly robot. The main techniques of this project are:
+* Forward/Inverse kinematics
+* Sample-based motion planning
+* Vision-based detection
 
 Instructions for simulating in Gazebo simulators are below.
 
